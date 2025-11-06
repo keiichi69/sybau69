@@ -331,8 +331,7 @@ export default function App() {
             <div className="w-10 h-10 rounded-md bg-gradient-to-br from-indigo-600 to-blue-400 text-white flex items-center justify-center font-bold">36</div>
             <div>
               <div className="text-lg font-semibold">Thằng nào nhìn dòng này là GEY</div>
-              <a href="https://www.youtube.com/channel/UCuKWFcKVdNzcFy5JGeJFrOw" 
-  target="_blank" className="text-sm text-gray-500"> Hoan hô ban nhạc thủ đô</a>
+              <a href="https://www.youtube.com/watch?v=9mA7h1jfxc8&list=RD9mA7h1jfxc8&start_radio=1"  target="_blank" className="text-sm text-gray-500"> Hoan hô ban nhạc thủ đô</a>
             </div>
           </div>
 
