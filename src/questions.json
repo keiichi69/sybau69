@@ -1,4 +1,4 @@
-  [
+[
   {
     "id": 1,
     "question": "Quan điểm nào sau đây về tài chính là không phù hợp?",
@@ -21,11 +21,11 @@
   },
   {
     "id": 3,
-    "question": "Đối tượng của phân ph ối tài chính là :",
+    "question": "Đối tượng của phân phối tài chính là :",
     "options": {
-      "A": "Tống sản phẩm quốc nội, nguồn tài chính chuyển ra nư ớc ngoài và ngu ồn tài chính chuy ển từ nước ngoài vào, tài s ản tài nguyên chuy ển hóa thành ti ền",
-      "B": "Tổng thể các ngu ồn tài chính trong xã h ội",
-      "C": "Tổng thu nh ập quốc dân"
+      "A": "Tống sản phẩm quốc nội, nguồn tài chính chuyển ra nước ngoài và nguồn tài chính chuyển từ nước ngoài vào, tài sản tài nguyên chuyển hóa thành tiền",
+      "B": "Tổng thể các nguồn tài chính trong xã hội",
+      "C": "Tổng thu nhập quốc dân"
     },
     "answer": "A"
   },
@@ -105,7 +105,7 @@
     "options": {
       "A": "Phân phối thu nhập cơ bản từ các quỹ tiền tệ giữa các chủ thể trong xã hội",
       "B": "Phân phối của cải vật chất trong quá trình sản xuất cho những chủ thể tham gia sáng tạo ra của cải vật chất hoặc thực hiện các dịch vụ",
-      "C": "Phân phối thu nhập theo mục đích xã h ội"
+      "C": "Phân phối thu nhập theo mục đích xã hội"
     },
     "answer": "B"
   },
@@ -504,7 +504,7 @@
     "question": "Chọn đáp án đúng v ề thị trường tài chính?",
     "options": {
       "A": "Là nơi giao d ịch các lo ại hàng hóa v ật chất",
-      "B": "Là nơi giao d ịch các tài s ản tài chính như ti ền tệ, cổ phiếu, trái phi ếu, chứng khoán phái sinh…",
+      "B": "Là nơi giao d ịch các tài sản tài chính như tiền tệ, cổ phiếu, trái phi ếu, chứng khoán phái sinh…",
       "C": "Là nơi cung c ấp các d ịch vụ bảo hiểm"
     },
     "answer": "B"
@@ -513,9 +513,9 @@
     "id": 52,
     "question": "Trái phi ếu là gì?",
     "options": {
-      "A": "Một loại chứng khoán mà nhà đ ầu tư s ở hữu và nh ận cổ tức",
-      "B": "Một chứng khoán n ợ mà nhà phát hành cam k ết trả lãi định kỳ và gốc khi đáo h ạn",
-      "C": "Một loại tiền tệ có th ể giao d ịch trên th ị trường qu ốc tế"
+      "A": "Một loại chứng khoán mà nhà đầu tư s ở hữu và nh ận cổ tức",
+      "B": "Một chứng khoán nợ mà nhà phát hành cam k ết trả lãi định kỳ và gốc khi đáo h ạn",
+      "C": "Một loại tiền tệ có thể giao d ịch trên thị trường quốc tế"
     },
     "answer": "B"
   },
@@ -523,9 +523,9 @@
     "id": 53,
     "question": "Nhận định nào đúng về chứng chỉ tiền gửi ?",
     "options": {
-      "A": "M ột loại chứng khoán xác nh ận quy ền sở hữu cổ phần trong m ột công ty",
-      "B": "M ột loại chứng ch ỉ xác nh ận việc gửi tiền vào ngân hàng v ới thời hạn nhất định và lãi su ất cố định",
-      "C": "M ột chứng ch ỉ xác nh ận quy ền vay v ốn từ ngân hàng"
+      "A": "một loại chứng khoán xác nh ận quy ền sở hữu cổ phần trong một công ty",
+      "B": "một loại chứng chỉ xác nh ận việc gửi tiền vào ngân hàng v ới thời hạn nhất định và lãi su ất cố định",
+      "C": "một chứng chỉ xác nh ận quy ền vay v ốn từ ngân hàng"
     },
     "answer": "B"
   },
@@ -533,9 +533,9 @@
     "id": 54,
     "question": "Cổ phiếu được hiểu là:",
     "options": {
-      "A": "M ột loại trái phi ếu do chính ph ủ phát hành",
-      "B": "M ột chứng khoán xác nh ận quy ền sở hữu của một cá nhân đ ối với một phần tài s ản của công ty",
-      "C": "M ột kho ản vay dài h ạn từ ngân hàng cho doanh nghi ệp"
+      "A": "một loại trái phi ếu do chính ph ủ phát hành",
+      "B": "một chứng khoán xác nh ận quy ền sở hữu của một cá nhân đ ối với một phần tài sản của công ty",
+      "C": "một khoản vay dài h ạn từ ngân hàng cho doanh nghiệp"
     },
     "answer": "B"
   },
@@ -584,8 +584,8 @@
     "question": "Tín phiếu kho bạc là công cụ tài chính phát hành bởi:",
     "options": {
       "A": "Các ngân hàng thương m ại",
-      "B": "Kho bạc Nhà nư ớc",
-      "C": "Các công ty c ổ phần"
+      "B": "Kho bạc Nhà nước",
+      "C": "Các công ty cổ phần"
     },
     "answer": "B"
   },
@@ -601,7 +601,7 @@
   },
   {
     "id": 61,
-    "question": "Chủ thể nào dưới đây không đư ợc coi là trung gian đ ầu tư?",
+    "question": "Chủ thể nào dưới đây không đư ợc coi là trung gian đầu tư?",
     "options": {
       "A": "Tổ chức tín dụng",
       "B": "Công ty tài chính",
@@ -611,20 +611,20 @@
   },
   {
     "id": 62,
-    "question": "Ch ủ thể nào dư ới đây không đư ợc coi là trung gian nh ận tiền gửi?",
+    "question": "chủ thể nào dư ới đây không đư ợc coi là trung gian nh ận tiền gửi?",
     "options": {
       "A": "Ngân hàng thương m ại",
-      "B": "Ngân hàng phát tri ển",
+      "B": "Ngân hàng phát triển",
       "C": "Công ty tài chính"
     },
     "answer": "C"
   },
   {
     "id": 63,
-    "question": "Ch ủ thể nào dư ới đây đư ợc coi là trung gian ti ết kiệm theo h ợp đồng?",
+    "question": "chủ thể nào dư ới đây đư ợc coi là trung gian ti ết kiệm theo h ợp đồng?",
     "options": {
       "A": "Ngân hàng thương m ại",
-      "B": "Ngân hàng chính sách xã h ội",
+      "B": "Ngân hàng chính sách xã hội",
       "C": "Bảo hiểm phi nhân th ọ"
     },
     "answer": "C"
@@ -654,18 +654,18 @@
     "question": "Nh ận định nào sau đây đúng v ề định ch ế tài chính trung gian?",
     "options": {
       "A": "Các t ổ chức chuyên cung c ấp dịch vụ giao dịch hàng hóa",
-      "B": "Các t ổ chức chuyên huy đ ộng và s ử dụng vốn để đầu tư và cho vay",
+      "B": "Các t ổ chức chuyên huy động và s ử dụng vốn để đầu tư và cho vay",
       "C": "Các t ổ chức chuyên th ực hiện giao d ịch ngo ại tệ"
     },
     "answer": "B"
   },
   {
     "id": 67,
-    "question": "Nguồn vốn mà đ ịnh ch ế tài chính trung gian huy đ ộng ch ủ yếu là:",
+    "question": "Nguồn vốn mà đ ịnh ch ế tài chính trung gian huy động chủ yếu là:",
     "options": {
       "A": "V ốn từ các tổ chức quốc tế",
       "B": "V ốn tạm thời nhàn r ỗi từ các cá nhân, t ổ chức",
-      "C": "V ốn từ các kho ản vay ngân hàng"
+      "C": "V ốn từ các khoản vay ngân hàng"
     },
     "answer": "B"
   },
@@ -674,7 +674,7 @@
     "question": "Nhóm định chế tài chính trung gian nào dưới đây hoạt động với mục tiêu kiếm lời?",
     "options": {
       "A": "Quỹ tiền tệ của các ngân hàng nhà nước",
-      "B": "Quỹ hưu trí (bảo hiểm xã hội) ",
+      "B": "Quỹ hưu trí (bảo hiểm xã hội)",
       "C": "Tai nạn và bảo vệ tài sản"
     },
     "answer": "C"
@@ -801,17 +801,17 @@
   },
   {
     "id": 81,
-    "question": "Tài chính doanh nghi ệp được hiểu là:",
+    "question": "Tài chính doanh nghiệp được hiểu là:",
     "options": {
-      "A": "Quá trình qu ản lý nguồn tài chính c ủa các t ổ chức tài chính",
-      "B": "Quá trình qu ản lý, huy đ ộng và s ử dụng các ngu ồn lực tài chính c ủa doanh nghi ệp nhằm đạt được mục tiêu tài chính c ủa doanh nghi ệp",
-      "C": "Quá trình l ập kế hoạch tài chính cho các t ổ chức phi l ợi nhu ận"
+      "A": "Quá trình quản lý nguồn tài chính c ủa các t ổ chức tài chính",
+      "B": "Quá trình quản lý, huy động và s ử dụng các nguồn lực tài chính c ủa doanh nghiệp nhằm đạt được mục tiêu tài chính c ủa doanh nghiệp",
+      "C": "Quá trình l ập kế hoạch tài chính cho các t ổ chức phi lợi nhuận"
     },
     "answer": "B"
   },
   {
     "id": 82,
-    "question": "Quyết định tài chính doanh nghi ệp chủ yếu liên quan đ ến những yếu tố nào?",
+    "question": "Quyết định tài chính doanh nghiệp chủ yếu liên quan đ ến những yếu tố nào?",
     "options": {
       "A": "Quyết định về sản xuất và marketing",
       "B": "Quyết định về huy động vốn, đầu tư và phân phối lợi nhuận",
@@ -821,7 +821,7 @@
   },
   {
     "id": 83,
-    "question": "Một trong nh ững m ục tiêu c ủa quy ết định tài chính doanh nghi ệp là:",
+    "question": "Một trong nh ững m ục tiêu c ủa quy ết định tài chính doanh nghiệp là:",
     "options": {
       "A": "Tăng trưởng doanh thu ngắn hạn",
       "B": "Tối đa hóa giá trị của doanh nghiệp và lợi ích cổ đông trong dài hạn",
@@ -851,7 +851,7 @@
   },
   {
     "id": 86,
-    "question": "Khấu hao tài s ản cố định có nghĩa là:",
+    "question": "Khấu hao tài sản cố định có nghĩa là:",
     "options": {
       "A": "Là việc giảm giá trị của tài sản cố định do sự hao mòn tự nhiên, công nghệ lạc hậu hoặc sử dụng lâu dài",
       "B": "Là việc gia tăng giá trị của tài sản cố định trong quá trình sử dụng",
@@ -861,7 +861,7 @@
   },
   {
     "id": 87,
-    "question": "Tài s ản lưu đ ộng đư ợc hiểu là:",
+    "question": "tài sản lưu động đư ợc hiểu là:",
     "options": {
       "A": "Tài sản có thời gian sử dụng dài hơn một năm và sử dụng trong sản xuất kinh doanh",
       "B": "Tài sản có giá trị lớn và có thể chuyển nhượng dễ dàng",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": 121,
-    "question": "Cổ phiếu của công ty đư ợc giao d ịch trên th ị trường nào?",
+    "question": "Cổ phiếu của công ty đư ợc giao d ịch trên thị trường nào?",
     "options": {
       "A": "Thị trường hàng hóa",
       "B": "Thị trường ngo ại hối",
@@ -1211,7 +1211,7 @@
   },
   {
     "id": 122,
-    "question": "Người vay và ngư ời cho vay giao d ịch ch ủ yếu trên th ị trường nào?",
+    "question": "Người vay và ngư ời cho vay giao d ịch chủ yếu trên thị trường nào?",
     "options": {
       "A": "Thị trường trái phi ếu",
       "B": "Thị trường tài chính th ứ cấp",
@@ -1224,8 +1224,8 @@
     "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
     "options": {
       "A": "Các công ty tư nhân phát hành",
-      "B": "Chính ph ủ phát hành đ ể huy đ ộng vốn cho các d ự án công",
-      "C": "Các ngân hàng phát hành đ ể huy đ ộng vốn cho vay"
+      "B": "Chính ph ủ phát hành đ ể huy động vốn cho các d ự án công",
+      "C": "Các ngân hàng phát hành đ ể huy động vốn cho vay"
     },
     "answer": "A"
   },
@@ -1244,8 +1244,8 @@
     "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
     "options": {
       "A": "Các công ty tư nhân phát hành",
-      "B": "Chính ph ủ phát hành đ ể huy đ ộng vốn cho các d ự án công",
-      "C": "Các ngân hàng phát hành đ ể huy đ ộng vốn cho vay"
+      "B": "Chính ph ủ phát hành đ ể huy động vốn cho các d ự án công",
+      "C": "Các ngân hàng phát hành đ ể huy động vốn cho vay"
     },
     "answer": "B"
   },
@@ -1274,8 +1274,8 @@
     "question": "Nhà phát hành phải chịu trách nhiệm gì khi phát hành chứng khoán ra công chúng?",
     "options": {
       "A": "Đảm bảo rằng ch ứng khoán phát hành s ẽ không gi ảm giá",
-      "B": "Cung c ấp thông tin đ ầy đủ, chính xác và minh b ạch cho nhà đ ầu tư",
-      "C": "Đảm bảo giá c ổ phiếu sẽ luôn tăng"
+      "B": "Cung c ấp thông tin đ ầy đủ, chính xác và minh b ạch cho nhà đầu tư",
+      "C": "Đảm bảo giá cổ phiếu sẽ luôn tăng"
     },
     "answer": "B"
   },
@@ -1563,9 +1563,9 @@
     "id": 157,
     "question": "Tại sao khu vực công có vai trò quan trọng trong nền kinh tế?",
     "options": {
-      "A": "Vì khu v ực công có th ể tạo ra l ợi nhu ận cao như khu v ực tư nhân",
-      "B": "Vì khu v ực công cung c ấp các d ịch vụ thiết yếu mà th ị trường tư nhân không th ể đáp ứng đầy đủ",
-      "C": "Vì khu v ực công ho ạt động theo cơ ch ế thị trường tự do"
+      "A": "Vì khu v ực công có thể tạo ra lợi nhuận cao như khu v ực tư nhân",
+      "B": "Vì khu v ực công cung c ấp các d ịch vụ thiết yếu mà thị trường tư nhân không thể đáp ứng đầy đủ",
+      "C": "Vì khu v ực công hoạt động theo cơ ch ế thị trường tự do"
     },
     "answer": "B"
   },
@@ -1701,7 +1701,7 @@
   },
   {
     "id": 171,
-    "question": "Tại sao tài chính doanh nghi ệp lại quan tr ọng đối với sự tồn tại và phát tri ển của doanh nghiệp?",
+    "question": "Tại sao tài chính doanh nghiệp lại quan tr ọng đối với sự tồn tại và phát triển của doanh nghiệp?",
     "options": {
       "A": "Giúp doanh nghiệp có thể trả lương cho nhân viên",
       "B": "Đảm bảo doanh nghiệp có đủ vốn để duy trì hoạt động và đầu tư vào phát triển",
@@ -1721,7 +1721,7 @@
   },
   {
     "id": 173,
-    "question": "Tài s ản cố định có tính ch ất gì trong quá trình s ử dụng?",
+    "question": "tài sản cố định có tính ch ất gì trong quá trình s ử dụng?",
     "options": {
       "A": "Không bị hao mòn trong quá trình sử dụng",
       "B": "Bị hao mòn, giảm giá trị trong quá trình sử dụng do sự khấu hao hoặc lạc hậu",
@@ -1731,7 +1731,7 @@
   },
   {
     "id": 174,
-    "question": "Tài s ản lưu đ ộng có vai trò gì trong doanh nghi ệp?",
+    "question": "tài sản lưu động có vai trò gì trong doanh nghi ệp?",
     "options": {
       "A": "Đảm bảo khả năng thanh toán và duy trì hoạt động sản xuất, kinh doanh liên tục",
       "B": "Tạo ra lợi nhuận từ việc tăng giá trị tài sản",
@@ -1741,7 +1741,7 @@
   },
   {
     "id": 175,
-    "question": "Một trong nh ững yếu tố quan tr ọng khi qu ản lý tài s ản lưu đ ộng là gì?",
+    "question": "Một trong nh ững yếu tố quan tr ọng khi quản lý tài sản lưu động là gì?",
     "options": {
       "A": "Giảm giá trị tài sản lưu động trong thời gian dài",
       "B": "Đảm bảo rằng tài sản lưu động có thể chuyển đổi thành tiền mặt nhanh chóng khi cần thiết",
@@ -1761,11 +1761,11 @@
   },
   {
     "id": 177,
-    "question": "Tài s ản cố định có đ ặc điểm cơ b ản nào sau đây?",
+    "question": "tài sản cố định có đ ặc điểm cơ b ản nào sau đây?",
     "options": {
-      "A": "Có th ời gian s ử dụng trên m ột năm và đư ợc sử dụng để sản xuất, kinh doanh",
-      "B": "Là tài s ản có th ể chuy ển như ợng ngay l ập tức",
-      "C": "Không th ể sử dụng trong quá trình s ản xuất và kinh doanh"
+      "A": "Có th ời gian s ử dụng trên một năm và đư ợc sử dụng để sản xuất, kinh doanh",
+      "B": "Là tài sản có thể chuyển như ợng ngay l ập tức",
+      "C": "Không thể sử dụng trong quá trình s ản xuất và kinh doanh"
     },
     "answer": "B"
   },
@@ -1971,10 +1971,10 @@
   },
   {
     "id": 198,
-    "question": "Tài chính h ộ gia đình bao g ồm nh ững ho ạt động nào?",
+    "question": "Tài chính h ộ gia đình bao g ồm nh ững hoạt động nào?",
     "options": {
-      "A": "Tiêu dùng và đ ầu tư",
-      "B": "Tiêu dùng, ti ết kiệm và đ ầu tư",
+      "A": "Tiêu dùng và đầu tư",
+      "B": "Tiêu dùng, ti ết kiệm và đầu tư",
       "C": "Tạo thu nh ập, chi tiêu, ti ết kiệm, đầu tư và phòng ng ừa rủi ro"
     },
     "answer": "A"
@@ -1985,7 +1985,7 @@
     "options": {
       "A": "Ch ọn một kế hoạch duy nh ất để thực hiện ngay l ập tức",
       "B": "So sánh các k ế hoạch tài chính đ ể chọn phương án phù h ợp nhất với mục tiêu và kh ả năng tài chính",
-      "C": "D ự đoán xu hư ớng th ị trường tài chính trong tương lai"
+      "C": "D ự đoán xu hư ớng thị trường tài chính trong tương lai"
     },
     "answer": "B"
   },
@@ -2183,9 +2183,9 @@
     "id": 219,
     "question": "Nhà đầu tư tổ chức có sự khác biệt gì so với nhà đầu tư cá nhân?",
     "options": {
-      "A": "Nhà đ ầu tư t ổ chức chỉ tham gia vào các giao d ịch trái phi ếu, không mua c ổ phiếu",
-      "B": "Nhà đ ầu tư t ổ chức có s ố lượng vốn lớn hơn và có kh ả năng đ ầu tư vào nhi ều loại tài s ản tài chính",
-      "C": "Nhà đ ầu tư t ổ chức không có quy ền bầu cử tại các cu ộc họp cổ đông"
+      "A": "Nhà đầu tư t ổ chức chỉ tham gia vào các giao d ịch trái phi ếu, không mua cổ phiếu",
+      "B": "Nhà đầu tư t ổ chức có s ố lượng vốn lớn hơn và có kh ả năng đầu tư vào nhi ều loại tài sản tài chính",
+      "C": "Nhà đầu tư t ổ chức không có quy ền bầu cử tại các cu ộc họp cổ đông"
     },
     "answer": "B"
   },
@@ -2235,7 +2235,7 @@
     "options": {
       "A": "Thị trường tiền tệ chỉ giao dịch các tài sản dài hạn, còn thị trường vốn giao dịch các tài sản ngắn hạn",
       "B": "Thị trường tiền tệ giao dịch các công cụ tài chính ngắn hạn, trong khi thị trường vốn giao dịch các công cụ tài chính dài hạn",
-      "C": "Thị trường tiền t ệ không có tính thanh khoản, còn thị trường vốn có tính thanh khoản cao"
+      "C": "Thị trường tiền tệ không có tính thanh khoản, còn thị trường vốn có tính thanh khoản cao"
     },
     "answer": "C"
   },
@@ -2251,7 +2251,7 @@
   },
   {
     "id": 226,
-    "question": "Các t ổ chức tài chính trung gian có th ể là nh ững tổ chức nào sau đây?",
+    "question": "Các t ổ chức tài chính trung gian có thể là nh ững tổ chức nào sau đây?",
     "options": {
       "A": "Các ngân hàng thương mại, công ty bảo hiểm, quỹ đầu tư, quỹ hưu trí.",
       "B": "Chỉ các ngân hàng thương mại.",
@@ -2261,7 +2261,7 @@
   },
   {
     "id": 227,
-    "question": "Khi ngân hàng thương m ại sử dụng vốn huy đ ộng để cho vay, đi ều này có th ể dẫn đến điều gì?",
+    "question": "Khi ngân hàng thương m ại sử dụng vốn huy động để cho vay, điều này có thể dẫn đến điều gì?",
     "options": {
       "A": "Lãi suất cho vay giảm xuống rất thấp.",
       "B": "Cung cấp tín dụng cho nền kinh tế, thúc đẩy tiêu dùng và đầu tư.",
@@ -2271,7 +2271,7 @@
   },
   {
     "id": 228,
-    "question": "Một trong nh ững phương th ức mà ngân hàng thương m ại sử dụng để quản lý r ủi ro khi huy động vốn là gì?",
+    "question": "Một trong nh ững phương thức mà ngân hàng thương m ại sử dụng để quản lý r ủi ro khi huy động vốn là gì?",
     "options": {
       "A": "Phát hành trái phiếu không có bảo lãnh.",
       "B": "Cung cấp tín dụng cho tất cả các khách hàng mà không kiểm tra.",
@@ -2751,7 +2751,7 @@
   },
   {
     "id": 276,
-    "question": "Hoạt động huy đ ộng vốn của ngân hàng thương m ại chủ yếu bao g ồm nh ững hình th ức nào?",
+    "question": "Hoạt động huy động vốn của ngân hàng thương m ại chủ yếu bao g ồm nh ững hình thức nào?",
     "options": {
       "A": "Phát hành cổ phiếu và trái phiếu.",
       "B": "Vốn tự có, vốn tiền gửi , vốn đi vay , phát hành chứng khoán .",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": 277,
-    "question": "Ngân hàng thương m ại có th ể sử dụng ngu ồn vốn huy đ ộng để thực hiện các ho ạt động nào?",
+    "question": "Ngân hàng thương m ại có thể sử dụng nguồn vốn huy động để thực hiện các hoạt động nào?",
     "options": {
       "A": "Chỉ cho vay các cá nhân và doanh nghiệp.",
       "B": "Cho vay khách hàng , đầu tư vào thị trường tài chính, góp vốn liên kết .",
@@ -3183,7 +3183,7 @@
     "id": 319,
     "question": "Chỉ tiêu nào dưới đây phản ánh hiệu quả sử dụng tài sản của doanh nghiệp?",
     "options": {
-      "A": " Tỷ suất lợi nhuận doanh thu (ROS)",
+      "A": "Tỷ suất lợi nhuận doanh thu (ROS)",
       "B": "Tỷ suất lợi nhuận tổng tài sản (ROA)",
       "C": "Tỷ suất lợi nhuận vốn chủ sở hữu (ROE)"
     },
@@ -3333,7 +3333,7 @@
     "id": 334,
     "question": "Một hộ gia đình vay tiền để chi tiêu vào các nhu cầu tiêu dùng như mua sắm, ăn uống là một hình thức vay nhằm mục đích:",
     "options": {
-      "A": "Đ ầu tư",
+      "A": "đầu tư",
       "B": "Tiêu dùng",
       "C": "Khi có bi ến cố xảy ra"
     },
@@ -3343,9 +3343,9 @@
     "id": 335,
     "question": "Các hình thức đầu tư trong dòng tài chính quốc tế thuộc cán cân vốn bao gồm gì?",
     "options": {
-      "A": "Đầu tư trực tiếp nước ngoài (FDI), đầu tư gián tiếp nước ngoài (FPI), tín dụng quốc tế, ODA ",
-      "B": "Đầu tư trực tiếp vào thị trường chứng khoán ",
-      "C": "Đầu tư vào các dự án cơ sở hạ tầng nội địa "
+      "A": "Đầu tư trực tiếp nước ngoài (FDI), đầu tư gián tiếp nước ngoài (FPI), tín dụng quốc tế, ODA",
+      "B": "Đầu tư trực tiếp vào thị trường chứng khoán",
+      "C": "Đầu tư vào các dự án cơ sở hạ tầng nội địa"
     },
     "answer": "B"
   },
@@ -3361,21 +3361,21 @@
   },
   {
     "id": 337,
-    "question": "Khi m ột doanh nghi ệp trong nư ớc bán l ại công ty c ủa mình cho m ột công ty nư ớc ngoài, hình th ức FDI này đư ợc gọi là gì?",
+    "question": "Khi một doanh nghiệp trong nước bán l ại công ty c ủa mình cho một công ty nước ngoài, hình thức FDI này đư ợc gọi là gì?",
     "options": {
-      "A": "Đ ầu tư m ới",
-      "B": "Mua bán sáp nh ập",
+      "A": "đầu tư m ới",
+      "B": "Mua bán sáp nhập",
       "C": "FDI hàng d ọc"
     },
     "answer": "C"
   },
   {
     "id": 338,
-    "question": "FDI hình th ức liên doanh (Joint Venture) yêu c ầu:",
+    "question": "FDI hình thức liên doanh (Joint Venture) yêu c ầu:",
     "options": {
-      "A": "Doanh nghi ệp trong nư ớc góp v ốn cùng v ới doanh nghi ệp nước ngoài và thành l ập doanh nghiệp mới",
-      "B": "Doanh nghi ệp nước ngoài mua l ại công ty trong nư ớc",
-      "C": "Doanh nghi ệp trong nư ớc tự thành l ập công ty và tìm đ ối tác nư ớc ngoài đ ể hợp tác"
+      "A": "Doanh nghiệp trong nước góp v ốn cùng v ới doanh nghiệp nước ngoài và thành l ập doanh nghiệp mới",
+      "B": "Doanh nghiệp nước ngoài mua l ại công ty trong nước",
+      "C": "Doanh nghiệp trong nước tự thành l ập công ty và tìm đ ối tác nước ngoài đ ể hợp tác"
     },
     "answer": "B"
   },
@@ -3391,10 +3391,10 @@
   },
   {
     "id": 340,
-    "question": "Khi t ỷ giá h ối đoái c ủa một quốc gia m ạnh lên so v ới các qu ốc gia khác, đi ều này:",
+    "question": "Khi t ỷ giá h ối đoái c ủa một quốc gia m ạnh lên so v ới các quốc gia khác, điều này:",
     "options": {
-      "A": "Gi ảm sức hấp dẫn đối với các nhà đ ầu tư nư ớc ngoài",
-      "B": "Tăng kh ả năng sinh l ợi của các kho ản đầu tư và thu hút FDI",
+      "A": "Gi ảm sức hấp dẫn đối với các nhà đầu tư nước ngoài",
+      "B": "Tăng kh ả năng sinh l ợi của các khoản đầu tư và thu hút FDI",
       "C": "Không có ảnh hư ởng đến quy ết định đầu tư"
     },
     "answer": "B"
@@ -3604,7 +3604,7 @@
     "question": "Các công cụ chính được giao dịch trên thị trường vốn là gì?",
     "options": {
       "A": "Cổ phiếu và trái phiếu .",
-      "B": " Tiền tệ và vàng ",
+      "B": "Tiền tệ và vàng",
       "C": "Sổ tiết kiệm và các khoản vay ngắn hạn."
     },
     "answer": "A"
@@ -3621,7 +3621,7 @@
   },
   {
     "id": 363,
-    "question": "Ngân hàng thương mại có thể huy đ ộng vốn bằng cách phát hành cổ phiếu. Tuy nhiên, vi ệc phát hành c ổ phiếu sẽ có như ợc điểm gì?",
+    "question": "Ngân hàng thương mại có thể huy động vốn bằng cách phát hành cổ phiếu. Tuy nhiên, vi ệc phát hành cổ phiếu sẽ có như ợc điểm gì?",
     "options": {
       "A": "Cổ phiếu không thể giao dịch trên thị trường chứng khoán.",
       "B": "Ngân hàng có thể phải chia sẻ quyền kiểm soát với cổ đông mới.",
@@ -3831,17 +3831,17 @@
   },
   {
     "id": 384,
-    "question": "Vai trò c ủa vốn đối với các doanh nghi ệp là:",
+    "question": "Vai trò c ủa vốn đối với các doanh nghiệp là:",
     "options": {
-      "A": "Đi ều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát tri ển.",
-      "B": "Điều kiện để doanh nghi ệp ra đ ời và chi ến thắng trong c ạnh tranh.",
+      "A": "điều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát tri ển.",
+      "B": "Điều kiện để doanh nghiệp ra đ ời và chi ến thắng trong c ạnh tranh.",
       "C": "Đ iều kiện để sản xuất kinh doanh di ễn ra liên t ục và ổn định ."
     },
     "answer": "A"
   },
   {
     "id": 385,
-    "question": "Thông thư ờng, ch ủ sở hữu doanh nghi ệp đang kinh doanh hi ệu quả ưa chu ộng hình th ức vay nợ hơn phát hành c ổ phiếu phổ thông, lý do quan tr ọng nh ất là:",
+    "question": "Thông thư ờng, chủ sở hữu doanh nghiệp đang kinh doanh hi ệu quả ưa chu ộng hình thức vay nợ hơn phát hành cổ phiếu phổ thông, lý do quan tr ọng nh ất là:",
     "options": {
       "A": "Không muốn chia sẻ quyền quản lý công ty",
       "B": "Lợi ích từ đòn bẩy tài chính",
@@ -3883,9 +3883,9 @@
     "id": 389,
     "question": "Trong khi lập kế hoạch tiết kiệm, tại sao cần phải xác định số tiền có thể tiết kiệm được từ thu nhập?",
     "options": {
-      "A": "Đ ể tính toán các kho ản thu ế phải nộp",
-      "B": "Đ ể lập ra m ột kế hoạch tiết kiệm thực tế và kh ả thi",
-      "C": "Đ ể biết số tiền sẽ dùng cho các kho ản chi tiêu ng ắn hạn"
+      "A": "Đ ể tính toán các khoản thuế phải nộp",
+      "B": "Đ ể lập ra một kế hoạch tiết kiệm thực tế và kh ả thi",
+      "C": "Đ ể biết số tiền sẽ dùng cho các khoản chi tiêu ng ắn hạn"
     },
     "answer": "B"
   },
@@ -3894,8 +3894,8 @@
     "question": "Mô hình tiết kiệm \"vòng đời\" có ý nghĩa gì đối với việc lập kế hoạch tài chính cá nhân?",
     "options": {
       "A": "Nó giúp xác đ ịnh tỷ lệ tiết kiệm cho m ỗi giai đo ạn trong cu ộc đời và k ế hoạch chi tiêu khi ngh ỉ hưu",
-      "B": "Nó ch ỉ ra rằng vi ệc tiết kiệm là không c ần thiết cho các cá nhân có thu nh ập cao",
-      "C": "Nó không quan tr ọng vì ch ỉ áp dụng cho nh ững ngư ời có thu nh ập thấp"
+      "B": "Nó chỉ ra rằng vi ệc tiết kiệm là không c ần thiết cho các cá nhân có thu nhập cao",
+      "C": "Nó không quan tr ọng vì chỉ áp dụng cho nh ững ngư ời có thu nhập thấp"
     },
     "answer": "A"
   },
@@ -3933,9 +3933,9 @@
     "id": 394,
     "question": "Mục tiêu chính của việc quản lý tài chính cá nhân là gì?",
     "options": {
-      "A": "Đ ầu tư vào các qu ỹ chứng khoán",
+      "A": "đầu tư vào các qu ỹ chứng khoán",
       "B": "Đ ảm bảo có đ ủ tiền chi tiêu hàng ngày",
-      "C": "Đ ối phó v ới những giai đo ạn khó khăn, đ ầu tư tài s ản hiệu quả và ngăn ng ừa rủi ro"
+      "C": "Đ ối phó v ới những giai đo ạn khó khăn, đầu tư tài sản hiệu quả và ngăn ng ừa rủi ro"
     },
     "answer": "C"
   },
@@ -3944,8 +3944,8 @@
     "question": "Việc xây dựng kế hoạch tài chính cá nhân có thể giúp gì cho các cá nhân và hộ gia đình?",
     "options": {
       "A": "Đ ảm bảo có đ ủ tiền cho m ọi nhu c ầu tức thời",
-      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đ ầu tư hi ệu quả hơn, đ ồng th ời đối phó v ới các r ủi ro tài chính",
-      "C": "Ch ỉ tập trung vào vi ệc tiết kiệm tiền"
+      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đầu tư hi ệu quả hơn, đ ồng th ời đối phó v ới các r ủi ro tài chính",
+      "C": "chỉ tập trung vào vi ệc tiết kiệm tiền"
     },
     "answer": "A"
   },
@@ -3953,9 +3953,9 @@
     "id": 396,
     "question": "Ví dụ nào dưới đây phản ánh đúng nguyên tắc \"Tính toán đến lợi ích, chi phí và rủi ro\" trong quyết định tài chính?",
     "options": {
-      "A": "Đ ầu tư vào ch ứng khoán vì l ợi nhu ận cao mà không quan tâm đ ến rủi ro",
-      "B": "Lựa chọn gửi tiết kiệm ngân hàng v ới lợi ích th ấp nhưng an toàn hơn là đ ầu tư vào b ất động sản có th ể mang l ại lợi ích cao nhưng có r ủi ro lớn",
-      "C": "Ch ỉ chi tiêu cho các nhu c ầu thiết yếu mà không đ ể dành ti ền cho ti ết kiệm"
+      "A": "đầu tư vào ch ứng khoán vì lợi nhuận cao mà không quan tâm đ ến rủi ro",
+      "B": "Lựa chọn gửi tiết kiệm ngân hàng v ới lợi ích th ấp nhưng an toàn hơn là đầu tư vào b ất động sản có thể mang l ại lợi ích cao nhưng có r ủi ro lớn",
+      "C": "chỉ chi tiêu cho các nhu c ầu thiết yếu mà không đ ể dành tiền cho ti ết kiệm"
     },
     "answer": "C"
   },
@@ -3993,39 +3993,39 @@
     "id": 400,
     "question": "Một trong nh ững lý do chính khi ến các t ổ chức tài chính trung gian ra đ ời trong thương m ại quốc tế là:",
     "options": {
-      "A": "Sự phát tri ển của các kho ản vay và các t ổ chức tín d ụng trong nư ớc.",
-      "B": "Sự gia tăng các giao d ịch mua bán ch ịu và thi ếu hụt vốn tạm thời giữa các qu ốc gia.",
+      "A": "Sự phát triển của các khoản vay và các t ổ chức tín d ụng trong nư ớc.",
+      "B": "Sự gia tăng các giao d ịch mua bán ch ịu và thi ếu hụt vốn tạm thời giữa các quốc gia.",
       "C": "Sự thay đ ổi trong h ệ thống tiền tệ quốc tế."
     },
     "answer": "A"
   },
   {
     "id": 401,
-    "question": "Một nhà đ ầu tư qu ốc tế muốn tìm ki ếm cơ h ội đầu tư t ại quốc gia có l ợi thế về thuế thấp và quy đ ịnh lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
+    "question": "Một nhà đầu tư quốc tế muốn tìm ki ếm cơ hội đầu tư tại quốc gia có l ợi thế về thuế thấp và quy đ ịnh lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
     "options": {
       "A": "Tăng trư ởng doanh thu ng ắn hạn.",
-      "B": "Tránh thu ế và tối ưu hóa l ợi nhu ận.",
-      "C": "M ở rộng th ị trường tiêu th ụ sản phẩm."
+      "B": "Tránh thuế và tối ưu hóa l ợi nhu ận.",
+      "C": "M ở rộng thị trường tiêu th ụ sản phẩm."
     },
     "answer": "B"
   },
   {
     "id": 402,
-    "question": "Đầu tư gián ti ếp nước ngoài ch ủ yếu được thực hiện qua hình th ức nào?",
+    "question": "Đầu tư gián tiếp nước ngoài chủ yếu được thực hiện qua hình thức nào?",
     "options": {
       "A": "Mua cổ phần của doanh nghiệp quốc gia khác.",
       "B": "Đầu tư vào các quỹ đầu tư quốc tế và trái phiếu quốc tế.",
-      "C": "Đ ầu tư tr ực tiếp vào các doanh nghi ệp quốc gia khác"
+      "C": "đầu tư tr ực tiếp vào các doanh nghiệp quốc gia khác"
     },
     "answer": "B"
   },
   {
     "id": 403,
-    "question": "Một công ty Nh ật Bản quy ết định đầu tư vào m ột nhà máy s ản xuất ô tô t ại Việt Nam, n ắm giữ 100% c ổ phần của nhà máy này. Công ty Nh ật Bản cung c ấp toàn b ộ vốn đầu tư và đi ều hành hoạt động sản xuất tại Việt Nam. Đây là ví d ụ về hình th ức tài chính qu ốc tế nào?",
+    "question": "Một công ty Nhật Bản quyết định đầu tư vào một nhà máy s ản xuất ô tô tại Việt Nam, n ắm giữ 100% cổ phần của nhà máy này. Công ty Nh ật Bản cung c ấp toàn b ộ vốn đầu tư và điều hành hoạt động sản xuất tại Việt Nam. Đây là ví dụ về hình thức tài chính quốc tế nào?",
     "options": {
-      "A": "Đ ầu tư gián ti ếp nước ngoài",
-      "B": "Đ ầu tư tr ực tiếp nước ngoài",
-      "C": "Vi ện trợ phát tri ển chính th ức ODA"
+      "A": "Đầu tư gián tiếp nước ngoài",
+      "B": "Đầu tư trực tiếp nước ngoài",
+      "C": "Viện trợ phát triển chính thức ODA"
     },
     "answer": "B"
   },
@@ -4033,9 +4033,9 @@
     "id": 404,
     "question": "FDI có thể dẫn đến sự \"chuyển giao công nghệ\" trong quốc gia nhận đầu tư. Điều này có nghĩa là gì?",
     "options": {
-      "A": "Các công ty qu ốc tế chỉ cung c ấp vốn đầu tư mà không chia s ẻ bất kỳ công ngh ệ nào.",
-      "B": "Các công ty qu ốc tế đầu tư vào qu ốc gia đó có th ể mang đ ến các công ngh ệ mới, kỹ năng qu ản lý và quy trình s ản xuất hiện đại.",
-      "C": "Công ngh ệ sẽ bị giữ lại và không đư ợc chia s ẻ với quốc gia ti ếp nhận đầu tư."
+      "A": "Các công ty quốc tế chỉ cung cấp vốn đầu tư mà không chia s ẻ bất kỳ công ngh ệ nào.",
+      "B": "Các công ty quốc tế đầu tư vào quốc gia đó có thể mang đ ến các công ngh ệ mới, kỹ năng quản lý và quy trình s ản xuất hiện đại.",
+      "C": "Công nghệ sẽ bị giữ lại và không được chia sẻ với quốc gia tiếp nhận đầu tư."
     },
     "answer": "B"
   }
