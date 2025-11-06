@@ -1,0 +1,4042 @@
+  [
+  {
+    "id": 1,
+    "question": "Quan điểm nào sau đây về tài chính là không phù hợp?",
+    "options": {
+      "A": "Tài chính chỉ đơn giản là tiền",
+      "B": "Tài chính là cách thức huy động và phân bổ của cải xã hội có giới hạn qua thời gian",
+      "C": "Tài chính là khoa học quản lý nguồn thu và chi tiêu nhằm đem lại hiệu quả cao nhất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "Về mặt bản chất, tài chính phản ánh:",
+    "options": {
+      "A": "Việc sử dụng quỹ tiền tệ đáp ứng các nhu cầu xã hội",
+      "B": "Sự dịch chuyển tiền tệ",
+      "C": "Tổng thể các quan hệ kinh tế phát sinh trong quá trình tạo lập và sử dụng các quỹ tiền tệ nhằm đáp ứng các mục tiêu khác nhau của các chủ thể trong xã hội"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Đối tượng của phân ph ối tài chính là :",
+    "options": {
+      "A": "Tống sản phẩm qu ốc nội, ngu ồn tài chính chuy ển ra nư ớc ngoài và ngu ồn tài chính chuy ển từ nước ngoài vào, tài s ản tài nguyên chuy ển hóa thành ti ền",
+      "B": "Tổng th ể các ngu ồn tài chính trong xã h ội",
+      "C": "Tổng thu nh ập quốc dân"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "Tiền đề khách quan quyết định sự ra đời, tồn tại và phát triển của tài chính là :",
+    "options": {
+      "A": "Chế độ công xã nguyên thủy và quyền lực chính trị của Nhà nước",
+      "B": "Sản xuất hàng hóa – tiền tệ và Nhà nước",
+      "C": "Sự phân công lao động trong xã hội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Yếu tố nào đã làm xuất hiện tiền tệ trong quá trình sản xuất và trao đổi hàng hóa?",
+    "options": {
+      "A": "Sự phân chia giai cấp trong xã hội",
+      "B": "Chế độ công xã nguyên thủy",
+      "C": "Sự phát triển của phân công lao động và chế độ tư hữu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "Để phục vụ cho quá trình sản xuất và trao đổi hàng hóa, các chủ thể trong xã hội sử dụng tiền tệ như thế nào?",
+    "options": {
+      "A": "Là phương tiện để tạo lập và sử dụng quỹ tiền tệ",
+      "B": "Là công cụ để trao đổi quyền lực chính trị",
+      "C": "Là tài sản tích lũy của Nhà nước"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "Tiền tệ đóng vai trò gì trong sự ra đời và phát triển của tài chính?",
+    "options": {
+      "A": "Là yếu tố quyết định bản chất kinh tế của tài chính",
+      "B": "Là yếu tố thúc đẩy sự phát triển của Nhà nước",
+      "C": "Là phương tiện duy trì phân công lao động trong xã hội"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "question": "Nhà nước đóng vai trò gì trong sự phát triển của tài chính?",
+    "options": {
+      "A": "Là nhân tố định hướng và tạo ra hành lang điều tiết sự phát triển của tài chính",
+      "B": "Là chủ thể duy nhất quản lý và sở hữu toàn bộ tài chính trong nền kinh tế",
+      "C": "Chỉ tham gia vào các quyết định kinh tế mà không tác động đến tài chính"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Biểu hiện bên ngoài của tài chính là :",
+    "options": {
+      "A": "Sự vận động của giá trị của cải trong xã hội",
+      "B": "Các hoạt động thu chi của Nhà nước",
+      "C": "Sự phân phối tài nguyên tự nhiên trong xã hội"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "Chức năng phân phối của tài chính được hiểu là :",
+    "options": {
+      "A": "Quá trình phân phối tài sản, nguồn lực và tiền tệ của Nhà nước",
+      "B": "Quá trình phân phối của cải xã hội dưới hình thức giá trị nhằm đảm bảo công bằng xã hội và phát triển bền vững",
+      "C": "Quá trình phân phối các sản phẩm trong nền kinh tế cho các tổ chức, cá nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "question": "Phân phối lần đầu thực hiện hoạt động nào trong quá trình phân phối tài chính?",
+    "options": {
+      "A": "Phân phối thu nhập cơ bản từ các quỹ tiền tệ giữa các chủ thể trong xã hội",
+      "B": "Phân phối của cải vật chất trong quá trình sản xuất cho những chủ thể tham gia sáng tạo ra của cải vật chất hoặc thực hiện các dịch vụ",
+      "C": "Phân phối thu nhập theo mục đích xã h ội"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Phân phối lại trong chức năng phân phối tài chính là thực hiện hoạt động:",
+    "options": {
+      "A": "Phân phối thu nhập cơ bản từ các quỹ tiền tệ vào các mục đích xã hội cụ thể hơn",
+      "B": "Phân phối sản phẩm từ các quá trình sản xuất",
+      "C": "Phân phối lại thu nhập quốc dân cho các chủ thể kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "Chức năng kiểm tra, giám sát tài chính là :",
+    "options": {
+      "A": "Việc giám sát quá trình sản xuất hàng hóa của nền kinh tế",
+      "B": "Việc giám sát toàn bộ quá trình tạo lập, phân bổ và sử dụng nguồn tài chính của các chủ thể nhằm đảm bảo hiệu quả phân phối",
+      "C": "Việc kiểm tra các hoạt động kinh tế vĩ mô của Nhà nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "Đối tượng kiểm tra, giám sát tài chính bao gồm:",
+    "options": {
+      "A": "Quá trình vận động của các nguồn tài chính và các quỹ tiền tệ",
+      "B": "Sự phân phối của cải trong xã hội",
+      "C": "Các chính sách tài chính của Nhà nước"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "question": "Chủ thể nào thực hiện kiểm tra, giám sát tài chính?",
+    "options": {
+      "A": "Các tổ chức tài chính độc lập",
+      "B": "Các chủ thể của phân phối tài chính",
+      "C": "Nhà nước và các cơ quan quản lý tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "Phương pháp nào không phải là một trong những phương pháp kiểm tra, giám sát tài chính?",
+    "options": {
+      "A": "Kiểm tra thường xuyên",
+      "B": "Kiểm tra đột xuất",
+      "C": "Kiểm tra sản phẩm cuối cùng của nền kinh tế"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "Mục tiêu của quá trình kiểm tra, giám sát tài chính là gì?",
+    "options": {
+      "A": "Đảm bảo tính khách quan và trung thực của tất cả các quyết định tài chính",
+      "B": "Đảm bảo hiệu quả của quá trình phân phối tài chính, giúp điều chỉnh lại các quyết định phân phối nếu cần",
+      "C": "Kiểm tra sự tuân thủ các chính sách của Nhà nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "Phân phối lần đầu trong nền kinh tế chủ yếu liên quan đến việc phân chia thu nhập từ:",
+    "options": {
+      "A": "Việc đầu tư vào tài sản công",
+      "B": "Các hoạt động sản xuất và phân phối hàng hóa và dịch vụ",
+      "C": "Các khoản trợ cấp xã hội và phúc lợi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "question": "Phân phối lần đầu có thể tạo ra sự bất bình đẳng trong xã hội vì:",
+    "options": {
+      "A": "Các khoản trợ cấp xã hội không được phân phối đều",
+      "B": "Người sở hữu các yếu tố sản xuất (như vốn và tài nguyên) nhận được phần lớn thu nhập",
+      "C": "Chính phủ không thu thuế đầy đủ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Phân phối lần đầu trong nền kinh tế không bao gồm yếu tố nào?",
+    "options": {
+      "A": "Lợi nhuận từ đầu tư vốn",
+      "B": "Thu nhập từ lao động",
+      "C": "Trợ cấp từ Chính phủ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "question": "Tài chính ra đời chủ yếu nhằm mục đích gì?",
+    "options": {
+      "A": "Quản lý và phân phối tài sản cho các cá nhân.",
+      "B": "Huy động và phân phối vốn giữa các cá nhân, doanh nghiệp và chính phủ.",
+      "C": "Xây dựng các quy định và chính sách kinh tế vĩ mô."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "Tài chính có vai trò gì đối với nền kinh tế?",
+    "options": {
+      "A": "Hỗ trợ các cá nhân thực hiện các giao dịch tài chính.",
+      "B": "Tạo ra các cơ hội đầu tư và đảm bảo sự lưu thông của tiền tệ trong nền kinh tế.",
+      "C": "Đảm bảo các công ty có thể giảm thiểu rủi ro kinh doanh."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "Bộ phận thiếu hụt vốn trong nền kinh tế có nhu cầu làm gì?",
+    "options": {
+      "A": "Tiết kiệm",
+      "B": "Đầu tư",
+      "C": "Vay mượn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "question": "Trong luân chuyển vốn, các khoản cho vay tồn tại để làm gì?",
+    "options": {
+      "A": "Đáp ứng cho chủ thể có nhu cầu vay mượn",
+      "B": "Đảm bảo nguồn tiết kiệm cho nền kinh tế",
+      "C": "Tăng trưởng nền kinh tế qua việc tiêu dùng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "question": "Tại sao các khoản cho vay luôn tồn tại trong nền kinh tế?",
+    "options": {
+      "A": "Vì nhu cầu đầu tư luôn cao hơn nhu cầu tiết kiệm",
+      "B": "Vì luôn có sự chênh lệch giữa tiết kiệm và đầu tư, dẫn đến nhu cầu vay mượn",
+      "C": "Vì Nhà nước yêu cầu các doanh nghiệp vay mượn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "Bộ phận chủ thể nào có nhu cầu vay mượn vốn trong nền kinh tế?",
+    "options": {
+      "A": "Các chủ thể dư thừa vốn",
+      "B": "Các chủ thể thiếu hụt vốn",
+      "C": "Các tổ chức tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "question": "Nhận định nào đúng về cách thức giao dịch trực tiếp giữa chủ thể thiếu hụt vốn và chủ thể dư thừa trong nền kinh tế ?",
+    "options": {
+      "A": "Giao dịch thường xuyên và hiệu quả",
+      "B": "Giao dịch này ít xuất hiện do sự cách biệt về không gian, thời gian và các yếu tố khác",
+      "C": "Lãi suất rất thấp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Hình thức chu chuyển vốn nào cho phép chủ thể thiếu hụt vốn và chủ thể dư thừa vốn gặp nhau trên thị trường có tổ chức và giám sát chặt chẽ?",
+    "options": {
+      "A": "Vay mượn trực tiếp",
+      "B": "Vay thông qua trung gian tài chính",
+      "C": "Vay thông qua thị trường tài chính"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "question": "Dòng vốn trong hệ thống tài chính có thể được luân chuyển thông qua những kênh nào?",
+    "options": {
+      "A": "Chỉ thông qua ngân hàng",
+      "B": "Thị trường tài chính và trung gian tài chính",
+      "C": "Chỉ thông qua thị trường chứng khoán"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Kênh dẫn vốn trực tiếp trong hệ thống tài chính là:",
+    "options": {
+      "A": "Ngân hàng thương mại",
+      "B": "Thị trường tài chính",
+      "C": "Công ty bảo hiểm"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "question": "Hệ thống tài chính được hiểu là:",
+    "options": {
+      "A": "Tập hợp các ngân hàng và tổ chức tài chính",
+      "B": "Tập hợp các thị trường, các cá nhân và tổ chức giao dịch vốn với nhau, cùng với các quy định và giám sát hệ thống tài chính",
+      "C": "Tập hợp các cơ quan Chính phủ quản lý tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 32,
+    "question": "Vai trò của nhà môi giới trong thị trường tài chính là :",
+    "options": {
+      "A": "Cung cấp vốn cho các chủ thể thiếu vốn",
+      "B": "Kết nối giữa người bán và người mua, đảm bảo giao dịch được chuẩn hoá",
+      "C": "Quản lý các quỹ đầu tư của nhà đầu tư"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Trung gian tài chính có vai trò gì trong hệ thống tài chính?",
+    "options": {
+      "A": "Cung cấp các công cụ tài chính cho nhà đầu tư",
+      "B": "Đầu tư vào các dự án bất động sản",
+      "C": "Dẫn vốn từ người dư thừa đến người thiếu hụt vốn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 34,
+    "question": "Chính phủ tham gia vào dòng luân chuyển vốn trong hệ thống tài chính với tư cách là gì?",
+    "options": {
+      "A": "Người cung cấp vốn cho nền kinh tế",
+      "B": "Người cần vốn để đáp ứng cho nhu cầu thanh toán hoặc bù đắp ngân sách thâm hụt",
+      "C": "Người tạo ra các công cụ tài chính trên thị trường"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "question": "Doanh nghiệp tham gia vào hệ thống tài chính chủ yếu với tư cách nào?",
+    "options": {
+      "A": "Người cung ứng vốn cho nền kinh tế",
+      "B": "Người vay vốn để thực hiện hoạt động sản xuất kinh doanh",
+      "C": "Người tạo lập các quy định về tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "Hộ gia đình tham gia vào dòng luân chuyển vốn trong hệ thống tài chính thông qua những hình thức nào?",
+    "options": {
+      "A": "Chỉ tiết kiệm tiền trong ngân hàng",
+      "B": "Cung cấp vốn cho Chính phủ thông qua các khoản thuế",
+      "C": "Tiết kiệm và đầu tư vào thị trường tài chính hoặc vay mượn từ các tổ chức tài chính"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "Chức năng vận hành hệ thống thanh toán trong hệ thống tài chính có ý nghĩa gì?",
+    "options": {
+      "A": "Đảm bảo các giao dịch tiền mặt được thực hiện nhanh chóng",
+      "B": "Giúp các giao dịch không dùng tiền mặt diễn ra nhanh chóng và giảm thiểu rủi ro",
+      "C": "Kiểm soát các giao dịch chuyển tiền quốc tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "Hệ thống tài chính giúp sàng lọc các kênh dẫn vốn bằng cách nào?",
+    "options": {
+      "A": "Tạo ra các chính sách pháp lý để cấm những kênh dẫn vốn không hiệu quả",
+      "B": "Cung cấp thông tin đầy đủ và giám sát các hoạt động tài chính để giảm thiểu rủi ro cho người đầu tư",
+      "C": "Tăng cường việc vay vốn từ các ngân hàng thương mại"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "question": "Hệ thống thanh toán không dùng tiền mặt đóng vai trò quan trọng như thế nào trong hệ thống tài chính?",
+    "options": {
+      "A": "Giảm thiểu các giao dịch bằng tiền mặt, tăng cường sử dụng tiền điện tử",
+      "B": "Hỗ trợ cho các giao dịch quốc tế dễ dàng hơn",
+      "C": "Giảm thiểu rủi ro và đảm bảo các giao dịch vốn diễn ra nhanh chóng và an toàn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "question": "Hệ thống tài chính có tác động gì đối với việc huy động và phân bổ nguồn lực tài chính?",
+    "options": {
+      "A": "Hệ thống tài chính tạo điều kiện cho các chủ thể có vốn sinh lời thấp và giảm hiệu quả sử dụng vốn",
+      "B": "Hệ thống tài chính huy động và phân bổ vốn một cách hiệu quả, giúp các chủ thể cần vốn dễ dàng tiếp cận nguồn vốn hơn",
+      "C": "Hệ thống tài chính chỉ hỗ trợ các doanh nghiệp lớn trong việc huy động vốn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "Nguyên nhân chủ yếu gây ra khủng hoảng kinh tế là :",
+    "options": {
+      "A": "Sự phát triển quá nhanh của các ngành công nghiệp.",
+      "B": "Thiếu hụt nguồn lực lao động.",
+      "C": "Các cú sốc kinh tế như khủng hoảng tài chính, giảm cầu tiêu dùng, và lạm phát."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 42,
+    "question": "Khủng hoảng kinh tế được đặc trưng bởi tình trạng nào sau đây?",
+    "options": {
+      "A": "Tăng trưởng mạnh mẽ, sản xuất và tiêu dùng tăng cao",
+      "B": "Thất nghiệp, giảm phát và suy giảm sản xuất, tiêu dùng, đầu tư",
+      "C": "Tỷ lệ lạm phát giảm và thị trường tài chính phát triển"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Khủng hoảng tài chính được hiểu là:",
+    "options": {
+      "A": "Tình trạng sụt giảm giá trị tài sản tài chính và sự đổ vỡ của hệ thống tài chính trong ngắn hạn",
+      "B": "Tình trạng lạm phát cao và thất nghiệp gia tăng",
+      "C": "Sự tăng trưởng bùng nổ của thị trường tài chính"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Một trong những nguyên nhân chính gây ra khủng hoảng hệ thống tài chính là:",
+    "options": {
+      "A": "Chính phủ không điều tiết các hoạt động kinh tế.",
+      "B": "Sự sụp đổ của các ngân hàng lớn do các khoản nợ xấu và rủi ro tài chính.",
+      "C": "Sự tăng trưởng quá nhanh trong nền kinh tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "Tác động của khủng hoảng hệ thống tài chính toàn cầu thường kéo dài bao lâu?",
+    "options": {
+      "A": "Chỉ vài tuần, sau đó nền kinh tế sẽ phục hồi nhanh chóng.",
+      "B": "Một khoảng thời gian dài, có thể kéo dài từ vài năm đến một thập kỷ, ảnh hưởng đến nhiều lĩnh vực của nền kinh tế.",
+      "C": "Không có tác động lâu dài và nền kinh tế phục hồi ngay lập tức."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "Nhận định nào đúng về v ai trò của Nhà nước trong việc quản lý hệ thống tài chính",
+    "options": {
+      "A": "Quản lý tài chính chỉ để giảm thiểu các cuộc khủng hoảng",
+      "B": "Đảm bảo sự vận hành trơn tru của hệ thống tài chính và ngăn ngừa các cuộc khủng hoảng, không chỉ cố gắng loại bỏ khủng hoảng",
+      "C": "Tạo ra các cuộc khủng hoảng tài chính để thử nghiệm hệ thống"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "question": "Cung cấp thông tin cho các nhà đầu tư có vai trò quan trọng trong quản lý hệ thống tài chính vì lý do nào?",
+    "options": {
+      "A": "Để tăng cường hiệu quả hoạt động thông qua việc giảm thiểu rủi ro",
+      "B": "Để bảo vệ lợi ích của các chủ thể tham gia trong hệ thống tài chính và giảm sự bất cân xứng thông tin",
+      "C": "Để giúp các ngân hàng thương mại duy trì lợi nhuận"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "question": "Một trong những mục tiêu quan trọng trong việc quản lý Nhà nước đối với hệ thống tài chính là gì?",
+    "options": {
+      "A": "Tăng cường sự kiểm soát của Chính phủ đối với các doanh nghiệp nhỏ",
+      "B": "Đảm bảo sự an toàn và minh bạch của hệ thống tài chính",
+      "C": "Hạn chế sự phát triển của các trung gian tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "Nhận định nào về khủng hoảng là đúng ?",
+    "options": {
+      "A": "Sự tăng trưởng mạnh mẽ của nền kinh tế",
+      "B": "Sự suy giảm trong chu kỳ kinh doanh, dẫn đến tình trạng suy thoái kinh tế nghiêm trọng",
+      "C": "Sự ổn định của nền kinh tế trong dài hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "question": "Khủng hoảng tài chính có thể dẫn đến hậu quả gì đối với hệ thống tài chính?",
+    "options": {
+      "A": "Tạo ra sự ổn định lâu dài cho các ngân hàng và tổ chức tài chính",
+      "B": "Không có tác động đến hệ thống tài chính",
+      "C": "Dẫn đến sự đổ vỡ của hệ thống tài chính và không có kênh dẫn vốn hiệu quả từ người tiết kiệm đến người có cơ hội đầu tư vào sản xuất"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "question": "Chọn đáp án đúng v ề thị trường tài chính?",
+    "options": {
+      "A": "Là nơi giao d ịch các lo ại hàng hóa v ật chất",
+      "B": "Là nơi giao d ịch các tài s ản tài chính như ti ền tệ, cổ phiếu, trái phi ếu, chứng khoán phái sinh…",
+      "C": "Là nơi cung c ấp các d ịch vụ bảo hiểm"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 52,
+    "question": "Trái phi ếu là gì?",
+    "options": {
+      "A": "Một loại chứng khoán mà nhà đ ầu tư s ở hữu và nh ận cổ tức",
+      "B": "Một chứng khoán n ợ mà nhà phát hành cam k ết trả lãi định kỳ và gốc khi đáo h ạn",
+      "C": "Một loại tiền tệ có th ể giao d ịch trên th ị trường qu ốc tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 53,
+    "question": "Nhận định nào đúng về chứng chỉ tiền gửi ?",
+    "options": {
+      "A": "M ột loại chứng khoán xác nh ận quy ền sở hữu cổ phần trong m ột công ty",
+      "B": "M ột loại chứng ch ỉ xác nh ận việc gửi tiền vào ngân hàng v ới thời hạn nhất định và lãi su ất cố định",
+      "C": "M ột chứng ch ỉ xác nh ận quy ền vay v ốn từ ngân hàng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 54,
+    "question": "Cổ phiếu được hiểu là:",
+    "options": {
+      "A": "M ột loại trái phi ếu do chính ph ủ phát hành",
+      "B": "M ột chứng khoán xác nh ận quy ền sở hữu của một cá nhân đ ối với một phần tài s ản của công ty",
+      "C": "M ột kho ản vay dài h ạn từ ngân hàng cho doanh nghi ệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 55,
+    "question": "Thị trường vốn được hiểu là:",
+    "options": {
+      "A": "Là nơi mua bán các công cụ tài chính ngắn hạn",
+      "B": "Là nơi giao dịch các công cụ tài chính dài hạn như cổ phiếu, trái phiếu",
+      "C": "Là nơi giao dịch các sản phẩm phái sinh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "Nhận định nào đúng về thị trường tiền tệ?",
+    "options": {
+      "A": "Là nơi giao dịch các loại tài sản tài chính dài hạn và có tính lỏng thấp",
+      "B": "Là nơi các ngân hàng và tổ chức tài chính giao dịch tiền tệ và các công cụ tài chính ngắn hạn và có tính lỏng cao",
+      "C": "Là nơi các công ty phát hành cổ phiếu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 57,
+    "question": "Thị trường chứng khoán sơ cấp là:",
+    "options": {
+      "A": "Thị trường nơi các nhà đầu tư giao dịch cổ phiếu đã được phát hành",
+      "B": "Thị trường nơi các công ty phát hành cổ phiếu, trái phiếu lần đầu để huy động vốn",
+      "C": "Thị trường nơi các tổ chức tài chính thực hiện giao dịch mua bán tài sản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "Thị trường chứng khoán thứ cấp là :",
+    "options": {
+      "A": "Thị trường nơi các công ty phát hành cổ phiếu lần đầu tiên",
+      "B": "Thị trường nơi các nhà đầu tư giao dịch cổ phiếu và trái phiếu đã được phát hành",
+      "C": "Thị trường chỉ dành cho các giao dịch giữa các tổ chức tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 59,
+    "question": "Tín phiếu kho bạc là công cụ tài chính phát hành bởi:",
+    "options": {
+      "A": "Các ngân hàng thương m ại",
+      "B": "Kho bạc Nhà nư ớc",
+      "C": "Các công ty c ổ phần"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "question": "Công cụ tài chính phái sinh là gì?",
+    "options": {
+      "A": "Là tài sản tài chính có giá trị cố định không thay đổi theo thời gian",
+      "B": "Là tài sản tài chính phát hành dựa trên tài sản chính đã có, nhằm phân tán rủi ro hoặc gia tăng lợi nhuận",
+      "C": "Là tài sản tài chính không có mối quan hệ với bất kỳ tài sản nào khác"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 61,
+    "question": "Chủ thể nào dưới đây không đư ợc coi là trung gian đ ầu tư?",
+    "options": {
+      "A": "Tổ chức tín dụng",
+      "B": "Công ty tài chính",
+      "C": "Quỹ đầu tư"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "question": "Ch ủ thể nào dư ới đây không đư ợc coi là trung gian nh ận tiền gửi?",
+    "options": {
+      "A": "Ngân hàng thương m ại",
+      "B": "Ngân hàng phát tri ển",
+      "C": "Công ty tài chính"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 63,
+    "question": "Ch ủ thể nào dư ới đây đư ợc coi là trung gian ti ết kiệm theo h ợp đồng?",
+    "options": {
+      "A": "Ngân hàng thương m ại",
+      "B": "Ngân hàng chính sách xã h ội",
+      "C": "Bảo hiểm phi nhân th ọ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 64,
+    "question": "Quỹ đầu tư được hiểu là:",
+    "options": {
+      "A": "Là tổ chức cung cấp các khoản vay cho các doanh nghiệp",
+      "B": "Là định chế tài chính trung gian phi ngân hàng huy động vốn từ các nhà đầu tư để đầu tư vào chứng khoán",
+      "C": "Là tổ chức bảo hiểm sinh mạng cho người tham gia"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "question": "Quỹ hưu trí được hiểu là:",
+    "options": {
+      "A": "Là quỹ đầu tư dài hạn, được thành lập để giúp người lao động tích lũy tiền cho tuổi hưu trí.",
+      "B": "Là quỹ giúp người lao động nhận trợ cấp thất nghiệp.",
+      "C": "Là quỹ đầu tư vào chứng khoán và trái phiếu ngắn hạn."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 66,
+    "question": "Nh ận định nào sau đây đúng v ề định ch ế tài chính trung gian?",
+    "options": {
+      "A": "Các t ổ chức chuyên cung c ấp dịch vụ giao dịch hàng hóa",
+      "B": "Các t ổ chức chuyên huy đ ộng và s ử dụng vốn để đầu tư và cho vay",
+      "C": "Các t ổ chức chuyên th ực hiện giao d ịch ngo ại tệ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 67,
+    "question": "Nguồn vốn mà đ ịnh ch ế tài chính trung gian huy đ ộng ch ủ yếu là:",
+    "options": {
+      "A": "V ốn từ các tổ chức quốc tế",
+      "B": "V ốn tạm thời nhàn r ỗi từ các cá nhân, t ổ chức",
+      "C": "V ốn từ các kho ản vay ngân hàng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "question": "Nhóm định chế tài chính trung gian nào dưới đây hoạt động với mục tiêu kiếm lời?",
+    "options": {
+      "A": "Quỹ tiền tệ của các ngân hàng nhà nước",
+      "B": "Quỹ hưu trí (bảo hiểm xã hội) ",
+      "C": "Tai nạn và bảo vệ tài sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 69,
+    "question": "Ngân hàng thương mại là tổ chức kinh doanh tiền tệ có đặc điểm nào sau đây?",
+    "options": {
+      "A": "Chỉ nhận tiền gửi và không thực hiện các nghiệp vụ tài chính khác",
+      "B": "Hoạt động chủ yếu là nhận tiền gửi, cho vay và thực hiện các nghiệp vụ thanh toán và chiết khấu",
+      "C": "Hoạt động không liên quan đến thanh toán"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 70,
+    "question": "Bảo hiểm nhân thọ chủ yếu liên quan đến:",
+    "options": {
+      "A": "Tổn thất tài sản và cháy nổ",
+      "B": "Sinh mạng, sức khỏe và tuổi thọ của con người",
+      "C": "Tai nạn và bảo vệ tài sản"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 71,
+    "question": "Ngân sách nhà nước là gì?",
+    "options": {
+      "A": "Quỹ tiền tệ của các ngân hàng nhà nước",
+      "B": "Kế hoạch chi tiêu và thu nhập của chính phủ trong một năm tài chính",
+      "C": "Nguồn vốn đầu tư của doanh nghiệp nhà nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 72,
+    "question": "Khu vực công là gì?",
+    "options": {
+      "A": "Tất cả các hoạt động kinh tế được thực hiện bởi các doanh nghiệp tư nhân",
+      "B": "Các hoạt động kinh tế của chính phủ và các tổ chức thuộc nhà nước",
+      "C": "Các hoạt động sản xuất, dịch vụ không vì lợi nhuận"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "question": "Phí là gì?",
+    "options": {
+      "A": "Là khoản thu bắt buộc từ người dân khi sử dụng các dịch vụ công do Nhà nước cung cấp, có mục đích bù đắp chi phí.",
+      "B": "Là khoản thu bắt buộc do Nhà nước quy định, nhằm mục đích tăng thu ngân sách.",
+      "C": "Là khoản thu của Nhà nước để tài trợ cho các dự án phát triển hạ tầng."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "question": "Lệ phí là gì?",
+    "options": {
+      "A": "Là khoản thu do Nhà nước thu từ người dân và doanh nghiệp khi cấp giấy tờ, hồ sơ, dịch vụ hành chính.",
+      "B": "Là khoản thu bắt buộc để duy trì hoạt động của các cơ quan Nhà nước.",
+      "C": "Là khoản thu do các tổ chức phi chính phủ thu từ các cá nhân."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 75,
+    "question": "Hàng hóa công là gì?",
+    "options": {
+      "A": "Hàng hóa sản xuất bởi các doanh nghiệp tư nhân",
+      "B": "Hàng hóa cung cấp dịch vụ cho thị trường và được bán với giá cao",
+      "C": "Hàng hóa không thể phân chia, không thể bị loại trừ và có lợi ích cho cộng đồng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 76,
+    "question": "Chi đầu tư phát triển là gì?",
+    "options": {
+      "A": "Chi tiêu dùng cho các hoạt động hàng ngày của doanh nghiệp.",
+      "B": "Chi phí cho các dự án và hoạt động nhằm phát triển cơ sở hạ tầng, mở rộng sản xuất và nâng cao năng lực của nền kinh tế.",
+      "C": "Chi phí trả lương cho nhân viên trong các cơ quan nhà nước."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 77,
+    "question": "Đặc điểm nào dưới đây thể hiện tính chất không giảm sút khi tiêu dùng của hàng hóa công?",
+    "options": {
+      "A": "Khi một người sử dụng hàng hóa này, thì sự tiêu dùng của người khác cũng giảm đi",
+      "B": "Khi một người sử dụng hàng hóa công, sự tiêu dùng của người khác không bị ảnh hưởng",
+      "C": "Khi một người tiêu dùng hàng hóa công, chính phủ sẽ giảm bớt lượng hàng hóa cung c ấp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 78,
+    "question": "Tính chất \"không thể phân chia\" của hàng hóa công có nghĩa là:",
+    "options": {
+      "A": "Hàng hóa công không thể được cung cấp cho một cá nhân riêng lẻ",
+      "B": "Hàng hóa công chỉ có thể được cung cấp cho một nhóm người duy nhất",
+      "C": "Hàng hóa công được cung cấp cho tất cả mọi người, không phân biệt"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 79,
+    "question": "Thu nguồn lực công là gì?",
+    "options": {
+      "A": "Là quá trình thu thập tiền từ các doanh nghiệp tư nhân để tài trợ cho các dự án công.",
+      "B": "Là quá trình thu thập tài nguyên thiên nhiên từ môi trường để sử dụng cho các mục đích công cộng.",
+      "C": "Là quá trình huy động tài chính để tài trợ cho các chi tiêu côn g thông qua thuế, phí, vay mượn và các nguồn thu khác của Nhà nước."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 80,
+    "question": "Thuế là gì?",
+    "options": {
+      "A": "Là một khoản đóng góp tự nguyện của công dân vào ngân sách nhà nước.",
+      "B": "Là khoản tiền mà các công dân và tổ chức phải trả cho nhà nước theo quy định của pháp luật để phục vụ cho các mục tiêu công cộng.",
+      "C": "Là khoản tiền mà các doanh nghiệp phải trả cho n hà nước để duy trì hoạt động sản xuất."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 81,
+    "question": "Tài chính doanh nghi ệp được hiểu là:",
+    "options": {
+      "A": "Quá trình qu ản lý nguồn tài chính c ủa các t ổ chức tài chính",
+      "B": "Quá trình qu ản lý, huy đ ộng và s ử dụng các ngu ồn lực tài chính c ủa doanh nghi ệp nhằm đạt được mục tiêu tài chính c ủa doanh nghi ệp",
+      "C": "Quá trình l ập kế hoạch tài chính cho các t ổ chức phi l ợi nhu ận"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 82,
+    "question": "Quyết định tài chính doanh nghi ệp chủ yếu liên quan đ ến những yếu tố nào?",
+    "options": {
+      "A": "Quyết định về sản xuất và marketing",
+      "B": "Quyết định về huy động vốn, đầu tư và phân phối lợi nhuận",
+      "C": "Quyết định về chiến lược nhân sự và mở rộng thị trường"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 83,
+    "question": "Một trong nh ững m ục tiêu c ủa quy ết định tài chính doanh nghi ệp là:",
+    "options": {
+      "A": "Tăng trưởng doanh thu ngắn hạn",
+      "B": "Tối đa hóa giá trị của doanh nghiệp và lợi ích cổ đông trong dài hạn",
+      "C": "Tăng số lượng nhân viên"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 84,
+    "question": "P hân phối lợi nhuận của doanh nghiệp là :",
+    "options": {
+      "A": "Quy trình chi trả tiền lương cho nhân viên",
+      "B": "Quy trình phân chia và sử dụng lợi nhuận sau thuế của doanh nghiệp",
+      "C": "Quy trình phân bổ doanh thu giữa các bộ phận trong doanh nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 85,
+    "question": "Nhận định nào đúng về tài sản cố định trong doanh nghiệp ?",
+    "options": {
+      "A": "Chỉ được sử dụng trong một chu kỳ sản xuất ngắn hạn",
+      "B": "Được sử dụng liên tục và lâu dài trong sản xuất, kinh doanh",
+      "C": "Không ảnh hưởng đến quy trình sản xuất của doanh nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 86,
+    "question": "Khấu hao tài s ản cố định có nghĩa là:",
+    "options": {
+      "A": "Là việc giảm giá trị của tài sản cố định do sự hao mòn tự nhiên, công nghệ lạc hậu hoặc sử dụng lâu dài",
+      "B": "Là việc gia tăng giá trị của tài sản cố định trong quá trình sử dụng",
+      "C": "Là việc trả lại tài sản cố định cho nhà cung cấp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "question": "Tài s ản lưu đ ộng đư ợc hiểu là:",
+    "options": {
+      "A": "Tài sản có thời gian sử dụng dài hơn một năm và sử dụng trong sản xuất kinh doanh",
+      "B": "Tài sản có giá trị lớn và có thể chuyển nhượng dễ dàng",
+      "C": "Tài sản sử dụng trong quá trình sản xuất, kinh doanh và có thể chuyển hóa thành tiền mặt trong vòng một năm ho ặc chu kỳ sản xuất kinh doanh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 88,
+    "question": "Chi phí trong doanh nghiệp được hiểu là:",
+    "options": {
+      "A": "Số tiền doanh nghiệp phải chi để sản xuất và kinh doanh",
+      "B": "Số tiền doanh nghiệp nhận được từ khách hàng",
+      "C": "Lợi nhuận doanh nghiệp tạo ra từ hoạt động kinh doanh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 89,
+    "question": "Doanh thu của doanh nghiệp là :",
+    "options": {
+      "A": "Số tiền doanh nghiệp thu được từ việc bán hàng hoặc cung cấp dịch vụ",
+      "B": "Số tiền doanh nghiệp chi để sản xuất sản phẩm",
+      "C": "Lợi nhuận sau thuế mà doanh nghiệp thu được"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "question": "Giá thành của sản phẩm là :",
+    "options": {
+      "A": "Tổng chi phí liên quan đến việc sản xuất và tiêu thụ sản phẩm",
+      "B": "Giá bán sản phẩm trên thị trường",
+      "C": "Lợi nhuận doanh nghiệp thu được từ sản phẩm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 91,
+    "question": "T ài chính hộ gia đình chủ yếu liên quan đến việc gì?",
+    "options": {
+      "A": "Tiết kiệm tiền cho tương lai",
+      "B": "Tạo ra thu nhập, tiết kiệm, đầu tư và chi tiêu hợp lý",
+      "C": "Chỉ tiết kiệm và đầu tư"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 92,
+    "question": "Rủi ro khi vay nợ là gì?",
+    "options": {
+      "A": "Có thể không đủ tiền để trả nợ và lãi vay",
+      "B": "Các tổ chức tín dụng sẽ không yêu cầu trả nợ khi đến hạn",
+      "C": "Sự thay đổi của các quy định pháp lý sẽ không ảnh hưởng đến khả năng trả nợ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 93,
+    "question": "Nợ của gia đình là gì?",
+    "options": {
+      "A": "Tất cả các khoản nợ phải trả cho chủ nợ vào ngày nhất định trong tương lai",
+      "B": "Các khoản vay chỉ bao gồm nợ gốc và lãi suất",
+      "C": "Tất cả các khoản vay không phải trả ngay lập tức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 94,
+    "question": "Việc xây dựng kế hoạch tài chính cá nhân có thể được coi là gì?",
+    "options": {
+      "A": "Một chiến lược dài hạn để tiết kiệm tiền",
+      "B": "Một quy trình thiết kế, thực hiện và giám sát kế hoạch tài chính để đạt được các mục tiêu trong tương lai",
+      "C": "Một cách thức đơn giản để chi tiêu và tiết kiệm tiền"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "question": "Nguyên tắc \"Xác định giá trị của tiền theo thời gian\" yêu cầu gì đối với cá nhân, hộ gia đình?",
+    "options": {
+      "A": "Đầu tư tất cả thu nhập vào một loại tài sản",
+      "B": "Đánh giá dòng tiền thu vào và chi ra trong các quyết định tài chính để so sánh giá trị của tiền tại các thời điểm khác nhau",
+      "C": "Chi tiêu không cần quan tâm đến thời gian"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 96,
+    "question": "Nguyên tắc \"Tính toán đến lợi ích và chi phí của các quyết định tài chính gắn với rủi ro\" yêu cầu gì đối với các hộ gia đình?",
+    "options": {
+      "A": "Chỉ tập trung vào việc tiết kiệm và không đầu tư",
+      "B": "Cân nhắc chi phí cơ hội, lợi ích kinh tế, và rủi ro khi đưa ra các quyết định tài chính",
+      "C": "Đầu tư tất cả tài sản vào chứng khoán mà không lo lắng về rủi ro"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "question": "\"Chi phí cơ hội\" trong tài chính cá nhân là gì?",
+    "options": {
+      "A": "Chi phí cho các khoản vay nợ trong tương lai",
+      "B": "Lợi ích mà bạn từ bỏ khi lựa chọn một quyết định tài chính thay vì một lựa chọn khác",
+      "C": "Chi phí cho các khoản chi tiêu hàng tháng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 98,
+    "question": "Đâu là đặc điểm của thu nhập thường xuyên?",
+    "options": {
+      "A": "Thu nhập này đến từ các nguồn tài chính không ổn định",
+      "B": "Thu nhập này chỉ phát sinh một lần trong năm",
+      "C": "Thu nhập này mang tính ổn định và dài hạn, có thể sử dụng cho nhu cầu chi tiêu thường xuyên"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 99,
+    "question": "Chi tiêu cố định của cá nhân, hộ gia đình là gì?",
+    "options": {
+      "A": "Các khoản chi tiêu có thể thay đổi hàng tháng",
+      "B": "Các khoản chi tiêu cho các hóa đơn hàng tháng định kỳ với số tiền tương tự mỗi tháng",
+      "C": "Các khoản chi tiêu cho giải trí và mua sắm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 100,
+    "question": "Khi lập kế hoạch tiết kiệm, \"quyết định nơi tiết kiệm\" có nghĩa là gì?",
+    "options": {
+      "A": "Chọn lựa giữa các khoản vay và tiết kiệm",
+      "B": "Xác định các hình thức tiết kiệm (ngân hàng, tổ chức tín dụng, nhóm tiết kiệm, tiết kiệm tại nhà) phù hợp với mục tiêu của mình",
+      "C": "Chọn các sản phẩm đầu tư có lãi suất cao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 101,
+    "question": "Tài chính quốc tế là gì?",
+    "options": {
+      "A": "Hệ thống các quan hệ tài chính giữa các chủ thể trong cùng một quốc gia.",
+      "B": "Hệ thống những quan hệ tài chính giữa các chủ thể của một quốc gia với các chủ thể của quốc gia khác và với các tổ chức quốc tế.",
+      "C": "Hệ thống những quan hệ tài chính chỉ liên quan đến các tổ chức quốc tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 102,
+    "question": "Đầu tư trực tiếp nước ngoài (FDI) là gì?",
+    "options": {
+      "A": "Hình thức đầu tư mà chủ đầu tư ở một quốc gia mua chứng khoán ở quốc gia khác.",
+      "B": "Hình thức đầu tư mà chủ đầu tư ở một quốc gia bỏ vốn vào một quốc gia khác để nắm một phần hoặc toàn bộ doanh nghiệp ở quốc gia đó.",
+      "C": "Hình thức cho vay vốn để thu lợi từ lãi suất."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 103,
+    "question": "Đầu tư gián tiếp nước ngoài (FPI) là gì?",
+    "options": {
+      "A": "Hình thức đầu tư mà các chủ thể tham gia điều hành doanh nghiệp ở quốc gia khác.",
+      "B": "Hình thức đầu tư mà các chủ thể mua chứng khoán, trái phiếu hoặc cổ phiếu quốc tế để hưởng lợi tức mà không tham gia điều hành.",
+      "C": "Hình thức đầu tư mà chủ thể bỏ vốn vào doanh nghiệp ở quốc gia khác."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 104,
+    "question": "Tín dụng quốc tế là gì?",
+    "options": {
+      "A": "Hình thức đầu tư gián tiếp thông qua việc mua cổ phiếu quốc tế.",
+      "B": "Hình thức đầu tư gián tiếp, trong đó chủ thể cho vay vốn và thu lợi từ lãi suất đã được thỏa thuận trong các Hiệp định hay khế ước vay vốn.",
+      "C": "Hình thức viện trợ không hoàn lại từ các tổ chức quốc tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "Viện trợ phát triển chính thức (OD",
+    "options": {
+      "A": "Khoản cho vay không lãi suất giữa các quốc gia phát triển.",
+      "B": "Khoản cho vay ưu đãi từ các Chính phủ và tổ chức tài chính quốc tế đối với các nước đang phát triển để hỗ trợ phát triển kinh tế.",
+      "C": "Khoản viện trợ không hoàn lại từ các tổ chức phi Chính phủ."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "Viện trợ quốc tế không hoàn lại có đặc điểm gì?",
+    "options": {
+      "A": "Nước tiếp nhận phải hoàn lại vốn cho các nhà viện trợ.",
+      "B": "Là hình thức cấp vốn mà nước tiếp nhận không phải hoàn lại cho các nhà viện trợ.",
+      "C": "Nước viện trợ cung cấp vốn với lãi suất thấp."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 107,
+    "question": "Tỷ giá thị trường là gì?",
+    "options": {
+      "A": "Là tỷ giá do nhà nước công bố cho các hoạt động mua bán ngoại tệ.",
+      "B": "Là tỷ giá xác định dựa trên tỷ giá chính thức và quan hệ cung cầu về ngoại tệ trên thị trường.",
+      "C": "Là tỷ giá không thay đổi suốt cả ngày."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "question": "Tỷ giá hối đoái là gì?",
+    "options": {
+      "A": "Giá trị của một đồng tiền trong nước so với vàng",
+      "B": "Giá trị của một đồng tiền trong nước so với đồng tiền của một quốc gia khác",
+      "C": "Mức độ sản xuất hàng hóa trong một quốc gia"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 109,
+    "question": "Tự do hóa giao dịch vốn là quá trình:",
+    "options": {
+      "A": "Dỡ bỏ các hạn chế đối với các giao dịch vốn quốc tế.",
+      "B": "Tăng cường kiểm soát các luồng vốn ra vào quốc gia.",
+      "C": "Cấm các giao dịch vốn quốc tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 110,
+    "question": "Tự do hóa tài chính quốc tế bao gồm:",
+    "options": {
+      "A": "Tự do hóa giao dịch vốn và tự do hóa giao dịch vãng lai.",
+      "B": "Giới hạn giao dịch vãng lai và giao dịch vốn quốc tế.",
+      "C": "Tăng cường kiểm soát vốn quốc tế và giao dịch vãng lai."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "question": "Theo tính chất pháp lý, thị trường tài chính có thể được chia thành :",
+    "options": {
+      "A": "Thị trường trái phiếu và thị trường cổ phiếu",
+      "B": "Thị trường giao ngay và thị trường kỳ hạn",
+      "C": "Thị trường chính thức và thị trường không chính thức"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 112,
+    "question": "Theo thời gian hoạt động , thị trường tài chính có thể chia thành :",
+    "options": {
+      "A": "Thị trường sơ cấp và thị trường thứ cấp",
+      "B": "Thị trường tiền tệ và thị trường vốn",
+      "C": "Thị trường ngoại hối và thị trường vàng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "Công cụ tài chính nào sau đây là một dạng hợp đồng tài chính giữa hai bên để chắc chắn mua bán một tài sản trong tương lai với mức giá xác định từ trước?",
+    "options": {
+      "A": "Hợp đồng quyền chọn",
+      "B": "Hợp đồng tương lai",
+      "C": "Trái phiếu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 114,
+    "question": "Đặc điểm nào sau đây không phải của hợp đồng tương lai (futures)?",
+    "options": {
+      "A": "Là hợp đồng tài chính được chuẩn hóa và giao dịch trên sàn",
+      "B": "Có thể được sử dụng để đầu cơ hoặc phòng ngừa rủi ro",
+      "C": "Cung cấp quyền chọn mua hoặc bán một tài sản tại một mức giá xác định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 115,
+    "question": "Quyền chọn bán cho phép người sở hữu quyền gì?",
+    "options": {
+      "A": "Quyền mua tài sản ở mức giá đã xác định trước",
+      "B": "Quyền bán tài sản ở mức giá đã xác định trước",
+      "C": "Quyền được trả cổ tức từ công ty phát hành"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 116,
+    "question": "Đặc điểm nổi bật của chứng chỉ quỹ là gì?",
+    "options": {
+      "A": "Chứng chỉ quỹ giúp nhà đầu tư sở hữu một phần của quỹ đầu tư",
+      "B": "Chứng chỉ quỹ chỉ có thể giao dịch giữa các quỹ",
+      "C": "Chứng chỉ quỹ chỉ đầu tư vào trái phiếu chính phủ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 117,
+    "question": "Đặc điểm nổi bật của trái phiếu là gì?",
+    "options": {
+      "A": "Trái phiếu này có thể được công ty phát hành mua lại hoặc được tổ chức tài chính trung gian cho vay chiết khấu/cầm cố trước ngày đáo hạn",
+      "B": "Trái phiếu này chỉ trả lãi định kỳ mà không có giá trị gốc",
+      "C": "Trái phiếu này không có ngày đáo hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 118,
+    "question": "Đặc điểm của hợp đồng hoán đổi là gì?",
+    "options": {
+      "A": "Là hợp đồng giữa hai bên để trao đổi dòng tiền với nhau, thường là lãi suất hoặc tiền tệ",
+      "B": "Là hợp đồng tài chính có giá trị cố định",
+      "C": "Là một loại cổ phiếu với quyền biểu quyết"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "Công cụ nào dưới đây giúp nhà đầu tư có thể mua tài sản tại mức giá hiện tại mà không phải thực hiện nghĩa vụ mua khi hết hạn?",
+    "options": {
+      "A": "Quyền chọn mua",
+      "B": "Hợp đồng tương lai",
+      "C": "Trái phiếu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 120,
+    "question": "Công cụ tài chính nào sau đây không được giao dịch trên sàn chứng khoán?",
+    "options": {
+      "A": "Cổ phiếu",
+      "B": "Hợp đồng tương lai",
+      "C": "Hợp đồng hoán đổi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 121,
+    "question": "Cổ phiếu của công ty đư ợc giao d ịch trên th ị trường nào?",
+    "options": {
+      "A": "Thị trường hàng hóa",
+      "B": "Thị trường ngo ại hối",
+      "C": "Thị trường ch ứng khoán"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "question": "Người vay và ngư ời cho vay giao d ịch ch ủ yếu trên th ị trường nào?",
+    "options": {
+      "A": "Thị trường trái phi ếu",
+      "B": "Thị trường tài chính th ứ cấp",
+      "C": "Thị trường tiền tệ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 123,
+    "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
+    "options": {
+      "A": "Các công ty tư nhân phát hành",
+      "B": "Chính ph ủ phát hành đ ể huy đ ộng vốn cho các d ự án công",
+      "C": "Các ngân hàng phát hành đ ể huy đ ộng vốn cho vay"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 124,
+    "question": "Chính phủ tham gia vào thị trường tài chính chủ yếu thông qua:",
+    "options": {
+      "A": "Phát hành trái phiếu chính phủ để huy động vốn",
+      "B": "Đầu tư vào các quỹ hưu trí",
+      "C": "Cung cấp tín dụng cho các doanh nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
+    "options": {
+      "A": "Các công ty tư nhân phát hành",
+      "B": "Chính ph ủ phát hành đ ể huy đ ộng vốn cho các d ự án công",
+      "C": "Các ngân hàng phát hành đ ể huy đ ộng vốn cho vay"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "question": "Trái phiếu chuyển đổi là gì?",
+    "options": {
+      "A": "Trái phiếu có thể chuyển đổi thành cổ phiếu của công ty phát hành",
+      "B": "Trái phiếu có thể chuyển đổi thành tiền mặt vào bất kỳ thời điểm nào",
+      "C": "Trái phiếu được phát hành với lãi suất thấp hơn thị trường"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 127,
+    "question": "Nhà phát hành trái phiếu có nghĩa vụ gì đối với các nhà đầu tư trái phiếu?",
+    "options": {
+      "A": "Trả lại vốn gốc và lãi suất đúng hạn theo hợp đồng phát hành",
+      "B": "Cung cấp cổ tức cho các nhà đầu tư trái phiếu",
+      "C": "Chia sẻ lợi nhuận kinh doanh với các nhà đầu tư trái phiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 128,
+    "question": "Nhà phát hành phải chịu trách nhiệm gì khi phát hành chứng khoán ra công chúng?",
+    "options": {
+      "A": "Đảm bảo rằng ch ứng khoán phát hành s ẽ không gi ảm giá",
+      "B": "Cung c ấp thông tin đ ầy đủ, chính xác và minh b ạch cho nhà đ ầu tư",
+      "C": "Đảm bảo giá c ổ phiếu sẽ luôn tăng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 129,
+    "question": "Thị trường liên ngân hàng thuộc thị trường nào?",
+    "options": {
+      "A": "Thị trường cho vay ngắn hạn",
+      "B": "Thị trường tiền tệ",
+      "C": "Thị trường chứng khoán sơ cấp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "question": "Nhà phát hành trên thị trường tài chính là gì?",
+    "options": {
+      "A": "Là các nhà đầu tư tham gia mua bán tài sản tài chính trên thị trường",
+      "B": "Là các tổ chức phát hành tài sản tài chính để huy động vốn cho các hoạt động của mình",
+      "C": "Là các cơ quan quản lý thị trường tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 131,
+    "question": "Chính phủ và chính quyền địa phương thường phát hành các tài sản tài chính nào trên thị trường?",
+    "options": {
+      "A": "Chứng khoán doanh nghiệp",
+      "B": "Trái phiếu chính phủ, tín phiếu kho bạc, công trái xây dựng tổ quốc",
+      "C": "Cổ phiếu của các doanh nghiệp nhà nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 132,
+    "question": "Nhà đầu tư tổ chức là gì?",
+    "options": {
+      "A": "Là các cá nhân tham gia mua bán tài sản tài chính với số vốn nhỏ",
+      "B": "Là các tổ chức thực hiện đầu tư với quy mô lớn và giao dịch thường xuyên",
+      "C": "Là các cơ quan nhà nước tham gia mua bán tài sản tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 133,
+    "question": "Sở giao dịch chứng khoán có vai trò gì trên thị trường tài chính?",
+    "options": {
+      "A": "Là tổ chức cung cấp các dịch vụ tư vấn đầu tư",
+      "B": "Là thị trường chứng khoán tập trung, nơi tổ chức giao dịch các chứng khoán niêm yết",
+      "C": "Là nơi cung cấp thông tin cho nhà đầu tư"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 134,
+    "question": "Các công ty xếp hạng tín nhiệm có chức năng gì?",
+    "options": {
+      "A": "Cung cấp thông tin về thị trường tài chính cho nhà đầu tư",
+      "B": "Đánh giá khả năng trả nợ và tiềm lực tài chính của tổ chức phát hành",
+      "C": "Thực hiện các giao dịch chứng khoán trên thị trường"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 135,
+    "question": "Ngân hàng Trung ương có vai trò gì đối với thị trường tài chính?",
+    "options": {
+      "A": "Quản lý các giao dịch chứng khoán và giám sát các công ty chứng khoán",
+      "B": "Quản lý tiền tệ, phát hành tiền và điều tiết các biến số kinh tế vĩ mô có ảnh hưởng đến thị trường tài chính",
+      "C": "Hướng dẫn các nhà đầu tư cá nhân trong việc đưa ra quyết định đầu tư"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 136,
+    "question": "Thị trường phi tập trung (OT",
+    "options": {
+      "A": "Các giao dịch được thực hiện tại một sàn giao dịch cụ thể",
+      "B": "Các giao dịch không có sự tham gia của các nhà môi giới chứng khoán",
+      "C": "Các giao dịch được thực hiện qua quầy của các ngân hàng hoặc công ty chứng khoán"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 137,
+    "question": "Các bộ phận cơ bản của thị trường tiền tệ bao gồm những gì?",
+    "options": {
+      "A": "Thị trường liên ngân hàng, thị trường tín dụng ngắn hạn , thị trường ngoại tệ",
+      "B": "Thị trường chứng khoán, thị trường ngoại tệ, thị trường vàng",
+      "C": "Thị trường vốn, thị trường trái phiếu, thị trường ngoại tệ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 138,
+    "question": "Tín phiếu Ngân hàng trung ương chủ yếu được phát hành để làm gì?",
+    "options": {
+      "A": "Hỗ trợ các doanh nghiệp phát triển",
+      "B": "Huy động vốn cho Chính phủ",
+      "C": "Thực hiện chính sách tiền tệ quốc gia"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 139,
+    "question": "Tín phiếu doanh nghiệp là công cụ tài chính do ai phát hành?",
+    "options": {
+      "A": "Chính phủ",
+      "B": "Ngân hàng trung ương",
+      "C": "Các doanh nghiệp lớn có uy tín trên thị trường"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 140,
+    "question": "Đặc điểm nào sau đây đúng về thương phiếu?",
+    "options": {
+      "A": "Thương phiếu chỉ được phát hành bởi Chính phủ",
+      "B": "Thương phiếu có thể được chuyển nhượng, cầm cố, hoặc chiết khấu tại ngân hàng",
+      "C": "Thương phiếu không có kỳ hạn và có lãi suất cố định"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 141,
+    "question": "Các t ổ chức tài chính trung gian đóng vai trò gì trong n ền kinh t ế?",
+    "options": {
+      "A": "Chỉ cung cấp tín dụng cho các ngân hàng thương mại.",
+      "B": "Kết nối giữa các nhà có vốn với các chủ thể cần vốn.",
+      "C": "Đảm bảo thanh khoản cho các chính phủ."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 142,
+    "question": "Chức năng chính c ủa các t ổ chức tài chính trung gian là gì?",
+    "options": {
+      "A": "Giảm lãi suất tín dụng cho các doanh nghiệp.",
+      "B": "Giúp tiết kiệm chi phí giao dịch và giảm rủi ro khi kết nối giữa người thừa vốn và người cần vốn.",
+      "C": "Phát hành trái phiếu Chính phủ."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 143,
+    "question": "Các định chế tài chính trung gian có thể làm gì để giảm thiểu rủi ro tín dụng?",
+    "options": {
+      "A": "Giới hạn cho vay cho các doanh nghiệp quốc doanh",
+      "B": "Sử dụng mô hình tín dụng và phân tích rủi ro để đánh giá khả năng trả nợ của người vay",
+      "C": "Tạo ra các khoản vay với lãi suất cố định thấp hơn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 144,
+    "question": "Ngân hàng thương mại có những chức năng chủ yếu nào?",
+    "options": {
+      "A": "Chức năng trung gian tín dụng",
+      "B": "Chức năng trung gian tín dụng, trung gian thanh toán",
+      "C": "Chức năng đầu tư"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 145,
+    "question": "Một trong những lợi ích của việc phân tán rủi ro là:",
+    "options": {
+      "A": "Đảm bảo lợi nhuận cao nhất cho nhà đầu tư",
+      "B": "Giảm thiểu tác động của biến động thị trường đối với các nhà đầu tư",
+      "C": "Tăng độ rủi ro cho các tổ chức tài chính"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 146,
+    "question": "Một trong những cách mà các định chế tài chính trung gian có thể giảm thiểu chi phí đầu tư là:",
+    "options": {
+      "A": "Tăng cường đầu tư vào các dự án có rủi ro cao",
+      "B": "Tập trung vào đầu tư vào một nhóm tài sản duy nhất",
+      "C": "Tận dụng quy mô lớn để giảm chi phí giao dịch và tìm kiếm cơ hội đầu tư"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 147,
+    "question": "Chức năng chính của công ty bảo hiểm là gì?",
+    "options": {
+      "A": "Cung cấp vốn cho các công ty phát triển",
+      "B": "Bảo vệ người tham gia bảo hiểm khỏi các rủi ro tài chính",
+      "C": "Phân phối nguồn vốn cho các dự án công nghiệp"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 148,
+    "question": "Một đặc điểm của các định chế tài chính trung gian là gì?",
+    "options": {
+      "A": "Họ trực tiếp phát hành tiền tệ",
+      "B": "Họ không chịu bất kỳ loại hình kiểm soát nào từ chính phủ",
+      "C": "Họ thay mặt các nhà đầu tư phân phối nguồn lực tài chính vào nền kinh tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 149,
+    "question": "Việc phân tán các khoản đầu tư có thể giúp các tổ chức tài chính giảm thiểu chi phí đầu tư vì:",
+    "options": {
+      "A": "Việc phân tán giúp giảm thiểu rủi ro và chi phí tìm kiếm thông tin cho mỗi khoản đầu tư",
+      "B": "Phân tán các khoản đầu tư làm tăng khả năng sinh lời cho các nhà đầu tư",
+      "C": "Phân tán đầu tư làm giảm chi phí quản lý cho các tổ chức tài chính"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 150,
+    "question": "Cách nào dưới đây có thể giúp các tổ chức tài chính trung gian giảm chi phí tìm kiếm thông tin?",
+    "options": {
+      "A": "Tập trung vào một số lượng nhỏ các tài sản và không mở rộng danh mục đầu tư",
+      "B": "Tận dụng công nghệ và hệ thống thông tin hiện đại để thu thập và phân tích dữ liệu",
+      "C": "Đầu tư vào các tài sản có mức độ rủi ro cao để thu được lợi nhuận nhanh chóng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 151,
+    "question": "Một trong những cách thức giúp giảm chi phí giao dịch cho các định chế tài chính trung gian là:",
+    "options": {
+      "A": "Thực hiện giao dịch ở quy mô nhỏ và riêng lẻ",
+      "B": "Thực hiện giao dịch với chi phí cố định cao",
+      "C": "Thực hiện các giao dịch quy mô lớn, từ đó giảm chi phí giao dịch bình quân"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 152,
+    "question": "Giảm thiểu chi phí đầu tư có thể giúp các tổ chức tài chính trung gian:",
+    "options": {
+      "A": "Tăng rủi ro tài chính của các khoản đầu tư",
+      "B": "Cải thiện hiệu quả hoạt động và tăng trưởng lợi nhuận cho các nhà đầu tư",
+      "C": "Đảm bảo tất cả các khoản đầu tư đều có cùng một mức độ rủi ro"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 153,
+    "question": "Công ty bảo hiểm có thể cung cấp các sản phẩm bảo hiểm cho đối tượng nào?",
+    "options": {
+      "A": "Chỉ cung cấp bảo hiểm cho các doanh nghiệp.",
+      "B": "Cung cấp bảo hiểm cho cá nhân, doanh nghiệp và các tổ chức.",
+      "C": "Cung cấp bảo hiểm chỉ cho các đối tượng làm việc trong lĩnh vực y tế."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 154,
+    "question": "Công ty tài chính chủ yếu cung cấp dịch vụ nào?",
+    "options": {
+      "A": "Cho vay tiêu dùng, vay mua nhà, cho thuê tài sản, đầu tư và các dịch vụ tài chính khác.",
+      "B": "Cung cấp bảo hiểm nhân thọ và bảo hiểm sức khỏe.",
+      "C": "Cung cấp các dịch vụ bán lẻ và phân phối sản phẩm."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 155,
+    "question": "Quản lý quỹ đầu tư là ai?",
+    "options": {
+      "A": "Các nhà đầu tư cá nhân.",
+      "B": "Công ty quản lý quỹ chuyên nghiệp, được cấp phép và có trách nhiệm quản lý danh mục đầu tư của quỹ.",
+      "C": "Các ngân hàng thương mại."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 156,
+    "question": "",
+    "options": {
+      "A": "Để tạo ra lợi nhuận cho nhà nước",
+      "B": "Để tăng trưởng kinh tế nhanh chóng",
+      "C": "Để đảm bảo lợi ích chung và phục vụ cho tất cả mọi người"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 157,
+    "question": "Tại sao khu vực công có vai trò quan trọng trong nền kinh tế?",
+    "options": {
+      "A": "Vì khu v ực công có th ể tạo ra l ợi nhu ận cao như khu v ực tư nhân",
+      "B": "Vì khu v ực công cung c ấp các d ịch vụ thiết yếu mà th ị trường tư nhân không th ể đáp ứng đầy đủ",
+      "C": "Vì khu v ực công ho ạt động theo cơ ch ế thị trường tự do"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 158,
+    "question": "Hàng hóa công có tính không loại trừ có nghĩa là:",
+    "options": {
+      "A": "Chính phủ không thể yêu cầu người tiêu dùng trả phí cho việc sử dụng hàng hóa này",
+      "B": "Một người không thể bị loại trừ khỏi việc tiêu dùng hàng hóa này ngay cả khi họ không trả tiền",
+      "C": "Người tiêu dùng có thể bị ngừng cung cấp hàng hóa nếu không trả tiền"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 159,
+    "question": "Đặc điểm nào dưới đây thể hiện tính chất không giảm sút khi tiêu dùng của hàng hóa công?",
+    "options": {
+      "A": "Khi một người sử dụng hàng hóa này, thì sự tiêu dùng của người khác cũng giảm đi",
+      "B": "Khi một người sử dụng hàng hóa công, sự tiêu dùng của người khác không bị ảnh hưởng",
+      "C": "Khi một người tiêu dùng hàng hóa công, chính phủ sẽ giảm bớt lượng hàng hóa cung c ấp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 160,
+    "question": "Tính chất \"không thể phân chia\" của hàng hóa công có nghĩa là:",
+    "options": {
+      "A": "Hàng hóa công không thể được cung cấp cho một cá nhân riêng lẻ",
+      "B": "Hàng hóa công chỉ có thể được cung cấp cho một nhóm người duy nhất",
+      "C": "Hàng hóa công được cung cấp cho tất cả mọi người, không phân biệt"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 161,
+    "question": "Mục đích của thuế trong nền kinh tế là gì?",
+    "options": {
+      "A": "Đảm bảo lợi nhuận cho các doanh nghiệp.",
+      "B": "Cung cấp nguồn tài chính cho ngân sách nhà nước để chi trả cho các chi tiêu công cộng.",
+      "C": "Đảm bảo công bằng xã hội giữa các tầng lớp dân cư."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 162,
+    "question": "Vay nợ công là một trong những cách thu nguồn lực công. Tuy nhiên, việc vay nợ cần phải:",
+    "options": {
+      "A": "Chỉ thực hiện khi nền kinh tế đang phát triển mạnh.",
+      "B": "Đảm bảo khả năng trả nợ và không ảnh hưởng đến ổn định tài chính quốc gia.",
+      "C": "Chỉ được thực hiện đối với các khoản vay từ các tổ chức quốc tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 163,
+    "question": "Đặc điểm của thuế gián thu là:",
+    "options": {
+      "A": "Người tiêu dùng không trực tiếp trả thuế cho cơ quan nhà nước.",
+      "B": "Người tiêu dùng trả thuế qua việc mua sản phẩm hoặc dịch vụ.",
+      "C": "Thuế được đánh vào tài sản của cá nhân và tổ chức."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 164,
+    "question": "Thuế trực thu có đặc điểm nào?",
+    "options": {
+      "A": "Thuế được thu trực tiếp từ người tiêu dùng trong quá trình giao dịch.",
+      "B": "Thuế được đánh vào thu nhập hoặc tài sản của người nộp thuế.",
+      "C": "Thuế được thu thông qua người trung gian như nhà sản xuất, người bán."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 165,
+    "question": "Mục đích của thuế gián thu là gì?",
+    "options": {
+      "A": "Đánh thuế vào các sản phẩm tiêu dùng để điều tiết mức tiêu dùng trong xã hội.",
+      "B": "Đảm bảo tài chính cho các chương trình bảo trợ xã hội.",
+      "C": "Tạo ra nguồn thu lớn từ các tổ chức tài chính."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 166,
+    "question": "Mục đích chính của việc lập quỹ dự trữ quốc gia là gì?",
+    "options": {
+      "A": "Để sử dụng trong các hoạt động đầu tư phát triển lâu dài.",
+      "B": "Để bảo đảm sự ổn định trong nền kinh tế và tài chính trong trường hợp có khủng hoảng, thiên tai, dịch bệnh hoặc tình huống bất ngờ.",
+      "C": "Để giảm thuế cho các doanh nghiệp."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 167,
+    "question": "Mục đích chính của chi thường xuyên của nhà nước là gì?",
+    "options": {
+      "A": "Đảm bảo sự ổn định về tài chính của quốc gia",
+      "B": "Tạo nguồn lực để phát triển kinh tế",
+      "C": "Đảm bảo các hoạt động hành chính và dịch vụ công liên tục"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 168,
+    "question": "Chi ngân sách cho quốc phòng và an ninh có tầm quan trọng như thế nào đối với sự phát triển của một quốc gia?",
+    "options": {
+      "A": "Là yếu tố không thể thiếu để đảm bảo sự ổn định về chính trị và xã hội",
+      "B": "Là chi phí phát sinh do chiến tranh",
+      "C": "Chỉ quan trọng trong thời gian chiến tranh hoặc khủng hoảng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 169,
+    "question": "Đặc điểm của ngân sách nhà nước trong mối quan hệ với các nguồn thu và chi là gì?",
+    "options": {
+      "A": "Ngân sách nhà nước không cần phải đảm bảo cân đối giữa thu và chi",
+      "B": "Ngân sách nhà nước có sự phân bổ hợp lý giữa thu ngân sách và chi ngân sách, đảm bảo ổn định tài chính quốc gia",
+      "C": "Ngân sách nhà nước chủ yếu dùng để chi cho các chương trình phát triển kinh tế của khu vực tư nhân"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 170,
+    "question": "Nợ nước ngoài có thể được sử dụng vào mục đích gì?",
+    "options": {
+      "A": "Để chi trả cho các chương trình an sinh xã hội, bảo vệ môi trường, và phát triển cơ sở hạ tầng.",
+      "B": "Để trả nợ trước đó hoặc đầu tư vào các dự án không mang lại lợi ích dài hạn.",
+      "C": "Để chi trả các khoản nợ cho các tổ chức quốc tế mà không có kế hoạch trả n ợ."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 171,
+    "question": "Tại sao tài chính doanh nghi ệp lại quan tr ọng đối với sự tồn tại và phát tri ển của doanh nghiệp?",
+    "options": {
+      "A": "Giúp doanh nghiệp có thể trả lương cho nhân viên",
+      "B": "Đảm bảo doanh nghiệp có đủ vốn để duy trì hoạt động và đầu tư vào phát triển",
+      "C": "Giúp doanh nghiệp tránh được các khoản thuế"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 172,
+    "question": "Tại sao doanh nghiệp thường giữ lại một phần lợi nhuận sau thuế để tái đầu tư?",
+    "options": {
+      "A": "Để trả nợ cho ngân hàng",
+      "B": "Để tăng vốn điều lệ cho công ty",
+      "C": "Để tiếp tục mở rộng sản xuất, đầu tư vào dự án mới hoặc nâng cao năng lực kinh doanh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 173,
+    "question": "Tài s ản cố định có tính ch ất gì trong quá trình s ử dụng?",
+    "options": {
+      "A": "Không bị hao mòn trong quá trình sử dụng",
+      "B": "Bị hao mòn, giảm giá trị trong quá trình sử dụng do sự khấu hao hoặc lạc hậu",
+      "C": "Tăng giá trị theo thời gian sử dụng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 174,
+    "question": "Tài s ản lưu đ ộng có vai trò gì trong doanh nghi ệp?",
+    "options": {
+      "A": "Đảm bảo khả năng thanh toán và duy trì hoạt động sản xuất, kinh doanh liên tục",
+      "B": "Tạo ra lợi nhuận từ việc tăng giá trị tài sản",
+      "C": "Giảm chi phí tài chính trong dài hạn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 175,
+    "question": "Một trong nh ững yếu tố quan tr ọng khi qu ản lý tài s ản lưu đ ộng là gì?",
+    "options": {
+      "A": "Giảm giá trị tài sản lưu động trong thời gian dài",
+      "B": "Đảm bảo rằng tài sản lưu động có thể chuyển đổi thành tiền mặt nhanh chóng khi cần thiết",
+      "C": "Tăng số lượng tài sản lưu động để đạt được lợi nhuận cao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 176,
+    "question": "Vai trò của q uỹ đầu tư phát triển của doanh nghiệp là:",
+    "options": {
+      "A": "Quỹ dùng để trả nợ cho các chủ nợ",
+      "B": "Quỹ dùng để chi trả cổ tức cho cổ đông",
+      "C": "Quỹ dùng để tái đầu tư vào các dự án, mở rộng sản xuất hoặc phát triển kinh doanh của doanh nghiệp"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 177,
+    "question": "Tài s ản cố định có đ ặc điểm cơ b ản nào sau đây?",
+    "options": {
+      "A": "Có th ời gian s ử dụng trên m ột năm và đư ợc sử dụng để sản xuất, kinh doanh",
+      "B": "Là tài s ản có th ể chuy ển như ợng ngay l ập tức",
+      "C": "Không th ể sử dụng trong quá trình s ản xuất và kinh doanh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 178,
+    "question": "T ài sản cố định vô hình có đ ặc điểm nào?",
+    "options": {
+      "A": "Có thể cảm nhận được bằng cách chạm vào",
+      "B": "Không có hình dáng vật lý nhưng có giá trị sử dụng lâu dài",
+      "C": "Chỉ tồn tại trong một thời gian ngắn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 179,
+    "question": "Một trong những đặc điểm của nguồn vốn chủ sở hữu là:",
+    "options": {
+      "A": "Có lãi suất cố định",
+      "B": "Không cần phải hoàn trả",
+      "C": "Được bảo đảm bởi tài sản của doanh nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 180,
+    "question": "Đặc điểm của nợ phải trả đối với doanh nghiệp là :",
+    "options": {
+      "A": "Doanh nghiệp không cần phải trả nợ",
+      "B": "Nợ phải trả không có lãi suất",
+      "C": "Doanh nghiệp phải trả lại nợ trong một thời gian nhất định"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 181,
+    "question": "Để kiểm tra, giám sát hoạt động sản xuất kinh doanh, doanh nghiệp cần:",
+    "options": {
+      "A": "Tăng cường đầu tư vào nghiên cứu và phát triển",
+      "B": "Sử dụng các chỉ tiêu tài chính như hệ số nợ, hiệu suất sử dụng vốn để đánh giá tình hình",
+      "C": "Đầu tư vào công nghệ mới để cải tiến quy trình sản xuất"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 182,
+    "question": "Để đạt được mục tiêu kinh doanh, việc sử dụng công cụ kiểm tra tài chính đòi hỏi:",
+    "options": {
+      "A": "Doanh nghiệp phải giảm thiểu các chỉ tiêu tài chính",
+      "B": "Nhà quản lý phải tổ chức tốt công tác hạch toán kế toán và xây dựng hệ thống chỉ tiêu phân tích tài chính",
+      "C": "Chỉ sử dụng các chỉ tiêu tài chính vĩ mô"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 183,
+    "question": "Việc sử dụng nguồn vốn vay dài hạn có lợi điểm nào?",
+    "options": {
+      "A": "Không phải trả nợ, dễ huy động",
+      "B": "Không có chi phí lãi vay, dễ điều chỉnh",
+      "C": "Tận dụng được đòn bẩy tài chính, chi phí lãi vay được trừ vào chi phí trước khi tính thuế"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 184,
+    "question": "Tổng nguồn vốn của doanh nghiệp bằng:",
+    "options": {
+      "A": "Tổng tài sản",
+      "B": "Tổng nợ phải trả",
+      "C": "Tổng lợi nhuận chưa phân phối"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 185,
+    "question": "Nguồn vốn chủ sở hữu có đặc điểm gì?",
+    "options": {
+      "A": "Là nguồn vốn thuộc sở hữu của doanh nghiệp và không có nghĩa vụ hoàn trả",
+      "B": "Là nguồn vốn phải hoàn trả trong thời gian ngắn hạn",
+      "C": "Là khoản nợ phải trả cho các bên thứ ba"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 186,
+    "question": "Mục đích chính khi cá nhân, hộ gia đình vay tiền là gì?",
+    "options": {
+      "A": "Để đầu tư vào các công cụ tài chính phức tạp",
+      "B": "Để tiêu dùng, đối phó với biến cố hoặc đầu tư vào các hoạt động sinh lời",
+      "C": "Để tiết kiệm chi phí sinh hoạt trong gia đình"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 187,
+    "question": "Hoạt động đầu tư của cá nhân, hộ gia đình thường tập trung vào mục tiêu gì?",
+    "options": {
+      "A": "Tạo lập một \"chiếc đệm tài chính\" an toàn cho các kế hoạch cuộc sống tương lai",
+      "B": "Tối đa hóa chi tiêu ngắn hạn",
+      "C": "Đầu tư vào các quỹ từ thiện"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 188,
+    "question": "Việc theo dõi các khoản tiết kiệm có ý nghĩa gì trong kế hoạch tài chính của cá nhân?",
+    "options": {
+      "A": "Để giảm chi phí và thuế cho khoản tiết kiệm",
+      "B": "Để điều chỉnh số tiền tiết kiệm hoặc thời gian thực hiện mục tiêu nếu có biến động bất thường",
+      "C": "Để chi tiêu dễ dàng hơn vào những dịp lễ tết"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 189,
+    "question": "Mục đích của nội dung \"Bảo hiểm, sức khỏe\" trong kế hoạch tài chính hộ gia đình là gì?",
+    "options": {
+      "A": "Đảm bảo thu nhập sau khi nghỉ hưu",
+      "B": "Dự phòng cho các biến cố, bệnh tật thông qua bảo hiểm, y tế",
+      "C": "Tạo ra thu nhập từ bảo hiểm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 190,
+    "question": "Nội dung \"Thực hiện kế hoạch hưu trí\" trong tài chính hộ gia đình chủ yếu nhằm mục đích gì?",
+    "options": {
+      "A": "Tạo ra một khoản thu nhập thụ động trong suốt cuộc đời",
+      "B": "Xác định thời gian nghỉ hưu và số tiền cần có sau khi nghỉ hưu",
+      "C": "Lập kế hoạch đầu tư cho tuổi già"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 191,
+    "question": "Công nghệ 4.0 ảnh hưởng như thế nào đến các dịch vụ tài chính cá nhân?",
+    "options": {
+      "A": "Giảm khả năng tiếp cận các sản phẩm tài chính",
+      "B": "Tăng cường sự kết nối và cung cấp thông tin nhanh chóng, hiệu quả về các sản phẩm tài chính",
+      "C": "Hạn chế sự phát triển của các dịch vụ tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 192,
+    "question": "Tiết kiệm quay vòng có đặc điểm gì?",
+    "options": {
+      "A": "Có thể rút tiền bất cứ lúc nào hoặc tiếp tục gửi cho kỳ tiết kiệm mới nếu không rút",
+      "B": "Là hình thức vay trước và tiết kiệm để trả nợ",
+      "C": "Tích lũy dần dần một khoản tiền lớn để sử dụng sau"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 193,
+    "question": "Tiết kiệm ngược có đặc điểm nổi bật nào?",
+    "options": {
+      "A": "Không cần phải trả lại khoản vay cho đến khi tiết kiệm đủ",
+      "B": "Được sử dụng chủ yếu cho các khoản đầu tư dài hạn",
+      "C": "Vay trước và tiết kiệm dần để trả nợ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 194,
+    "question": "Một trong các đặc điểm của chi tiêu linh hoạt là gì?",
+    "options": {
+      "A": "Không thể thay đổi theo nhu cầu và hoàn cảnh",
+      "B": "Có thể thay đổi để phù hợp với tình hình tài chính của hộ gia đình",
+      "C": "Chỉ xuất hiện một lần trong năm"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 195,
+    "question": "Đối với kế hoạch tài chính, thu nhập bất thường của cá nhân, hộ gia đình thường được dùng để làm gì?",
+    "options": {
+      "A": "Duy trì chi tiêu hàng tháng cho các nhu cầu thiết yếu",
+      "B": "Bổ sung cho các khoản tiết kiệm và đầu tư vào các dự án lớn hơn",
+      "C": "Để chi tiêu vào những món đồ xa xỉ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 196,
+    "question": "Đâu là đặc điểm của thu nhập thường xuyên?",
+    "options": {
+      "A": "Thu nhập này đến từ các nguồn tài chính không ổn định",
+      "B": "Thu nhập này chỉ phát sinh một lần trong năm",
+      "C": "Thu nhập này mang tính ổn định và dài hạn, có thể sử dụng cho nhu cầu chi tiêu thường xuyên"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 197,
+    "question": "Trong bước giám sát các kế hoạch tài chính, cá nhân, hộ gia đình cần làm gì?",
+    "options": {
+      "A": "Kiểm tra lại các mục tiêu tài chính mà không cần theo dõi tiến độ",
+      "B": "Đảm bảo kế hoạch tài chính được thực hiện đúng, điều chỉnh khi cần thiết",
+      "C": "Đưa ra các quyết định tài chính mà không quan tâm đến kế hoạch ban đầu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 198,
+    "question": "Tài chính h ộ gia đình bao g ồm nh ững ho ạt động nào?",
+    "options": {
+      "A": "Tiêu dùng và đ ầu tư",
+      "B": "Tiêu dùng, ti ết kiệm và đ ầu tư",
+      "C": "Tạo thu nh ập, chi tiêu, ti ết kiệm, đầu tư và phòng ng ừa rủi ro"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 199,
+    "question": "Trong quá trình lập kế hoạch tài chính, việc đánh giá các kế hoạch khác nhau nhằm mục đích gì?",
+    "options": {
+      "A": "Ch ọn một kế hoạch duy nh ất để thực hiện ngay l ập tức",
+      "B": "So sánh các k ế hoạch tài chính đ ể chọn phương án phù h ợp nhất với mục tiêu và kh ả năng tài chính",
+      "C": "D ự đoán xu hư ớng th ị trường tài chính trong tương lai"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 200,
+    "question": "Trong bước phân tích hiện trạng tài chính, những yếu tố nào cần phải được xem xét?",
+    "options": {
+      "A": "Thu nhập, chi tiêu, tài sản, nợ và khả năng tiết kiệm",
+      "B": "Mức thuế thu nhập cá nhân và các khoản vay tín dụng",
+      "C": "Chi tiêu cho các nhu cầu không thiết yếu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 201,
+    "question": "Yếu tố nào được coi là cơ sở cho việc hình thành và thực hiện các quan hệ tài chính quốc tế?",
+    "options": {
+      "A": "Sự phân công lao động quốc tế",
+      "B": "Sự xuất hiện của tiền tệ như một vật trao đổi trong thanh toán quốc tế",
+      "C": "Mối quan hệ chính trị giữa các quốc gia"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 202,
+    "question": "Viện trợ OD",
+    "options": {
+      "A": "thường tập trung vào khu vực công",
+      "B": "Tạo điều kiện thuận lợi cho khu vực tư nhân, thúc đẩy thu hút và sử dụng vốn đầu tư trực tiếp nước ngoài hiệu quả",
+      "C": "Không có ảnh hưởng gì đối với khu vực tư nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 203,
+    "question": "Mục tiêu chính của viện trợ phát triển chính thức (OD",
+    "options": {
+      "A": "Phát triển ngành công nghiệp và tài chính ở các quốc gia phát triển",
+      "B": "Đầu tư vào cơ sở hạ tầng, y tế, giáo dục và năng lượng tại các quốc gia kém phát triển và đang phát triển",
+      "C": "Đầu tư vào thị trường chứng khoán quốc tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 204,
+    "question": "Câu nào dưới đây là đúng về tác động của hoạt động tài chính quốc tế đối với nền kinh tế các quốc gia?",
+    "options": {
+      "A": "Giúp các quốc gia giải quyết các khó khăn về tài chính, đồng thời nâng cao hiệu quả sử dụng nguồn tài chính",
+      "B": "Chỉ giúp các quốc gia giàu có tăng trưởng nhanh chóng",
+      "C": "Giúp các quốc gia tránh các khoản vay và tín dụng quốc tế"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 205,
+    "question": "OD",
+    "options": {
+      "A": "Không có bất kỳ điều kiện nào đối với nước nhận viện trợ",
+      "B": "Các điều kiện về chính trị, kinh tế và khu vực địa lý của nước nhận viện trợ",
+      "C": "Nước nhận viện trợ phải có mức thu nhập đầu người cao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 206,
+    "question": "Tại sao các quốc gia cần theo dõi và điều chỉnh dòng chảy tiền tệ trong cán cân thanh toán quốc tế?",
+    "options": {
+      "A": "Để điều chỉnh sự tăng trưởng của nền kinh tế trong nước",
+      "B": "Để theo dõi tình hình xuất khẩu hàng hóa và dịch vụ",
+      "C": "Để đánh giá và quản lý các khoản đầu tư quốc tế, từ đó duy trì ổn định tài chính quốc gia"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 207,
+    "question": "Quan hệ tài chính quốc tế có những đặc điểm chung nào với các quan hệ tài chính khác?",
+    "options": {
+      "A": "Liên quan đến phân phối tài sản và các nguồn tài chính",
+      "B": "Chỉ liên quan đến tiền tệ và ngân hàng",
+      "C": "Liên quan đến các hình thức đầu tư quốc tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 208,
+    "question": "Dòng tài chính quốc tế có đặc điểm gì về phạm vi và tốc độ di chuyển?",
+    "options": {
+      "A": "Di chuyển theo một chiều, phạm vi hẹp và tốc độ chậm",
+      "B": "Di chuyển đa hướng, phạm vi rộng, có tính lan tỏa cao, khối lượng lớn và tốc độ nhanh",
+      "C": "Di chuyển một chiều và không có sự thay đổi về phạm vi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 209,
+    "question": "V iện trợ OD",
+    "options": {
+      "A": "chỉ được cung cấp dưới hình thức cho vay thương mại",
+      "B": "Viện trợ OD",
+      "C": "Viện trợ OD"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 210,
+    "question": "Một trong các đặc trưng của đầu tư trực tiếp nước ngoài (FDI) là gì?",
+    "options": {
+      "A": "Nhà đầu tư không tham gia quản lý doanh nghiệp",
+      "B": "Nhà đầu tư có quyền tham gia quản lý và ra quyết định đối với hoạt động của doanh nghiệp",
+      "C": "Nhà đầu tư chỉ cung cấp vốn mà không can thiệp vào hoạt động của doanh nghiệp"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 211,
+    "question": "Mục đích chính của nhà đầu tư FDI khi tham gia vào các dự án là gì?",
+    "options": {
+      "A": "Tìm kiếm cơ hội giao dịch thương mại quốc tế",
+      "B": "Tìm kiếm lợi nhuận cao thông qua đầu tư dài hạn, chuyển giao công nghệ và tri thức kinh doanh",
+      "C": "Tạo ra việc làm cho lao động địa phương"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 212,
+    "question": "Một trong các yếu tố quan trọng của FDI là sự di chuyển nguồn vốn giữa các quốc gia. Điều này thể hiện ở đặc điểm nào?",
+    "options": {
+      "A": "FDI chủ yếu chỉ liên quan đến các quốc gia phát triển",
+      "B": "FDI giúp các quốc gia sở tại xây dựng cơ sở hạ tầng",
+      "C": "FDI là sự xuất khẩu tư bản để thu lợi nhuận cao và thực hiện dự án dài hạn tại quốc gia khác"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 213,
+    "question": "FPI có tính chất gì khi nhà đầu tư tìm kiếm lợi nhuận?",
+    "options": {
+      "A": "FPI mang tính đầu cơ, tìm kiếm lợi nhuận thông qua đa dạng hóa danh mục đầu tư",
+      "B": "FPI chỉ liên quan đến các khoản đầu tư dài hạn",
+      "C": "FPI không mang tính đầu cơ và chỉ liên quan đến các cổ phiếu ổn định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 214,
+    "question": "FPI mang tính bất ổn định vì lý do nào?",
+    "options": {
+      "A": "Sự thay đổi trong các yếu tố kinh tế vĩ mô và các quan niệm của giới đầu tư",
+      "B": "Sự tham gia trực tiếp của nhà đầu tư vào quản lý công ty phát hành chứng khoán",
+      "C": "Sự gia tăng trong sản xuất và năng suất lao động"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 215,
+    "question": "FPI có thể dẫn đến hiện tượng gì nếu không được quản lý chặt chẽ?",
+    "options": {
+      "A": "Tăng trưởng kinh tế ổn định cho các quốc gia nhận vốn đầu tư",
+      "B": "Lũng đoạn thị trường do sự thay đổi nhanh chóng của dòng vốn",
+      "C": "Sự tham gia của nhà đầu tư vào quá trình điều hành công ty phát hành chứng khoán"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 216,
+    "question": "Công cụ tài chính nào dưới đây được coi là \"công cụ nợ\"?",
+    "options": {
+      "A": "Cổ phiếu",
+      "B": "Trái phiếu",
+      "C": "Hợp đồng quyền chọn"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 217,
+    "question": "Trái phiếu chính phủ thường được coi là công cụ tài chính có mức độ rủi ro thấp nhất vì lý do gì?",
+    "options": {
+      "A": "Chính phủ có khả năng thanh toán nợ cao và được bảo vệ bởi các quỹ dự trữ quốc gia",
+      "B": "Chính phủ luôn trả lãi suất cao",
+      "C": "Chính phủ không có khả năng vỡ nợ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 218,
+    "question": "Sự khác biệt giữa thị trường sơ cấp và thị trường thứ cấp là gì?",
+    "options": {
+      "A": "Thị trường sơ cấp giao dịch tài sản mới phát hành, còn thị trường thứ cấp giao dịch tài sản đã phát hành",
+      "B": "Thị trường sơ cấp không có sự tham gia của nhà đầu tư, còn thị trường thứ cấp chỉ có nhà đầu tư tham gia",
+      "C": "Thị trường sơ cấp chỉ liên quan đến các sản phẩm tài chính ngắn hạn"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 219,
+    "question": "Nhà đầu tư tổ chức có sự khác biệt gì so với nhà đầu tư cá nhân?",
+    "options": {
+      "A": "Nhà đ ầu tư t ổ chức chỉ tham gia vào các giao d ịch trái phi ếu, không mua c ổ phiếu",
+      "B": "Nhà đ ầu tư t ổ chức có s ố lượng vốn lớn hơn và có kh ả năng đ ầu tư vào nhi ều loại tài s ản tài chính",
+      "C": "Nhà đ ầu tư t ổ chức không có quy ền bầu cử tại các cu ộc họp cổ đông"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 220,
+    "question": "Tổ chức nào có vai trò giám sát và điều chỉnh hoạt động của thị trường chứng khoán tại Việt Nam?",
+    "options": {
+      "A": "Ngân hàng Nhà nước Việt Nam",
+      "B": "Bộ Tài chính",
+      "C": "Ủy ban Chứng khoán Nhà nước (SSC)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 221,
+    "question": "Ở Việt Nam, tổ chức nào có chức năng giám sát các tổ chức tín dụng và các ngân hàng?",
+    "options": {
+      "A": "Ngân hàng Nhà nước Việt Nam",
+      "B": "Bộ Tài chính",
+      "C": "Ủy ban Chứng khoán Nhà nước"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 222,
+    "question": "Trong quá trình phát hành chứng khoán, tổ chức nào hỗ trợ nhà phát hành trong việc chào bán và phân phối chứng khoán ra công chúng?",
+    "options": {
+      "A": "Các ngân hàng thương mại",
+      "B": "Các công ty chứng khoán, tổ chức bảo lãnh phát hành",
+      "C": "Bộ Tài chính"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 223,
+    "question": "Một trong những chức năng quan trọng của Trung tâm Lưu ký Chứng khoán Việt Nam (VSD) là gì?",
+    "options": {
+      "A": "Giám sát các giao dịch chứng khoán trên thị trường",
+      "B": "Lưu ký, thanh toán và chuyển nhượng chứng khoán cho các nhà đầu tư",
+      "C": "Cung cấp dịch vụ môi giới chứng khoán"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 224,
+    "question": "Sự khác biệt chính giữa thị trường tiền tệ và thị trường vốn là gì?",
+    "options": {
+      "A": "Thị trường tiền tệ chỉ giao dịch các tài sản dài hạn, còn thị trường vốn giao dịch các tài sản ngắn hạn",
+      "B": "Thị trường tiền tệ giao dịch các công cụ tài chính ngắn hạn, trong khi thị trường vốn giao dịch các công cụ tài chính dài hạn",
+      "C": "Thị trường tiền t ệ không có tính thanh khoản, còn thị trường vốn có tính thanh khoản cao"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 225,
+    "question": "Sàn giao dịch chứng khoán tập trung ở Việt Nam hiện nay là?",
+    "options": {
+      "A": "Sở Giao dịch Chứng khoán TP.HCM (HOSE), Ủy ban chứng khoán nhà nước",
+      "B": "Sở Giao dịch Chứng khoán Hà Nội (HNX), Sở Giao dịch Chứng khoán TP.HCM (HOSE)",
+      "C": "Trung tâm Lưu ký Chứng khoán Việt Nam (VSD )."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 226,
+    "question": "Các t ổ chức tài chính trung gian có th ể là nh ững tổ chức nào sau đây?",
+    "options": {
+      "A": "Các ngân hàng thương mại, công ty bảo hiểm, quỹ đầu tư, quỹ hưu trí.",
+      "B": "Chỉ các ngân hàng thương mại.",
+      "C": "Các tổ chức tài chính quốc tế như IMF và WB."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 227,
+    "question": "Khi ngân hàng thương m ại sử dụng vốn huy đ ộng để cho vay, đi ều này có th ể dẫn đến điều gì?",
+    "options": {
+      "A": "Lãi suất cho vay giảm xuống rất thấp.",
+      "B": "Cung cấp tín dụng cho nền kinh tế, thúc đẩy tiêu dùng và đầu tư.",
+      "C": "Ngân hàng không cần phải trả lại tiền cho khách hàng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 228,
+    "question": "Một trong nh ững phương th ức mà ngân hàng thương m ại sử dụng để quản lý r ủi ro khi huy động vốn là gì?",
+    "options": {
+      "A": "Phát hành trái phiếu không có bảo lãnh.",
+      "B": "Cung cấp tín dụng cho tất cả các khách hàng mà không kiểm tra.",
+      "C": "Đa dạng hóa các sản phẩm tiền gửi và tín dụng để phân tán rủi ro."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 229,
+    "question": "Điểm khác bi ệt chính gi ữa ngân hàng thương m ại và các t ổ chức tài chính trung gian khác là gì?",
+    "options": {
+      "A": "Ngân hàng thương mại chỉ cung cấp dịch vụ vay vốn, trong khi các tổ chức tài chính trung gian khác chỉ huy động vốn.",
+      "B": "Ngân hàng thương mại có quyền phát hành tiền chuyển khoản, trong khi các tổ chức tài chính trung gian khác không có quyền này.",
+      "C": "Ngân hàng thương mại chỉ phục vụ cho các doanh nghiệp, còn tổ chức tài chính trung gian khác phục vụ cá nhân."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 230,
+    "question": "So với ngân hàng thương m ại, các t ổ chức tín d ụng phi ngân hàng có đi ểm khác bi ệt nào?",
+    "options": {
+      "A": "Ngân hàng thương mại có thể huy động vốn từ tiền gửi của khách hàng, còn tổ chức tín dụng phi ngân hàng không thể.",
+      "B": "Tổ chức tín dụng phi ngân hàng có thể phát hành tiền tệ, còn ngân hàng thương mại không thể.",
+      "C": "Ngân hàng thương mại chủ yếu cung cấp dịch vụ tín dụng cho cá nhân, trong khi tổ chức tín dụng phi ngân hàng cung cấp dịch vụ tín dụng cho doanh nghiệp."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 231,
+    "question": "Quỹ đầu tư chứng khoán có thể phân tán rủi ro bằng cách:",
+    "options": {
+      "A": "Chỉ đầu tư vào một cổ phiếu của một công ty duy nhất",
+      "B": "Đầu tư vào nhiều loại cổ phiếu và trái phiếu của các công ty khác nhau",
+      "C": "Đầu tư vào các công ty có quy mô lớn, ít bị ảnh hưởng bởi thị trường"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 232,
+    "question": "Các định chế tài chính trung gian như ngân hàng và quỹ đầu tư có thể giảm thiểu chi phí thông qua:",
+    "options": {
+      "A": "Đầu tư vào một danh mục tài sản duy nhất",
+      "B": "Sử dụng thông tin chuyên sâu và phân tích tài chính để đưa ra quyết định đầu tư hiệu quả",
+      "C": "Đảm bảo rằng tất cả các khoản đầu tư đều có lãi suất cố định"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 233,
+    "question": "Công ty bảo hiểm nhân thọ khác gì so với công ty bảo hiểm phi nhân thọ?",
+    "options": {
+      "A": "Công ty bảo hiểm nhân thọ chủ yếu cung cấp bảo hiểm cho các trường hợp liên quan đến tử vong và tai nạn, trong khi công ty bảo hiểm phi nhân thọ cung cấp bảo hiểm cho tài sản và rủi ro ngắn hạn.",
+      "B": "Công ty bảo hiểm nhân thọ chỉ cung cấp bảo hiểm sức khỏ e.",
+      "C": "Công ty bảo hiểm phi nhân thọ không có chức năng bồi thường cho người tham gia bảo hiểm."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 234,
+    "question": "Công ty tài chính khác với ngân hàng ở điểm nào?",
+    "options": {
+      "A": "Công ty tài chính không nhận tiền gửi tiết kiệm từ khách hàng.",
+      "B": "Công ty tài chính có thể cho vay tín chấp mà không yêu cầu tài sản bảo đảm.",
+      "C": "Ngân hàng không cung cấp dịch vụ vay tiêu dùng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 235,
+    "question": "Quỹ mở khác quỹ đóng ở điểm nào?",
+    "options": {
+      "A": "Quỹ mở có thể phát hành và mua lại chứng chỉ quỹ vào bất kỳ thời điểm nào, còn quỹ đóng chỉ có thể mua bán chứng chỉ quỹ tại thời điểm niêm yết.",
+      "B": "Quỹ mở chỉ đầu tư vào trái phiếu, quỹ đóng chỉ đầu tư vào cổ phiếu.",
+      "C": "Quỹ mở không yêu cầu người đầu tư phải cam kết số tiền ban đầu."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 236,
+    "question": "Cắt giảm chi tiêu công trong trường hợp thâm hụt ngân sách có thể áp dụng ở đâu?",
+    "options": {
+      "A": "Cắt giảm chi cho các dự án cơ sở hạ tầng không cấp bách",
+      "B": "Cắt giảm chi cho các chương trình an sinh xã hội, y tế, giáo dục",
+      "C": "Cắt giảm chi cho quốc phòng và an ninh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 237,
+    "question": "Một trong những loại thuế gián thu phổ biến hiện nay là gì?",
+    "options": {
+      "A": "Thuế thu nhập cá nhân.",
+      "B": "Thuế giá trị gia tăng",
+      "C": "Thuế tài sản."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 238,
+    "question": "Sự khác biệt chính giữa thuế trực thu và thuế gián thu là:",
+    "options": {
+      "A": "Thuế trực thu được thu từ doanh nghiệp, còn thuế gián thu được thu từ người tiêu dùng.",
+      "B": "Thuế trực thu được đánh vào thu nhập và tài sản của cá nhân hoặc tổ chức, còn thuế gián thu được đánh vào hàng hóa và dịch vụ tiêu dùng.",
+      "C": "Thuế gián thu không có ảnh hưởng đến giá trị sản phẩm."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 239,
+    "question": "Phí khác với thuế ở điểm nào?",
+    "options": {
+      "A": "Phí được thu từ người sử dụng dịch vụ công, trong khi thuế là khoản đóng góp bắt buộc vào ngân sách nhà nước.",
+      "B": "Phí được thu cho các dịch vụ tư nhân, thuế chỉ áp dụng cho dịch vụ công.",
+      "C": "Phí là một khoản đóng góp tự nguyện, trong khi thuế là khoản thu bắt buộc."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 240,
+    "question": "Nợ công có thể gây ra những vấn đề gì đối với nền kinh tế quốc gia?",
+    "options": {
+      "A": "Tăng trưởng kinh tế nhanh chóng và bền vững.",
+      "B": "Tăng nợ nước ngoài, tạo áp lực trả nợ, có thể dẫn đến vỡ nợ quốc gia.",
+      "C": "Giảm tỷ lệ thất nghiệp và tăng thu nhập quốc dân."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 241,
+    "question": "Để duy trì an toàn nợ công, Chính phủ cần thực hiện biện pháp nào?",
+    "options": {
+      "A": "Tăng cường vay nợ quốc tế để giảm chi tiêu công trong nước.",
+      "B": "Đảm bảo mức chi tiêu hợp lý và kiểm soát nợ công bằng cách tăng thu ngân sách.",
+      "C": "Cắt giảm các khoản chi cho quốc phòng và an ninh."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 242,
+    "question": "Biện pháp nào dưới đây không phải là phương án chính để xử lý thâm hụt ngân sách nhà nước?",
+    "options": {
+      "A": "Tăng thuế để tăng nguồn thu ngân sách",
+      "B": "Cắt giảm chi tiêu công, đặc biệt là chi đầu tư phát triển",
+      "C": "Chuyển nhượng tài sản công cho các doanh nghiệp tư nhân"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 243,
+    "question": "Các biện pháp nào dưới đây có thể giúp quản lý và giảm thiểu rủi ro từ nợ nước ngoài?",
+    "options": {
+      "A": "Tăng cường vay nợ từ các tổ chức tài chính quốc tế như IMF và W",
+      "B": "Phát hành trái phiếu quốc tế và vay nợ ngắn hạn để tránh nợ dài hạn.",
+      "C": "Tăng cường giám sát và cải cách chính sách tài khóa, thúc đẩy tăng trưởng kinh tế để đảm bảo khả năng trả nợ."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 244,
+    "question": "Khi gặp thâm hụt ngân sách, Chính phủ có thể làm gì để tăng thu ngân sách?",
+    "options": {
+      "A": "Tăng thuế đối với các doanh nghiệp lớn và người dân có thu nhập cao",
+      "B": "Giảm thuế để kích thích nền kinh tế tăng trưởng",
+      "C": "Tăng các khoản viện trợ từ các tổ chức quốc tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 245,
+    "question": "Khi nợ nước ngoài gia tăng nhanh chóng, quốc gia có thể đối mặt với nguy cơ gì?",
+    "options": {
+      "A": "Khả năng vỡ nợ, áp lực tài chính tăng cao và giảm niềm tin của nhà đầu tư quốc tế.",
+      "B": "Giảm tốc độ tăng trưởng của nền kinh tế, nhưng không ảnh hưởng đến nợ công.",
+      "C": "Giảm tỷ lệ thất nghiệp và gia tăng nguồn thu ngân sách."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 246,
+    "question": "Một trong những nhược điểm khi sử dụng vốn chủ sở hữu là gì?",
+    "options": {
+      "A": "Không có chi phí lãi vay",
+      "B": "Không thể huy động số vốn lớn",
+      "C": "Dễ dàng chia sẻ quyền kiểm soát công ty"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 247,
+    "question": "Khi doanh nghiệp sử dụng vốn vay dài hạn, điều quan trọng cần xem xét là gì?",
+    "options": {
+      "A": "Lợi ích về miễn thuế và chi phí lãi vay",
+      "B": "Rủi ro và khả năng trả nợ",
+      "C": "Khả năng chia sẻ quyền kiểm soát với các cổ đông"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 248,
+    "question": "Sự thiếu hụt về nguồn vốn ngắn hạn có thể xảy ra do yếu tố nào sau đây?",
+    "options": {
+      "A": "Sự chênh lệch về thời gian và khoản tiền thu về từ bán hàng để đầu tư vào tài sản lưu động",
+      "B": "Do nhu cầu đầu tư vào tài sản cố định gia tăng",
+      "C": "Do sự thay đổi trong giá trị của tài sản cố định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 249,
+    "question": "Doanh nghiệp phải đưa ra quyết định lựa chọn giữa các phương án nào sau đây để đáp ứng nhu cầu vốn ngắn hạn?",
+    "options": {
+      "A": "Vay ngắn hạn ngân hàng hay phát hành trái phiếu",
+      "B": "Vay ngắn hạn ngân hàng hay phát hành tín phiếu",
+      "C": "Sử dụng tín dụng thương mại hay vay dài hạn từ ngân hàng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 250,
+    "question": "Loại hình công ty nào có quyền phát hành cổ phiếu?",
+    "options": {
+      "A": "Công ty trách nhiệm hữu hạn",
+      "B": "Doanh nghiệp tư nhân",
+      "C": "Công ty cổ phần"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 251,
+    "question": "Một trong những tiêu chí phân biệt tài sản lưu động và tài sản cố định là:",
+    "options": {
+      "A": "Tài sản cố định không cần phải khấu hao",
+      "B": "Tài sản lưu động có thể dễ dàng chuyển đổi thành tiền mặt trong ngắn hạn",
+      "C": "Tài sản cố định được sử dụng trong ngắn hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 252,
+    "question": "Điểm khác biệt lớn nhất giữa tài sản cố định hữu hình và tài sản cố định vô hình là:",
+    "options": {
+      "A": "Tài sản cố định hữu hình có thể chuyển thành tiền nhanh chóng, còn tài sản cố định vô hình không thể chuyển thành tiền",
+      "B": "Tài sản cố định hữu hình có hình dáng vật chất, còn tài sản cố định vô hình không có hình dáng vật chất",
+      "C": "Tài sản cố định hữu hình không phải khấu hao, còn tài sản cố định vô hình phải khấu hao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 253,
+    "question": "Một doanh nghiệp muốn thực hiện chính sách cạnh tranh về giá, yếu tố nào dưới đây là điều kiện quan trọng nhất?",
+    "options": {
+      "A": "Tăng giá bán sản phẩm",
+      "B": "Giảm giá thành sản phẩm",
+      "C": "Tăng chi phí quảng cáo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 254,
+    "question": "Biện pháp nào dưới đây không phải là cách tăng doanh thu cho doanh nghiệp?",
+    "options": {
+      "A": "Nâng cao chất lượng sản phẩm",
+      "B": "Mở rộng quy mô khách hàng và tăng uy tín doanh nghiệp",
+      "C": "Tăng chiết khấu thanh toán cho khách hàng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 255,
+    "question": "Để đẩy nhanh tốc độ thanh toán và tăng doanh thu, doanh nghiệp cần:",
+    "options": {
+      "A": "Tăng cường các khoản vay ngân hàng",
+      "B": "Giảm bớt các khoản nợ phải thu và lựa chọn bạn hàng đáng tin cậy",
+      "C": "Hạn chế việc thanh toán nhanh cho khách hàng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 256,
+    "question": "Kiến thức tài chính có ảnh hưởng như thế nào đến việc tiết kiệm của cá nhân?",
+    "options": {
+      "A": "Kiến thức tài chính giúp cá nhân quản lý tiền hiệu quả hơn và đưa ra quyết định tiết kiệm sáng suốt",
+      "B": "Kiến thức tài chính chỉ ảnh hưởng đến việc chi tiêu, không liên quan đến tiết kiệm",
+      "C": "Kiến thức tài chính làm giảm nhu cầu tiết kiệm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 257,
+    "question": "Đầu tư vào công cụ tài chính trên thị trường tiền tệ thường phù hợp với chủ thể nào ?",
+    "options": {
+      "A": "Những nhà đầu tư muốn lợi nhuận cao và sẵn sàng chấp nhận rủi ro",
+      "B": "Những nhà đầu tư mong muốn thu nhập ổn định và ít rủi ro trong ngắn hạn",
+      "C": "Các nhà đầu tư dài hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 258,
+    "question": "Trong các quốc gia phát triển, tỷ lệ tiết kiệm của hộ gia đình thường như thế nào?",
+    "options": {
+      "A": "Cao, vì họ có nhiều khoản đầu tư sinh lời cao",
+      "B": "Thấp, chỉ chiếm từ 3 đến 10% GDP",
+      "C": "Cao, lên đến 50% GDP"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 259,
+    "question": "Tại sao tiết kiệm xuôi có thể là một thách thức đối với các hộ gia đình có thu nhập thấp?",
+    "options": {
+      "A": "Vì họ không có đủ thu nhập để chi tiêu hàng tháng",
+      "B": "Vì chi phí tiết kiệm quá thấp và không đủ cho các khoản chi tiêu lớn như học hành hay bệnh tật đột ngột",
+      "C": "Vì không có các hình thức tiết kiệm phù hợp với h"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 260,
+    "question": "Khi lập kế hoạch tiết kiệm, tại sao cần phải xếp loại các mục tiêu tiết kiệm?",
+    "options": {
+      "A": "Vì thu nhập của mỗi người là không giới hạn",
+      "B": "Để có thể ưu tiên các mục tiêu cần thực hiện trước, tránh tình trạng không đủ tiền để thực hiện tất cả mục tiêu",
+      "C": "Để tiết kiệm cho các mục tiêu dài hạn mà không cần quan tâm đến chi phí hiện tại"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 261,
+    "question": "Khi gia đình có thu nhập cao hơn, xu hướng chi tiêu sẽ như thế nào?",
+    "options": {
+      "A": "Gia đình sẽ cắt giảm chi tiêu cho các nhu cầu thiết yếu",
+      "B": "Gia đình sẽ có xu hướng chi tiêu nhiều hơn vào các khoản như nhà cửa, xe cộ, kỳ nghỉ",
+      "C": "Gia đình sẽ không thay đổi chi tiêu dù thu nhập có thay đổi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 262,
+    "question": "Những thay đổi nào có thể yêu cầu cá nhân, hộ gia đình xem xét lại kế hoạch tài chính?",
+    "options": {
+      "A": "Tình trạng tài chính thay đổi do các sự kiện lớn như lập gia đình, thay đổi công việc, hoặc sinh con",
+      "B": "Khi các mục tiêu tài chính không còn quan trọng",
+      "C": "Khi không còn khả năng tiết kiệm tiền"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 263,
+    "question": "Thu nhập của một cá nhân thay đổi như thế nào trong suốt cuộc đời?",
+    "options": {
+      "A": "Thu nhập sẽ luôn ổn định suốt cuộc đời",
+      "B": "Thu nhập thường thấp khi mới bắt đầu công việc và ổn định khi có kinh nghiệm, giảm khi về hưu và phụ thuộc vào lương hưu, trợ cấp, và các khoản đầu tư",
+      "C": "Thu nhập luôn cao khi có kinh nghiệm và không thay đổi kh i về hưu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 264,
+    "question": "Rủi ro từ chất lượng dịch vụ môi giới đầu tư có thể dẫn đến điều gì?",
+    "options": {
+      "A": "Các nhà đầu tư có thể bị mất tiền do các báo cáo nghiên cứu không chính xác hoặc không đạo đức của nhân viên môi giới",
+      "B": "Các công ty môi giới sẽ luôn cung cấp lời khuyên đầu tư chính xác",
+      "C": "Các nhà đầu tư có thể yêu cầu đổi nhân viên môi giới nếu không hài lòng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 265,
+    "question": "Khi nào vay nợ để tiêu dùng có thể là sự lựa chọn khôn ngoan?",
+    "options": {
+      "A": "Khi hàng hóa có giá thấp hơn ở thời điểm hiện tại so với giá trong tương lai",
+      "B": "Khi thu nhập của gia đình thấp và không có tiền để chi tiêu",
+      "C": "Khi các khoản vay có lãi suất cao và không có thu nhập khả thi để trả nợ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 266,
+    "question": "Tại sao các quốc gia cần phải khai thác và sử dụng nguồn lực một cách hợp lý, đặc biệt là khi nguồn vốn trong nước hạn chế?",
+    "options": {
+      "A": "Để giảm thiểu chi phí sản xuất",
+      "B": "Để tăng trưởng nhanh chóng mà không cần đầu tư quốc tế",
+      "C": "Để bổ sung nguồn vốn thiếu hụt từ nước ngoài vào phát triển kinh tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 267,
+    "question": "Dòng tài chính quốc tế luôn tiềm ẩn những rủi ro nào?",
+    "options": {
+      "A": "Rủi ro về bảo vệ môi trường và sức khỏe",
+      "B": "Rủi ro tỷ giá và rủi ro chính trị",
+      "C": "Rủi ro thiên tai và biến đổi khí hậu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 268,
+    "question": "Trong trường hợp doanh nghiệp 100% vốn đầu tư nước ngoài, ai là người kiểm soát các hoạt động của doanh nghiệp?",
+    "options": {
+      "A": "Chính phủ nước sở tại",
+      "B": "Các chủ đầu tư trong nước",
+      "C": "Các chủ đầu tư nước ngoài hoàn toàn kiểm soát"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 269,
+    "question": "Viện trợ OD",
+    "options": {
+      "A": "Cung cấp viện trợ không hoàn lại cho tất cả các dự án",
+      "B": "Cam kết thực hiện các điều chỉnh về cơ cấu kinh tế và chính sách đối ngoại",
+      "C": "Không yêu cầu điều chỉnh chính sách và cơ cấu kinh tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 270,
+    "question": "Theo ADB, lộ trình tự do hóa tài chính được xây dựng dựa trên:",
+    "options": {
+      "A": "Mức độ lạm phát giữa các quốc gia.",
+      "B": "Rủi ro của hệ thống tài chính và các yếu tố kinh tế vĩ mô.",
+      "C": "Mức độ kiểm soát của nhà nước đối với thị trường tài chính."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 271,
+    "question": "FPI có đặc điểm gì về tính ổn định so với FDI?",
+    "options": {
+      "A": "FPI ít ổn định và dễ bị rút vốn nhanh chóng khi có sự thay đổi về điều kiện kinh tế hoặc chính trị",
+      "B": "FPI ổn định hơn FDI vì không có sự can thiệp vào hoạt động doanh nghiệp",
+      "C": "FPI luôn ổn định và không bị ảnh hưởng bởi thay đổi của thị trường"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 272,
+    "question": "FDI có đặc điểm nào so với FPI?",
+    "options": {
+      "A": "FDI mang tính chất đầu cơ, tìm kiếm lợi nhuận nhanh chóng",
+      "B": "FDI có mức độ rủi ro thấp và không bị ảnh hưởng bởi biến động thị trường",
+      "C": "FDI giúp nhà đầu tư tham gia trực tiếp vào các hoạt động sản xuất và kinh doanh của doanh nghiệp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 273,
+    "question": "Điểm khác biệt chính giữa FDI và OD",
+    "options": {
+      "A": "là nguồn vốn từ các quốc gia phát triển.",
+      "B": "FDI mang tính đầu tư lâu dài và có mục tiêu lợi nhuận, trong khi OD",
+      "C": "FDI là nguồn vốn từ các quốc gia đang phát triển, t rong khi OD"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 274,
+    "question": "ỷ giá ngoại tệ sẽ thay đổi như thế nào khi một quốc gia có tình trạng lạm phát cao?",
+    "options": {
+      "A": "Tỷ giá sẽ giảm vì đồng tiền nội tệ mất giá trị so với ngoại tệ.",
+      "B": "Tỷ giá sẽ tăng do đồng tiền nội tệ trở nên mạnh hơn.",
+      "C": "Tỷ giá sẽ ổn định vì lạm phát không ảnh hưởng đến cung cầu ngoại tệ."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 275,
+    "question": "Sự thay đổi về lãi suất giữa hai quốc gia có ảnh hưởng gì đến tỷ giá?",
+    "options": {
+      "A": "Lãi suất không ảnh hưởng đến tỷ giá.",
+      "B": "Lãi suất cao ở một quốc gia sẽ làm tăng cung ngoại tệ và giảm cầu ngoại tệ.",
+      "C": "Lãi suất cao ở quốc gia này sẽ thu hút vốn đầu tư vào quốc gia đó, làm tăng cầu ngoại tệ và tỷ giá ngoại tệ tăng."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 276,
+    "question": "Hoạt động huy đ ộng vốn của ngân hàng thương m ại chủ yếu bao g ồm nh ững hình th ức nào?",
+    "options": {
+      "A": "Phát hành cổ phiếu và trái phiếu.",
+      "B": "Vốn tự có, vốn tiền gửi , vốn đi vay , phát hành chứng khoán .",
+      "C": "Vốn tự có và v ay từ các tổ chức tài chính quốc tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 277,
+    "question": "Ngân hàng thương m ại có th ể sử dụng ngu ồn vốn huy đ ộng để thực hiện các ho ạt động nào?",
+    "options": {
+      "A": "Chỉ cho vay các cá nhân và doanh nghiệp.",
+      "B": "Cho vay khách hàng , đầu tư vào thị trường tài chính, góp vốn liên kết .",
+      "C": "Chỉ vay lại từ Ngân hàng Trung ương."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 278,
+    "question": "Quá trình hoạt động của công ty bảo hiểm bao gồm những bước nào?",
+    "options": {
+      "A": "Thu phí bảo hiểm, quản lý rủi ro, chi trả quyền lợi bảo hiểm cho khách hàng.",
+      "B": "Đầu tư và cho vay tiền.",
+      "C": "Bán sản phẩm bảo hiểm qua các cửa hàng bán lẻ."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 279,
+    "question": "",
+    "options": {
+      "A": "Đầu tư vào các dự án bất động sản, chứng khoán và các tài sản khác.",
+      "B": "Chỉ sử dụng để chi trả tiền lương cho nhân viên công ty.",
+      "C": "Chỉ dùng để trả các khoản chi phí quảng cáo."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 280,
+    "question": "Công ty tài chính có thể sử dụng các nguồn vốn nào để cho vay?",
+    "options": {
+      "A": "Vốn tự có của công ty , vốn vay từ ngân hàng , phát hành chứng từ có giá",
+      "B": "Vốn tự có của công ty là nguồn duy nhất.",
+      "C": "Vốn từ các khoản đầu tư chứng khoán."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 281,
+    "question": "Quỹ đầu tư có thể đầu tư vào các loại tài sản nào?",
+    "options": {
+      "A": "Chỉ đầu tư vào cổ phiếu.",
+      "B": "Chỉ đầu tư vào trái phiếu và các sản phẩm bảo hiểm.",
+      "C": "Có thể đầu tư vào cổ phiếu, trái phiếu, bất động sản, vàng, và các tài sản tài chính khác."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 282,
+    "question": "Công ty bảo hiểm có thể cung cấp những loại sản phẩm nào?",
+    "options": {
+      "A": "Bảo hiểm nhân thọ, bảo hiểm sức khỏe, bảo hiểm xe cộ, bảo hiểm tài sản.",
+      "B": "Chỉ cung cấp bảo hiểm nhân thọ.",
+      "C": "Cung cấp dịch vụ ngân hàng và tín dụng."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 283,
+    "question": "Công ty tài chính có thể kiếm lợi nhuận từ đâu?",
+    "options": {
+      "A": "Thu từ hoạt động cho vay và đầu tư tài chính.",
+      "B": "Chỉ từ lãi suất vay tiêu dùng.",
+      "C": "Chỉ từ việc bán các sản phẩm tài chính cho doanh nghiệp."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 284,
+    "question": "Một đặc điểm của Quỹ hưu trí công cộng là gì?",
+    "options": {
+      "A": "Được quản lý bởi các công ty bảo hiểm",
+      "B": "Được thành lập và quản lý bởi Chính phủ",
+      "C": "Chỉ áp dụng cho người lao động tự do"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 285,
+    "question": "Khi đầu tư vào quỹ đầu tư, nhà đầu tư sẽ nhận được gì?",
+    "options": {
+      "A": "Chứng chỉ quỹ và quyền lợi từ việc tăng trưởng giá trị tài sản của quỹ.",
+      "B": "Cổ phiếu của công ty quản lý quỹ.",
+      "C": "Lợi nhuận cố định hàng tháng."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 286,
+    "question": "Một nhà đầu tư vào quỹ đầu tư có thể tham gia vào việc quản lý quỹ không?",
+    "options": {
+      "A": "Có, nhà đầu tư có thể trực tiếp quản lý quỹ.",
+      "B": "Không, nhà đầu tư chỉ có quyền bỏ phiếu hoặc lựa chọn các quỹ phù hợp nhưng không tham gia quản lý.",
+      "C": "Có, nhà đầu tư có thể quyết định các khoản đầu tư của quỹ."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 287,
+    "question": "Q uỹ đầu tư có thể thu lợi nhuận từ những nguồn nào?",
+    "options": {
+      "A": "Lợi nhuận từ việc mua bán cổ phiếu, trái phiếu và các tài sản tài chính khác.",
+      "B": "Lợi nhuận từ các khoản phí quản lý.",
+      "C": "Lợi nhuận từ việc cho vay tín chấp."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 288,
+    "question": "Ai là đối tượng tham gia quỹ hưu trí tư nhân ?",
+    "options": {
+      "A": "Người lao động có thu nhập ổn định và mong muốn đảm bảo tài chính cho tuổi hưu trí.",
+      "B": "Chỉ có công chức nhà nước.",
+      "C": "Người lao động không có thu nhập ổn định."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 289,
+    "question": "Nguồn hình thành quỹ hưu trí công cộng chủ yếu là từ đâu?",
+    "options": {
+      "A": "Các khoản đầu tư của Chính phủ",
+      "B": "Sự đóng góp định kỳ của người lao động, người sử dụng lao động và các nguồn khác",
+      "C": "Các khoản viện trợ quốc tế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 290,
+    "question": "Mục đích chính của Quỹ hưu trí công cộng là gì?",
+    "options": {
+      "A": "Trợ cấp hưu trí và chi trả chi phí y tế, trợ cấp mất sức lao động",
+      "B": "Cung cấp vốn cho các doanh nghiệp khởi nghiệp",
+      "C": "Đầu tư vào bất động sản"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 291,
+    "question": "Các khoản thu nào sau đây được coi là phí?",
+    "options": {
+      "A": "Thuế thu nhập cá nhân",
+      "B": "Phí cấp giấy phép xây dựng",
+      "C": "Lệ phí cấp thẻ bảo hiểm y tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 292,
+    "question": "Lệ phí cấp giấy chứng nhận quyền sử dụng đất là:",
+    "options": {
+      "A": "Phí",
+      "B": "Lệ phí",
+      "C": "Thuế"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 293,
+    "question": "Thu từ cổ phần hóa doanh nghiệp Nhà nước là nguồn thu nào của Nhà nước?",
+    "options": {
+      "A": "Thu từ hoạt động tài chính.",
+      "B": "Thu từ hoạt động kinh tế.",
+      "C": "Thu từ việc bán tài sản công."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 294,
+    "question": "Thuế thu nhập cá nhân là loại thuế gì?",
+    "options": {
+      "A": "Thuế gián thu",
+      "B": "Thuế trực thu",
+      "C": "Thuế giá trị gia tăng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 295,
+    "question": "T huế giá trị gia tăng (VAT) là một loại thuế:",
+    "options": {
+      "A": "Thuế trực thu",
+      "B": "Thuế gián thu",
+      "C": "Thuế tài nguyên"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 296,
+    "question": "Hàng hóa công có thể được cung cấp trong các lĩnh vực nào?",
+    "options": {
+      "A": "Hàng hóa chỉ phục vụ cho cá nhân giàu có",
+      "B": "Các dịch vụ công cộng như quốc phòng, an ninh, chiếu sáng công cộng",
+      "C": "Các dịch vụ chỉ phục vụ cho doanh nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 297,
+    "question": "Dự trữ quốc gia do ai quản lý?",
+    "options": {
+      "A": "Các tổ chức tài chính quốc tế.",
+      "B": "Chính phủ, bộ, ngành liên quan như Bộ Tài chính hoặc Ngân hàng Trung ương.",
+      "C": "Các ngân hàng thương mại trong nước."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 298,
+    "question": "Ngân sách nhà nước ở Việt Nam được phân loại theo những hình thức nào?",
+    "options": {
+      "A": "Ngân sách trung ương và ngân sách địa phương",
+      "B": "Ngân sách đầu tư và ngân sách thường xuyên",
+      "C": "Ngân sách trong nước và ngân sách quốc tế"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 299,
+    "question": "Đối tượng chịu thuế của thuế trực thu là:",
+    "options": {
+      "A": "Người tiêu dùng cuối cùng.",
+      "B": "Các sản phẩm và dịch vụ trong nền kinh tế.",
+      "C": "Các tổ chức và cá nhân có thu nhập hoặc sở hữu tài sản."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 300,
+    "question": "Đối tượng chịu thuế gián thu là:",
+    "options": {
+      "A": "Các tổ chức và cá nhân có thu nhập cao.",
+      "B": "Người tiêu dùng cuối cùng khi mua hàng hóa hoặc dịch vụ.",
+      "C": "Các doanh nghiệp xuất khẩu."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 301,
+    "question": "Tịch thu tài sản vi phạm được quy định bởi cơ quan nào?",
+    "options": {
+      "A": "Các tổ chức phi chính phủ.",
+      "B": "Các cơ quan Nhà nước có thẩm quyền (Tòa án, Cơ quan Công an, Hải quan, v.v.).",
+      "C": "Các tổ chức tài chính quốc tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 302,
+    "question": "Khoản chi nào dưới đây không phải là chi thường xuyên của nhà nước?",
+    "options": {
+      "A": "Chi cho hoạt động lương bổng của cán bộ, công chức",
+      "B": "Chi cho việc mua sắm, duy trì trang thiết bị hành chính",
+      "C": "Chi đầu tư xây dựng công trình cơ sở hạ tầng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 303,
+    "question": "Chi cho an ninh quốc phòng là khoản chi nào trong ngân sách nhà nước?",
+    "options": {
+      "A": "Chi thường xuyên",
+      "B": "Chi đầu tư phát triển",
+      "C": "Chi cho chương trình tín dụng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 304,
+    "question": "Nợ nước ngoài bao gồm các khoản nợ nào?",
+    "options": {
+      "A": "Nợ của Chính phủ, các doanh nghiệp nhà nước và các tổ chức tài chính quốc gia.",
+      "B": "Nợ của Chính phủ và các khoản vay của các doanh nghiệp nhà nước, tổ chức tài chính quốc tế.",
+      "C": "Nợ của các tổ chức phi chính phủ và các khoản vay từ các cá nhân nước ngoài."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 305,
+    "question": "Các nguồn vốn ngắn hạn mà doanh nghiệp thường sử dụng không bao gồm:",
+    "options": {
+      "A": "Phải trả người bán",
+      "B": "Ứng trước của người mua",
+      "C": "Các khoản phải trả dài hạn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 306,
+    "question": "Nguồn tài trợ dài hạn bao gồm các yếu tố nào sau đây?",
+    "options": {
+      "A": "Vốn chủ sở hữu và vay dài hạn",
+      "B": "Vốn vay ngắn hạn và vốn chủ sở hữu",
+      "C": "Vốn chủ sở hữu và khoản phải trả ngắn hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 307,
+    "question": "Vốn chủ sở hữu trong nguồn tài trợ dài hạn là gì?",
+    "options": {
+      "A": "Vốn vay từ ngân hàng thương mại",
+      "B": "Vốn mà chủ sở hữu đóng góp hoặc lợi nhuận chưa phân phối giữ lại để tái đầu tư",
+      "C": "Vốn vay dài hạn từ thị trường trái phiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 308,
+    "question": "Nguồn vốn vay dài hạn chủ yếu đến từ đâu?",
+    "options": {
+      "A": "Vay từ các tổ chức tài chính quốc tế",
+      "B": "Vay từ ngân hàng thương mại và phát hành trái phiếu",
+      "C": "Vay từ các tổ chức tài chính phi ngân hàng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 309,
+    "question": "Cách xác định lợi nhuận của doanh nghiệp là:",
+    "options": {
+      "A": "Lợi nhuận = Lợi nhuận từ hoạt động sản xuất kinh doanh + Lợi nhuận từ hoạt động tài chính",
+      "B": "Lợi nhuận = Lợi nhuận từ hoạt động kinh doanh - Lợi nhuận khác",
+      "C": "Lợi nhuận = Doanh thu – Chi phí sản xuất kinh doanh"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 310,
+    "question": "Chỉ tiêu tỷ suất lợi nhuận doanh thu (ROS) được tính như thế nào?",
+    "options": {
+      "A": "ROS = (Lợi nhuận / Doanh thu) x 100",
+      "B": "ROS = (Lợi nhuận / Tổng tài sản) x 100",
+      "C": "ROS = (Lợi nhuận / Vốn chủ sở hữu) x 100"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 311,
+    "question": "Lợi nhuận sau thuế được tính bằng:",
+    "options": {
+      "A": "Lợi nhuận trước thuế – Thuế thu nhập doanh nghiệp",
+      "B": "Lợi nhuận hoạt động kinh doanh – Lợi nhuận từ hoạt động khác",
+      "C": "Lợi nhuận từ hoạt động sản xuất kinh doanh – Chi phí sản xuất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 312,
+    "question": "Chi phí nào không phải là chi phí sản xuất kinh doanh của doanh nghiệp?",
+    "options": {
+      "A": "Chi phí nguyên liệu",
+      "B": "Chi phí quảng cáo",
+      "C": "Chi phí trả lãi vay"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 313,
+    "question": "Giá thành toàn bộ của sản phẩm bao gồm:",
+    "options": {
+      "A": "Chi phí chỉ liên quan đến sản xuất sản phẩm",
+      "B": "Chi phí sản xuất và chi phí tiêu thụ sản phẩm",
+      "C": "Chỉ các chi phí phát sinh trong quá trình tiêu thụ sản phẩm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 314,
+    "question": "Tài sản cố định hữu hình bao gồm:",
+    "options": {
+      "A": "Nhà cửa, máy móc, thiết bị, phương tiện vận tải",
+      "B": "Quyền sử dụng đất, quyền sở hữu trí tuệ",
+      "C": "Cổ phiếu, trái phiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 315,
+    "question": "Nhóm nào dưới đây là tài sản cố định vô hình?",
+    "options": {
+      "A": "Phần mềm máy tính, quyền sở hữu trí tuệ, nhãn hiệu",
+      "B": "Lợi nhuận = Lợi nhuận từ hoạt động kinh doanh - Lợi nhuận khác",
+      "C": "Lợi nhuận = Doanh thu – Chi phí sản xuất kinh doanh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 316,
+    "question": "Tài sản lưu động gồm các loại nào dưới đây?",
+    "options": {
+      "A": "Tiền mặt, các khoản phải thu, hàng tồn kho",
+      "B": "Máy móc, thiết bị sản xuất",
+      "C": "Bất động sản và quyền sử dụng đất"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 317,
+    "question": "Tài sản cố định có thể giảm giá trị do yếu tố nào?",
+    "options": {
+      "A": "Chỉ do hư hỏng vật lý",
+      "B": "Chỉ do sự biến động của thị trường",
+      "C": "Do sự hao mòn, hư hỏng hoặc giảm giá trị sử dụng theo thời gian"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 318,
+    "question": "Tỷ suất lợi nhuận vốn chủ sở hữu (ROE) phản ánh điều gì?",
+    "options": {
+      "A": "Cứ 100 đồng vốn chủ sở hữu sẽ tạo ra bao nhiêu đồng lợi nhuận",
+      "B": "Cứ 100 đồng tài sản sẽ tạo ra bao nhiêu đồng lợi nhuận",
+      "C": "Cứ 100 đồng lợi nhuận sẽ thu được bao nhiêu đồng doanh thu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 319,
+    "question": "Chỉ tiêu nào dưới đây phản ánh hiệu quả sử dụng tài sản của doanh nghiệp?",
+    "options": {
+      "A": " Tỷ suất lợi nhuận doanh thu (ROS)",
+      "B": "Tỷ suất lợi nhuận tổng tài sản (ROA)",
+      "C": "Tỷ suất lợi nhuận vốn chủ sở hữu (ROE)"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 320,
+    "question": "Khoản thu nhập nào sau đây được coi là thu nhập thường xuyên của cá nhân, hộ gia đình?",
+    "options": {
+      "A": "Thu nhập từ trúng xổ số",
+      "B": "Thu nhập từ hợp đồng bảo hiểm",
+      "C": "Thu nhập từ tiền công, tiền lương"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 321,
+    "question": "Thu nhập bất thường của cá nhân, hộ gia đình bao gồm các khoản nào?",
+    "options": {
+      "A": "Thu nhập từ lao động và thu nhập từ hoạt động tiết kiệm",
+      "B": "Thu nhập từ lãi trái phiếu, cổ tức và trợ cấp từ ngân sách nhà nước",
+      "C": "Thu nhập từ tiền công, tiền lương và trợ cấp bảo hiểm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 322,
+    "question": "Nguyên tắc nào dưới đây không phải là nguyên tắc cơ bản trong quản lý tài chính hộ gia đình?",
+    "options": {
+      "A": "Xác định các chi phí, lợi ích của việc đầu tư",
+      "B": "Xác định giá trị của tiền theo thời gian",
+      "C": "Tăng trưởng thu nhập mà không kiểm soát chi tiêu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 323,
+    "question": "Nguyên tắc nào sau đây giúp các hộ gia đình có thể đảm bảo tài chính trong trường hợp khẩn cấp?",
+    "options": {
+      "A": "Tăng thu nhập đều đặn",
+      "B": "Lập quỹ dự phòng khẩn cấp",
+      "C": "Cắt giảm chi tiêu cho mọi thứ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 324,
+    "question": "Dòng thu nhập của một cá nhân hoặc hộ gia đình có thể đến từ những nguồn nào?",
+    "options": {
+      "A": "Lương, tiền lãi từ tiết kiệm, cổ tức từ cổ phiếu, thu nhập từ cho thuê, kinh doanh bất động sản",
+      "B": "Lương và tiền trợ cấp xã hội",
+      "C": "Chỉ từ tiền lãi từ ngân hàng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 325,
+    "question": "Tiết kiệm nào dưới đây giúp các hộ gia đình có thu nhập thấp có thể chi tiêu khi cần khoản tiền lớn mà không phải vay nợ ngay lập tức?",
+    "options": {
+      "A": "Tiết kiệm xuôi (saving up)",
+      "B": "Tiết kiệm ngược (saving down)",
+      "C": "Tiết kiệm quay vòng (saving through)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 326,
+    "question": "Thu nhập từ thừa kế hoặc trúng xổ số thuộc loại thu nhập nào?",
+    "options": {
+      "A": "Thu nhập thường xuyên",
+      "B": "Thu nhập không thường xuyên",
+      "C": "Thu nhập ổn định"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 327,
+    "question": "Chi tiêu cố định thường xuyên bao gồm những khoản nào?",
+    "options": {
+      "A": "Chi phí cho thực phẩm và hàng tạp hoá",
+      "B": "Thuế tài sản, bảo hiểm chủ sở hữu nhà, bảo trì xe",
+      "C": "Chi phí cho giáo dục, giải trí, và chăm sóc cá nhân"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 328,
+    "question": "Chi tiêu linh hoạt của hộ gia đình bao gồm các khoản nào?",
+    "options": {
+      "A": "Tiền thuê nhà và bảo hiểm nhân thọ",
+      "B": "Quà tặng, chi phí giải trí, chi phí y tế tự trả",
+      "C": "Khoản vay mua tài sản lớn như nhà ở"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 329,
+    "question": "Chi tiêu nợ của cá nhân, hộ gia đình bao gồm các khoản nào?",
+    "options": {
+      "A": "Chi phí cho các hóa đơn dịch vụ tiện ích hàng tháng",
+      "B": "Các khoản vay mua tài sản giá trị lớn, vay tiêu dùng, khoản thanh toán thẻ tín dụng",
+      "C": "Chi phí cho thực phẩm và quần áo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 330,
+    "question": "Trong ngân sách của hộ gia đình, khoản chi tiêu nào có thể điều chỉnh để giúp cân đối chi tiêu?",
+    "options": {
+      "A": "Chi tiêu cố định thường xuyên",
+      "B": "Chi tiêu linh hoạt",
+      "C": "Chi tiêu nợ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 331,
+    "question": "Lợi nhuận từ đầu tư vào cổ phiếu thường đến từ nguồn nào?",
+    "options": {
+      "A": "Cổ tức và việc tăng giá cổ phiếu",
+      "B": "Lãi suất ngân hàng",
+      "C": "Chênh lệch giữa giá mua và giá bán trái phiếu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 332,
+    "question": "Đầu tư vào bất động sản có thể tạo ra lợi nhuận từ hai nguồn chính nào?",
+    "options": {
+      "A": "Thu nhập từ bán trái phiếu và cổ phiếu",
+      "B": "Thu nhập từ tiền thuê tài sản và lợi nhuận từ việc bán lại tài sản",
+      "C": "Thu nhập từ lãi suất ngân hàng và cổ tức"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 333,
+    "question": "Lợi nhuận từ đầu tư vào trái phiếu chủ yếu đến từ đâu?",
+    "options": {
+      "A": "Lợi nhuận từ bán lại cổ phiếu",
+      "B": "Các khoản thanh toán lãi coupon và từ việc tăng giá trái phiếu",
+      "C": "Tăng giá trị của quỹ tương hỗ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 334,
+    "question": "Một hộ gia đình vay tiền để chi tiêu vào các nhu cầu tiêu dùng như mua sắm, ăn uống là một hình thức vay nhằm mục đích:",
+    "options": {
+      "A": "Đ ầu tư",
+      "B": "Tiêu dùng",
+      "C": "Khi có bi ến cố xảy ra"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 335,
+    "question": "Các hình thức đầu tư trong dòng tài chính quốc tế thuộc cán cân vốn bao gồm gì?",
+    "options": {
+      "A": "Đầu tư trực tiếp nước ngoài (FDI), đầu tư gián tiếp nước ngoài (FPI), tín dụng quốc tế, ODA ",
+      "B": "Đầu tư trực tiếp vào thị trường chứng khoán ",
+      "C": "Đầu tư vào các dự án cơ sở hạ tầng nội địa "
+    },
+    "answer": "B"
+  },
+  {
+    "id": 336,
+    "question": "Một trong những bất lợi lớn của OD",
+    "options": {
+      "A": "hiệu quả",
+      "B": "Các nước nhận viện trợ k hông có kinh nghiệm sử dụng OD",
+      "C": "Việc mua sắm máy móc và thiết bị từ các nhà tài trợ không cần thiết cho nền kinh tế địa phương"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 337,
+    "question": "Khi m ột doanh nghi ệp trong nư ớc bán l ại công ty c ủa mình cho m ột công ty nư ớc ngoài, hình th ức FDI này đư ợc gọi là gì?",
+    "options": {
+      "A": "Đ ầu tư m ới",
+      "B": "Mua bán sáp nh ập",
+      "C": "FDI hàng d ọc"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 338,
+    "question": "FDI hình th ức liên doanh (Joint Venture) yêu c ầu:",
+    "options": {
+      "A": "Doanh nghi ệp trong nư ớc góp v ốn cùng v ới doanh nghi ệp nước ngoài và thành l ập doanh nghiệp mới",
+      "B": "Doanh nghi ệp nước ngoài mua l ại công ty trong nư ớc",
+      "C": "Doanh nghi ệp trong nư ớc tự thành l ập công ty và tìm đ ối tác nư ớc ngoài đ ể hợp tác"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 339,
+    "question": "Điều gì có thể xảy ra khi các quốc gia nhận OD",
+    "options": {
+      "A": "Quốc gia đó sẽ bị các tổ chức quốc tế phạt nặng",
+      "B": "Quốc gia đó sẽ phải giảm tỷ lệ nhập khẩu từ các nước phát triển",
+      "C": "Quốc gia đó có thể bị mắc vào tình trạng nợ nần và khủng hoảng tài chính"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 340,
+    "question": "Khi t ỷ giá h ối đoái c ủa một quốc gia m ạnh lên so v ới các qu ốc gia khác, đi ều này:",
+    "options": {
+      "A": "Gi ảm sức hấp dẫn đối với các nhà đ ầu tư nư ớc ngoài",
+      "B": "Tăng kh ả năng sinh l ợi của các kho ản đầu tư và thu hút FDI",
+      "C": "Không có ảnh hư ởng đến quy ết định đầu tư"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 341,
+    "question": "Khi lạm phát của một quốc gia tăng cao so với các quốc gia khác, điều này sẽ:",
+    "options": {
+      "A": "Tăng cường sức hấp dẫn của quốc gia đó đối với FDI",
+      "B": "Giảm khả năng thu hút FDI vì các nhà đầu tư không muốn đầu tư vào quốc gia có lạm phát cao",
+      "C": "Không ảnh hưởng đến dòng ch ảy của FDI"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 342,
+    "question": "Một trong những lợi ích của FDI đối với các quốc gia đang phát triển là gì?",
+    "options": {
+      "A": "FDI không tạo ra tác động gì đối với việc nâng cao trình độ lao động và kỷ luật công việc",
+      "B": "FDI giúp tạo ra nhiều công ăn việc làm và nâng cao thu nhập cho người lao động",
+      "C": "FD I không ảnh hưởng đến trình độ sản xuất và quản lý tại các doanh nghiệp trong nước"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 343,
+    "question": "FDI có thể giúp nhà đầu tư nước ngoài tăng trưởng và thu lợi nhuận nhanh chóng nhờ vào:",
+    "options": {
+      "A": "Giảm chi phí vận chuyển , nguồn nguyên vật liệu và lao động giá rẻ",
+      "B": "Việc áp dụng công nghệ mới và nâng cao năng lực cạnh tranh",
+      "C": "Sử dụng nguồn lao động miễn phí tại nước sở tại"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 344,
+    "question": "Các động tiêu cực của FDI đối với doanh nghiệp nội địa ở quốc gia tiếp nhận vốn là gì?",
+    "options": {
+      "A": "Các doanh nghiệp FDI áp dụng công nghệ hiện đại và làm giảm cạnh tranh với doanh nghiệp trong nước",
+      "B": "Doanh nghiệp FDI có thể giảm giá thành sản phẩm và \"bóp chết\" sản xuất trong nước",
+      "C": "Doanh nghiệp trong nước không phải cạnh tranh với các công ty nước ngoài"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 345,
+    "question": "Các nhà đầu tư FPI có thể thực hiện đầu tư thông qua các hình thức nào dưới đây?",
+    "options": {
+      "A": "Quỹ đầu tư chứng khoán và các định chế tài chính trung gian khác",
+      "B": "Mua lại các công ty trong nước để thành lập doanh nghiệp mới",
+      "C": "Đầu tư vào công nghệ và nghiên cứu phát triển"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 346,
+    "question": "Lãi suất ảnh hưởng đến dòng vốn FPI như thế nào?",
+    "options": {
+      "A": "Dòng vốn FPI sẽ dịch chuyển đến những quốc gia có lãi suất thấp",
+      "B": "Dòng vốn FPI sẽ dịch chuyển đến những quốc gia có lãi suất cao",
+      "C": "Lãi suất không ảnh hưởng đến FPI"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 347,
+    "question": "FPI có thể ảnh hưởng tích cực đến các quốc gia tiếp nhận đầu tư thông qua:",
+    "options": {
+      "A": "Làm tăng vốn đầu tư trong nước và giảm thiểu rủi ro",
+      "B": "Thúc đẩy sự phát triển của các công ty nước ngoài",
+      "C": "Cải thiện thị trường tài chính quốc tế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 348,
+    "question": "Khi tỷ giá hối đoái của một quốc gia yếu đi, nhà đầu tư nước ngoài có thể:",
+    "options": {
+      "A": "Mua thêm cổ phiếu trong quốc gia đó để tận dụng mức tỷ giá thấp",
+      "B": "Quyết định bán chứng khoán hiện tại để chuyển sang các quốc gia có đồng tiền mạnh hơn",
+      "C": "Tăng cường đầu tư vào chứng khoán quốc gia đó"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 349,
+    "question": "OD",
+    "options": {
+      "A": "Hỗ trợ cho các dự án phát triển cơ sở hạ tầng",
+      "B": "Hỗ trợ ngân sách, hỗ trợ trả nợ, hỗ trợ hàng hóa, hỗ trợ chương trình",
+      "C": "Hỗ trợ cho vay ưu đãi đối với các dự án cụ thể"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 350,
+    "question": "Đối tượng phải nộp tiền phạt vi phạm pháp luật là:",
+    "options": {
+      "A": "Các cá nhân, tổ chức vi phạm hành chính hoặc hình sự.",
+      "B": "Các tổ chức phi lợi nhuận.",
+      "C": "Các tổ chức tài chính quốc tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 351,
+    "question": "Công cụ tài chính nào mang lại quyền lợi sở hữu đối với công ty phát hành?",
+    "options": {
+      "A": "Trái phiếu",
+      "B": "Cổ phiếu",
+      "C": "Hợp đồng tương lai"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 352,
+    "question": "Cổ phiếu ưu đãi khác với cổ phiếu thường ở điểm nào?",
+    "options": {
+      "A": "Cổ phiếu ưu đãi không có quyền biểu quyết",
+      "B": "Cổ phiếu ưu đãi được trả cổ tức trước cổ phiếu thường",
+      "C": "Cổ phiếu ưu đãi có rủi ro cao hơn cổ phiếu thường"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 353,
+    "question": "Hợp đồng quyền chọn (options) là gì?",
+    "options": {
+      "A": "Một hợp đồng cho phép người mua có quyền lựa chọn mua hoặc bán một tài sản với mức giá xác định trong một khoảng thời gian nhất định",
+      "B": "Một loại trái phiếu có thể chuyển nhượng",
+      "C": "Một dạng vay nợ mà không có thế chấp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 354,
+    "question": "Công cụ tài chính nào có thể giúp nhà đầu tư bảo vệ khỏi sự biến động của giá tài sản cơ sở?",
+    "options": {
+      "A": "Cổ phiếu",
+      "B": "Hợp đồng quyền chọn và hợp đồng tương lai",
+      "C": "Trái phiếu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 355,
+    "question": "Tính thanh khoản của một công cụ tài chính thể hiện điều gì?",
+    "options": {
+      "A": "Công cụ tài chính có thể được mua bán dễ dàng và nhanh chóng mà không làm thay đổi giá trị của nó",
+      "B": "Công cụ tài chính có mức lãi suất cao",
+      "C": "Công cụ tài chính có thể được sử dụng làm thế chấp vay vốn"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 356,
+    "question": "Thị trường tiền tệ là nơi giao dịch:",
+    "options": {
+      "A": "Các chứng khoán dài hạn",
+      "B": "Các khoản vay ngắn hạn và các công cụ tài chính có kỳ hạn dưới một năm",
+      "C": "Cổ phiếu của các công ty niêm yết"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 357,
+    "question": "Các công cụ tài chính phái sinh được sử dụng để:",
+    "options": {
+      "A": "Bảo vệ rủi ro hoặc đầu cơ vào sự thay đổi giá của tài sản cơ sở",
+      "B": "Đầu tư vào cổ phiếu với tỷ lệ lợi nhuận không đổi",
+      "C": "Đảm bảo cho một khoản vay có lãi suất cố định"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 358,
+    "question": "Các tổ chức tín dụng chủ yếu cung cấp sản phẩm gì trên thị trường tài chính?",
+    "options": {
+      "A": "Dịch vụ môi giới chứng khoán",
+      "B": "Các khoản vay, tín dụng và các sản phẩm tài chính khác",
+      "C": "Đầu tư vào cổ phiếu và trái phiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 359,
+    "question": "Cổ phiếu được phát hành bởi nhà phát hành có thể cung cấp cho nhà đầu tư quyền gì?",
+    "options": {
+      "A": "Quyền mua lại cổ phiếu của công ty",
+      "B": "Quyền sở hữu một phần của công ty và nhận cổ tức",
+      "C": "Quyền yêu cầu công ty mua lại cổ phiếu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 360,
+    "question": "Các công ty chứng khoán có vai trò gì trong việc hỗ trợ thị trường tài chính?",
+    "options": {
+      "A": "Cung cấp tín dụng cho các doanh nghiệp",
+      "B": "Tổ chức các giao dịch chứng khoán, môi giới và tư vấn cho các nhà đầu tư",
+      "C": "Quản lý các ngân hàng thương mại"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 361,
+    "question": "Các công cụ chính được giao dịch trên thị trường vốn là gì?",
+    "options": {
+      "A": "Cổ phiếu và trái phiếu .",
+      "B": " Tiền tệ và vàng ",
+      "C": "Sổ tiết kiệm và các khoản vay ngắn hạn."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 362,
+    "question": "Một trong những chức năng của quỹ đầu tư, một loại hình định chế tài chính trung gian, là:",
+    "options": {
+      "A": "Cung cấp bảo hiểm cho các cá nhân và doanh nghiệp",
+      "B": "Đầu tư vốn vào các dự án lớn để kiếm lời cho nhà đầu tư",
+      "C": "Phát hành tiền tệ quốc gia D. Kiểm tra tình hình tài chính của các tổ chức tín dụng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 363,
+    "question": "Ngân hàng thương mại có thể huy đ ộng vốn bằng cách phát hành cổ phiếu. Tuy nhiên, vi ệc phát hành c ổ phiếu sẽ có như ợc điểm gì?",
+    "options": {
+      "A": "Cổ phiếu không thể giao dịch trên thị trường chứng khoán.",
+      "B": "Ngân hàng có thể phải chia sẻ quyền kiểm soát với cổ đông mới.",
+      "C": "Việc phát hành cổ phiếu có thể gây ra rủi ro tín dụng cao."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 364,
+    "question": "Một trong những đặc điểm cơ bản của khu vực công là:",
+    "options": {
+      "A": "Chỉ hoạt động trong lĩnh vực tài chính",
+      "B": "Cung cấp dịch vụ công cộng phục vụ lợi ích chung",
+      "C": "Nhắm đến lợi nhuận cao"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 365,
+    "question": "Đặc điểm nào sau đây không phải là của khu vực công?",
+    "options": {
+      "A": "Quản lý và cung cấp các dịch vụ công",
+      "B": "Được tài trợ chủ yếu bằng ngân sách nhà nước",
+      "C": "Hướng tới lợi nhuận và tăng trưởng như khu vực tư nhân"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 366,
+    "question": "Đặc điểm nào dưới đây không phải là đặc điểm của hàng hóa công?",
+    "options": {
+      "A": "Không thể loại trừ người tiêu dùng",
+      "B": "Tiêu dùng của một người không làm giảm sự tiêu dùng của người khác",
+      "C": "Sản phẩm có thể chia nhỏ để bán cho từng cá nhân"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 367,
+    "question": "Đâu là ví dụ điển hình về hàng hóa công?",
+    "options": {
+      "A": "Học phí ở trường đại học t ư",
+      "B": "Điện năng sản xuất bởi các doanh nghiệp tư nhân",
+      "C": "An ninh quốc phòng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 368,
+    "question": "Các nguồn lực công chủ yếu được thu từ đâu?",
+    "options": {
+      "A": "Thuế, phí, vay nợ công và các khoản thu khác từ tài sản công.",
+      "B": "Các khoản tài trợ từ nước ngoài và các tổ chức quốc tế.",
+      "C": "Tiền gửi của các tổ chức tư nhân."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 369,
+    "question": "Thuế thu nhập cá nhân là một loại thuế trực thu, nghĩa là:",
+    "options": {
+      "A": "Thuế được thu từ các sản phẩm tiêu dùng của người dân.",
+      "B": "Thuế được thu từ thu nhập của cá nhân, công ty, tổ chức.",
+      "C": "Thuế được thu từ tài sản của cá nhân, tổ chức."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 370,
+    "question": "Thuế thu nhập doanh nghiệp được tính trên:",
+    "options": {
+      "A": "Doanh thu hàng năm của công ty.",
+      "B": "Lợi nhuận mà doanh nghiệp tạo ra trong một kỳ kế toán.",
+      "C": "Số lượng sản phẩm mà công ty bán ra trong năm."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 371,
+    "question": "Thuế tài nguyên là loại thuế đánh vào:",
+    "options": {
+      "A": "Thu nhập của cá nhân và tổ chức.",
+      "B": "Tài sản và giá trị thừa kế.",
+      "C": "Sử dụng tài nguyên thiên nhiên, khoáng sản, nước và đất đai."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 372,
+    "question": "Thuế tiêu thụ đặc biệt áp dụng đối với:",
+    "options": {
+      "A": "Các hàng hóa, dịch vụ có tính chất xa xỉ hoặc gây hại cho sức khỏe cộng đồng.",
+      "B": "Các mặt hàng thiết yếu như thực phẩm và thuốc men.",
+      "C": "Các khoản thu nhập của cá nhân và tổ chức."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 373,
+    "question": "Thuế giá trị gia tăng (VAT) có đối tượng chịu thuế là:",
+    "options": {
+      "A": "Nhà cung cấp hàng hóa, dịch vụ.",
+      "B": "Người tiêu dùng cuối cùng khi mua sản phẩm hoặc dịch vụ.",
+      "C": "Các tổ chức tài chính và ngân hàng."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 374,
+    "question": "Đối tượng phải nộp phí và lệ phí là:",
+    "options": {
+      "A": "Các doanh nghiệp lớn có lợi nhuận cao.",
+      "B": "Tất cả các cá nhân và tổ chức khi sử dụng dịch vụ công và tham gia các thủ tục hành chính.",
+      "C": "Các tổ chức phi chính phủ."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 375,
+    "question": "Lệ phí cấp hộ chiếu là:",
+    "options": {
+      "A": "Một khoản thu nhằm tài trợ cho các chương trình bảo vệ an ninh quốc gia.",
+      "B": "Một khoản phí hành chính do Nhà nước thu để bù đắp chi phí cấp giấy tờ hành chính.",
+      "C": "Một khoản thu chỉ áp dụng cho những người xuất khẩu."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 376,
+    "question": "Đặc điểm của chi đầu tư phát triển là gì?",
+    "options": {
+      "A": "Là chi phí chỉ chi một lần và không có tác dụng lâu dài.",
+      "B": "Là chi phí được chi trả cho các hoạt động ngắn hạn và có tính chất tiêu dùng.",
+      "C": "Là chi phí dài hạn, tạo ra tài sản và gia tăng giá trị nền kinh tế."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 377,
+    "question": "Đầu tư vào cơ sở hạ tầng có thể dẫn đến?",
+    "options": {
+      "A": "Tăng trưởng kinh tế bền vững và thúc đẩy phát triển xã hội.",
+      "B": "Làm giảm hiệu quả sản xuất và tăng chi phí.",
+      "C": "Làm nền kinh tế trở nên lạc hậu."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 378,
+    "question": "Chi thường xuyên của nhà nước là gì?",
+    "options": {
+      "A": "Chi cho các dự án đầu tư cơ sở hạ tầng",
+      "B": "Chi cho các hoạt động quản lý, điều hành của các cơ quan nhà nước",
+      "C": "Chi cho các khoản vay và nợ của nhà nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 379,
+    "question": "Cân đối ngân sách nhà nước là gì?",
+    "options": {
+      "A": "Là việc phân bổ các khoản thu và chi của nhà nước cho từng chương trình, dự án cụ thể.",
+      "B": "Là việc đảm bảo sự cân bằng giữa tổng thu và tổng chi trong ngân sách nhà nước.",
+      "C": "Là việc quyết định số tiền vay mượn của nhà nước để chi cho các hoạt động."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 380,
+    "question": "Thâm hụt ngân sách nhà nước là gì?",
+    "options": {
+      "A": "Là tình trạng khi tổng chi ngân sách vượt quá tổng thu ngân sách trong một kỳ.",
+      "B": "Là tình trạng khi tổng thu ngân sách lớn hơn tổng chi ngân sách.",
+      "C": "Là tình trạng khi ngân sách nhà nước không có đủ nguồn lực để chi trả các khoản vay."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 381,
+    "question": "Nợ công là gì?",
+    "options": {
+      "A": "Là tổng số tiền mà Chính phủ phải trả cho các khoản vay từ các tổ chức quốc tế.",
+      "B": "Là tổng số tiền mà Chính phủ, các cơ quan nhà nước và các tổ chức công vay và phải trả nợ.",
+      "C": "Là tổng số tiền mà nhà nước vay từ các cá nhân trong nước để chi cho các dự án đầu tư."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 382,
+    "question": "An toàn nợ công là gì?",
+    "options": {
+      "A": "Là mức nợ công mà một quốc gia có thể chi trả mà không gặp phải rủi ro vỡ nợ hoặc làm giảm khả năng phát triển kinh tế.",
+      "B": "Là tình trạng khi Chính phủ không vay nợ từ các nguồn quốc tế.",
+      "C": "Là khi nợ công chỉ tập trung vào các khoản vay trong nước, không vay nợ từ nước ngoài."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 383,
+    "question": "Nợ nước ngoài là gì?",
+    "options": {
+      "A": "Là các khoản nợ mà Chính phủ, các cơ quan nhà nước và doanh nghiệp trong nước vay từ các tổ chức, cá nhân nước ngoài.",
+      "B": "Là các khoản nợ mà chỉ có Chính phủ vay từ các quốc gia khác.",
+      "C": "Là các khoản nợ mà chỉ có các doanh nghiệp tư nhân vay từ các tổ chức quốc tế."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 384,
+    "question": "Vai trò c ủa vốn đối với các doanh nghi ệp là:",
+    "options": {
+      "A": "Đi ều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát tri ển.",
+      "B": "Điều kiện để doanh nghi ệp ra đ ời và chi ến thắng trong c ạnh tranh.",
+      "C": "Đ iều kiện để sản xuất kinh doanh di ễn ra liên t ục và ổn định ."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 385,
+    "question": "Thông thư ờng, ch ủ sở hữu doanh nghi ệp đang kinh doanh hi ệu quả ưa chu ộng hình th ức vay nợ hơn phát hành c ổ phiếu phổ thông, lý do quan tr ọng nh ất là:",
+    "options": {
+      "A": "Không muốn chia sẻ quyền quản lý công ty",
+      "B": "Lợi ích từ đòn bẩy tài chính",
+      "C": "Phân tán rủi ro"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 386,
+    "question": "Câu nào sau đây không phải là nguồn dài hạn cho hoạt động kinh doanh",
+    "options": {
+      "A": "Trái phiếu",
+      "B": "Lợi nhuận giữ lại",
+      "C": "Các khoản phải thu ngắn hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 387,
+    "question": "Câu nào sau đây không phải là tài sản lưu động?",
+    "options": {
+      "A": "Các khoản phải thu",
+      "B": "Hàng tồn kho",
+      "C": "Nhà xưởng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 388,
+    "question": "Chi phí thanh lý, nhượng bán tài sản cố định thuộc:",
+    "options": {
+      "A": "Chi phí tài chính",
+      "B": "Chi phí bán hàng",
+      "C": "Chi phí khác"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 389,
+    "question": "Trong khi lập kế hoạch tiết kiệm, tại sao cần phải xác định số tiền có thể tiết kiệm được từ thu nhập?",
+    "options": {
+      "A": "Đ ể tính toán các kho ản thu ế phải nộp",
+      "B": "Đ ể lập ra m ột kế hoạch tiết kiệm thực tế và kh ả thi",
+      "C": "Đ ể biết số tiền sẽ dùng cho các kho ản chi tiêu ng ắn hạn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 390,
+    "question": "Mô hình tiết kiệm \"vòng đời\" có ý nghĩa gì đối với việc lập kế hoạch tài chính cá nhân?",
+    "options": {
+      "A": "Nó giúp xác đ ịnh tỷ lệ tiết kiệm cho m ỗi giai đo ạn trong cu ộc đời và k ế hoạch chi tiêu khi ngh ỉ hưu",
+      "B": "Nó ch ỉ ra rằng vi ệc tiết kiệm là không c ần thiết cho các cá nhân có thu nh ập cao",
+      "C": "Nó không quan tr ọng vì ch ỉ áp dụng cho nh ững ngư ời có thu nh ập thấp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 391,
+    "question": "Tiết kiệm của cá nhân, hộ gia đình giúp họ làm gì?",
+    "options": {
+      "A": "Đ ảm bảo cuộc sống hi ện tại mà không c ần lo l ắng về tương lai",
+      "B": "Chi tiêu không gi ới hạn mà không c ần tính toán",
+      "C": "Ứng phó v ới những sự kiện không mong đ ợi và th ực hiện kế hoạch tương lai"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 392,
+    "question": "Trong bước \"Xác định thu nhập và chi tiêu\", mục tiêu chính là gì?",
+    "options": {
+      "A": "Dự phòng cho bệnh tật và tai nạn",
+      "B": "Đặt mục tiêu tiết kiệm và chi tiêu hợp lý từ nguồn thu nhập",
+      "C": "Lên kế hoạch đầu tư dài hạn"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 393,
+    "question": "Khi lập \"Kế hoạch tiết kiệm và đầu tư\", mục tiêu là gì?",
+    "options": {
+      "A": "Tạo ra thu nhập từ các khoản đầu tư và bảo toàn vốn",
+      "B": "Tiết kiệm tất cả thu nhập mà không đầu tư",
+      "C": "Chi tiêu một phần thu nhập mỗi tháng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 394,
+    "question": "Mục tiêu chính của việc quản lý tài chính cá nhân là gì?",
+    "options": {
+      "A": "Đ ầu tư vào các qu ỹ chứng khoán",
+      "B": "Đ ảm bảo có đ ủ tiền chi tiêu hàng ngày",
+      "C": "Đ ối phó v ới những giai đo ạn khó khăn, đ ầu tư tài s ản hiệu quả và ngăn ng ừa rủi ro"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 395,
+    "question": "Việc xây dựng kế hoạch tài chính cá nhân có thể giúp gì cho các cá nhân và hộ gia đình?",
+    "options": {
+      "A": "Đ ảm bảo có đ ủ tiền cho m ọi nhu c ầu tức thời",
+      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đ ầu tư hi ệu quả hơn, đ ồng th ời đối phó v ới các r ủi ro tài chính",
+      "C": "Ch ỉ tập trung vào vi ệc tiết kiệm tiền"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 396,
+    "question": "Ví dụ nào dưới đây phản ánh đúng nguyên tắc \"Tính toán đến lợi ích, chi phí và rủi ro\" trong quyết định tài chính?",
+    "options": {
+      "A": "Đ ầu tư vào ch ứng khoán vì l ợi nhu ận cao mà không quan tâm đ ến rủi ro",
+      "B": "Lựa chọn gửi tiết kiệm ngân hàng v ới lợi ích th ấp nhưng an toàn hơn là đ ầu tư vào b ất động sản có th ể mang l ại lợi ích cao nhưng có r ủi ro lớn",
+      "C": "Ch ỉ chi tiêu cho các nhu c ầu thiết yếu mà không đ ể dành ti ền cho ti ết kiệm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 397,
+    "question": "Bảo hiểm tài sản giúp hộ gia đình bảo vệ gì?",
+    "options": {
+      "A": "Những thiệt hại về tài sản lớn như nhà cửa, phương tiện đi lại trước các rủi ro không thể dự đoán",
+      "B": "Những rủi ro về sức khỏe của các thành viên trong gia đình",
+      "C": "Các khoản tiền tiết kiệm của gia đình"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 398,
+    "question": "Bảo hiểm nhân thọ bảo vệ gì cho các thành viên trong gia đình?",
+    "options": {
+      "A": "Bảo vệ gia đình khỏi các sự cố về tài chính khi người được bảo hiểm qua đời vì bệnh tật, tai nạn, hoặc tuổi già",
+      "B": "Bảo vệ các tài sản có giá trị của gia đình khỏi hư hại",
+      "C": "Bảo vệ sức khỏe của các thành viên trong gia đình khi đi khám bệnh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 399,
+    "question": "Lợi ích của việc sử dụng sản phẩm bảo hiểm đối với hộ gia đình là gì?",
+    "options": {
+      "A": "Giúp gia đình tiết kiệm tối đa chi phí sinh hoạt",
+      "B": "Giúp gia đình duy trì tâm lý yên tâm, không ngại rủi ro, bất trắc trong cuộc sống",
+      "C": "Tăng trưởng tài sản cá nhân của gia đình một cách nhanh chóng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 400,
+    "question": "Một trong nh ững lý do chính khi ến các t ổ chức tài chính trung gian ra đ ời trong thương m ại quốc tế là:",
+    "options": {
+      "A": "Sự phát tri ển của các kho ản vay và các t ổ chức tín d ụng trong nư ớc.",
+      "B": "Sự gia tăng các giao d ịch mua bán ch ịu và thi ếu hụt vốn tạm thời giữa các qu ốc gia.",
+      "C": "Sự thay đ ổi trong h ệ thống tiền tệ quốc tế."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 401,
+    "question": "Một nhà đ ầu tư qu ốc tế muốn tìm ki ếm cơ h ội đầu tư t ại quốc gia có l ợi thế về thuế thấp và quy đ ịnh lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
+    "options": {
+      "A": "Tăng trư ởng doanh thu ng ắn hạn.",
+      "B": "Tránh thu ế và tối ưu hóa l ợi nhu ận.",
+      "C": "M ở rộng th ị trường tiêu th ụ sản phẩm."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 402,
+    "question": "Đầu tư gián ti ếp nước ngoài ch ủ yếu được thực hiện qua hình th ức nào?",
+    "options": {
+      "A": "Mua cổ phần của doanh nghiệp quốc gia khác.",
+      "B": "Đầu tư vào các quỹ đầu tư quốc tế và trái phiếu quốc tế.",
+      "C": "Đ ầu tư tr ực tiếp vào các doanh nghi ệp quốc gia khác"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 403,
+    "question": "Một công ty Nh ật Bản quy ết định đầu tư vào m ột nhà máy s ản xuất ô tô t ại Việt Nam, n ắm giữ 100% c ổ phần của nhà máy này. Công ty Nh ật Bản cung c ấp toàn b ộ vốn đầu tư và đi ều hành hoạt động sản xuất tại Việt Nam. Đây là ví d ụ về hình th ức tài chính qu ốc tế nào?",
+    "options": {
+      "A": "Đ ầu tư gián ti ếp nước ngoài",
+      "B": "Đ ầu tư tr ực tiếp nước ngoài",
+      "C": "Vi ện trợ phát tri ển chính th ức ODA"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 404,
+    "question": "FDI có thể dẫn đến sự \"chuyển giao công nghệ\" trong quốc gia nhận đầu tư. Điều này có nghĩa là gì?",
+    "options": {
+      "A": "Các công ty qu ốc tế chỉ cung c ấp vốn đầu tư mà không chia s ẻ bất kỳ công ngh ệ nào.",
+      "B": "Các công ty qu ốc tế đầu tư vào qu ốc gia đó có th ể mang đ ến các công ngh ệ mới, kỹ năng qu ản lý và quy trình s ản xuất hiện đại.",
+      "C": "Công ngh ệ sẽ bị giữ lại và không đư ợc chia s ẻ với quốc gia ti ếp nhận đầu tư."
+    },
+    "answer": "B"
+  }
+]
