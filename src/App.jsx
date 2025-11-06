@@ -1,225 +1,491 @@
+// src/App.jsx
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import rawQuestions from "./questions.json"; // keep your 404-question JSON in src
 
-import React, { useEffect, useState, useMemo } from 'react';
-import raw from './questions.json';
-
+// ADMIN KEY
 const ADMIN_KEY = "emyeuanhnhanvl";
 
-function loadSaved(){
-  try{
-    const s = localStorage.getItem('sybau_questions_v1');
-    if(s) return JSON.parse(s);
-  }catch(e){}
-  return raw;
+/* ===== utils ===== */
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function shuffleQuestionOptions(q) {
+  const keys = Object.keys(q.options || {});
+  const shuffledKeys = shuffleArray(keys);
+  const newOptions = {};
+  let newAnswer = null;
+  for (let i = 0; i < shuffledKeys.length; i++) {
+    const newKey = String.fromCharCode(65 + i);
+    newOptions[newKey] = q.options[shuffledKeys[i]];
+    if (shuffledKeys[i] === q.answer) newAnswer = newKey;
+  }
+  return { ...q, options: newOptions, answer: newAnswer || q.answer };
+}
+function formatTime(sec) {
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-export default function App(){
-  const [questions, setQuestions] = useState(loadSaved());
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState({});
-  const [mode, setMode] = useState('practice');
+/* ===== local storage helpers ===== */
+const LOCAL_KEY = "sybau_questions_v2";
+function loadSavedQuestions() {
+  try {
+    const s = localStorage.getItem(LOCAL_KEY);
+    if (s) return JSON.parse(s);
+  } catch (e) {
+    // ignore
+  }
+  return null;
+}
+function saveQuestionsToLocal(qs) {
+  try {
+    localStorage.setItem(LOCAL_KEY, JSON.stringify(qs));
+  } catch (e) {
+    console.error("Save failed", e);
+  }
+}
+
+/* ===== App ===== */
+export default function App() {
+  // base questions: either saved in localStorage or rawQuestions
+  const saved = useMemo(() => loadSavedQuestions(), []);
+  const baseQuestionsInit = useMemo(() => {
+    const src = saved && Array.isArray(saved) ? saved : rawQuestions;
+    // ensure consistent shape
+    return src.slice().sort((a, b) => (a.id || 0) - (b.id || 0));
+  }, [saved]);
+
+  const [baseQuestions, setBaseQuestions] = useState(baseQuestionsInit);
+  useEffect(() => saveQuestionsToLocal(baseQuestions), [baseQuestions]);
+
+  // states
+  const [mode, setMode] = useState("practice"); // practice | exam
+  const [practiceIndex, setPracticeIndex] = useState(0);
+  const [answers, setAnswers] = useState({}); // qid -> letter
+  const [examSet, setExamSet] = useState([]); // array of q objects
+  const [examIndex, setExamIndex] = useState(0);
   const [examN, setExamN] = useState(100);
-  const [examSet, setExamSet] = useState([]);
   const [examStarted, setExamStarted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
-  const [timerId, setTimerId] = useState(null);
-  const [adminMode, setAdminMode] = useState(false);
+  const timerRef = useRef(null);
+  const [showResults, setShowResults] = useState(false);
+  const [resultsData, setResultsData] = useState(null);
+
+  // admin
+  const [isAdmin, setIsAdmin] = useState(false);
   const [showEditor, setShowEditor] = useState(false);
   const [editItem, setEditItem] = useState(null);
 
-  useEffect(()=>{
-    if(timerId) return;
-    if(examStarted && timeLeft>0){
-      const t = setInterval(()=> setTimeLeft(s=>{ if(s<=1){ clearInterval(t); finishExam(); return 0;} return s-1 }),1000);
-      setTimerId(t);
-      return ()=>clearInterval(t);
+  // derived
+  const totalQuestions = baseQuestions.length;
+  useEffect(() => {
+    // cleanup on unmount
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, []);
+
+  // practice progress
+  const practiceProgress = useMemo(() => {
+    const answeredIds = Object.keys(answers)
+      .map((k) => parseInt(k))
+      .filter((n) => !Number.isNaN(n));
+    let correct = 0;
+    for (const id of answeredIds) {
+      const q = baseQuestions.find((x) => x.id === id);
+      if (q && answers[id] && q.answer && answers[id] === q.answer) correct++;
     }
-  },[examStarted, timeLeft]);
+    return { answered: answeredIds.length, correct, wrong: answeredIds.length - correct };
+  }, [answers, baseQuestions]);
 
-  useEffect(()=>{ localStorage.setItem('sybau_questions_v1', JSON.stringify(questions)); },[questions]);
+  // current question (practice/exam)
+  const currentQuestion = useMemo(() => {
+    if (mode === "practice") return baseQuestions[practiceIndex] || null;
+    return examSet[examIndex] || null;
+  }, [mode, practiceIndex, examIndex, baseQuestions, examSet]);
 
-  const total = questions.length;
-  const progress = useMemo(()=>{
-    const answered = Object.keys(answers).length;
-    const correct = Object.keys(answers).filter(k=>{
-      const q = questions.find(x=>x.id===parseInt(k));
-      return q && answers[k] && q.answer && answers[k]===q.answer;
-    }).length;
-    return { answered, correct, wrong: answered-correct };
-  },[answers,questions]);
-
-  function selectOption(qid, opt){
-    setAnswers(prev=>({...prev, [qid]: opt}));
-    if(mode==='practice'){
-      // immediate feedback handled via class names in render
+  /* ===== Admin functions ===== */
+  function promptAdminLogin() {
+    const key = prompt("Nhập admin key:");
+    if (key === ADMIN_KEY) {
+      setIsAdmin(true);
+      alert("Admin mode ON");
+    } else {
+      alert("Key sai");
     }
   }
-
-  function startExam(){
-    let N = parseInt(examN) || 100; if(N>total) N=total;
-    const idxs = Array.from({length: total}, (_,i)=>i);
-    for(let i=idxs.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [idxs[i],idxs[j]]=[idxs[j],idxs[i]] }
-    const pick = idxs.slice(0,N);
-    setExamSet(pick);
-    setAnswers({});
-    setExamStarted(true);
-    setMode('exam');
-    setTimeLeft(Math.ceil((3600/100)*N));
-    setIndex(0);
+  function logoutAdmin() {
+    setIsAdmin(false);
+    alert("Admin mode OFF");
   }
-
-  function finishExam(){
-    setExamStarted(false);
-    computeResult();
-  }
-
-  function computeResult(){
-    const setIds = (examStarted && mode==='exam') ? examSet.map(i=>questions[i].id) : Object.keys(answers).map(x=>parseInt(x));
-    const res = grade(setIds);
-    alert(`Kết quả: ${res.correct}/${res.total} — ${res.percent}%`);
-  }
-
-  function grade(setIds){
-    let corr=0; const details=[];
-    setIds.forEach(id=>{
-      const q = questions.find(x=>x.id===id);
-      const ua = answers[id];
-      const isCorrect = q && ua && q.answer && ua===q.answer;
-      if(isCorrect) corr++; else details.push({id, question: q?.question||'', your: ua||null, correct: q?.answer||null});
-    });
-    return { total:setIds.length, correct:corr, wrong:setIds.length-corr, percent: setIds.length?Math.round(100*corr/setIds.length):0, details};
-  }
-
-  function openEditor(q){
-    setEditItem(q ? {...q} : { id: (questions.length? Math.max(...questions.map(x=>x.id))+1 : 1), question:'', options:{A:'',B:'',C:''}, answer:'A' });
+  function openEditor(q) {
+    if (q) setEditItem({ ...q });
+    else {
+      // create new id = max+1
+      const newid = baseQuestions.length ? Math.max(...baseQuestions.map((x) => x.id)) + 1 : 1;
+      setEditItem({ id: newid, question: "", options: { A: "", B: "", C: "" }, answer: "A" });
+    }
     setShowEditor(true);
   }
-
-  function saveEdit(){
-    if(!editItem) return;
-    setQuestions(prev=>{
-      const idx = prev.findIndex(x=>x.id===editItem.id);
+  function saveEdit() {
+    if (!editItem) return;
+    setBaseQuestions((prev) => {
+      const idx = prev.findIndex((x) => x.id === editItem.id);
       let next = [...prev];
-      if(idx>=0) next[idx]=editItem; else next.push(editItem);
-      return next.sort((a,b)=>a.id-b.id);
+      if (idx >= 0) next[idx] = editItem;
+      else next.push(editItem);
+      return next.sort((a, b) => a.id - b.id);
     });
     setShowEditor(false);
+    setEditItem(null);
   }
-
-  function deleteItem(id){
-    if(!confirm('Xóa câu hỏi?')) return;
-    setQuestions(prev=> prev.filter(x=>x.id!==id));
+  function deleteQuestion(id) {
+    if (!confirm("Xóa câu hỏi này?")) return;
+    setBaseQuestions((prev) => prev.filter((x) => x.id !== id));
     setShowEditor(false);
+    // also remove answer state
+    setAnswers((prev) => {
+      const p = { ...prev };
+      delete p[id];
+      return p;
+    });
+  }
+  function exportJSON() {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(baseQuestions, null, 2));
+    const a = document.createElement("a");
+    a.href = dataStr;
+    a.download = "questions_updated.json";
+    a.click();
+  }
+  function importJSONFile(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      try {
+        const parsed = JSON.parse(ev.target.result);
+        if (!Array.isArray(parsed)) return alert("File không hợp lệ");
+        setBaseQuestions(parsed.slice().sort((a, b) => a.id - b.id));
+        alert("Import xong");
+      } catch (err) {
+        alert("Lỗi đọc file");
+      }
+    };
+    reader.readAsText(file);
   }
 
-  function exportJSON(){
-    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(questions, null, 2));
-    const a = document.createElement('a'); a.href = dataStr; a.download = 'questions_updated.json'; a.click();
+  /* ===== Selection and grading logic ===== */
+  function chooseOption(qid, letter) {
+    setAnswers((prev) => {
+      const next = { ...prev, [qid]: letter };
+      return next;
+    });
   }
 
-  function loginAdmin(){
-    const key = prompt('Nhập admin key:');
-    if(key===ADMIN_KEY){ setAdminMode(true); alert('Bật chế độ Admin'); } else alert('Key sai');
+  function startExam() {
+    let N = parseInt(examN, 10) || 100;
+    if (N < 1) N = 1;
+    if (N > totalQuestions) N = totalQuestions;
+    // shuffle questions then pick first N
+    const picks = shuffleArray(baseQuestions).slice(0, N);
+    // shuffle options per question
+    const mapped = picks.map((q) => shuffleQuestionOptions(q));
+    setExamSet(mapped);
+    setAnswers({});
+    setExamIndex(0);
+    setMode("exam");
+    setExamStarted(true);
+    setShowResults(false);
+    setResultsData(null);
+    const secondsPerQuestion = 3600 / 100;
+    const totalSec = Math.ceil(secondsPerQuestion * N);
+    setTimeLeft(totalSec);
+    // start timer
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = setInterval(() => {
+      setTimeLeft((s) => {
+        if (s <= 1) {
+          clearInterval(timerRef.current);
+          timerRef.current = null;
+          handleSubmitExam();
+          return 0;
+        }
+        return s - 1;
+      });
+    }, 1000);
   }
 
-  const current = questions[ examStarted && mode==='exam' ? examSet[index] : index ];
+  function handleSubmitExam() {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    setExamStarted(false);
+    // grade exam set if exam; else grade answered ones
+    const setIds = mode === "exam" && examSet.length ? examSet.map((q) => q.id) : Object.keys(answers).map((k) => parseInt(k));
+    const res = gradeSet(setIds);
+    setResultsData(res);
+    setShowResults(true);
+  }
 
+  function gradeSet(setIds) {
+    let correct = 0;
+    const details = [];
+    for (const id of setIds) {
+      // for examSet preference
+      const qExam = examSet.find((x) => x.id === id);
+      const qBase = baseQuestions.find((x) => x.id === id);
+      const q = qExam || qBase;
+      const ua = answers[id];
+      const isCorrect = q && q.answer && ua && ua.toUpperCase() === q.answer.toUpperCase();
+      if (isCorrect) correct++;
+      else details.push({ id, question: q?.question || "", your: ua || null, correct: q?.answer || null });
+    }
+    const total = setIds.length;
+    return { total, correct, wrong: total - correct, percent: total ? Math.round((100 * correct) / total) : 0, details };
+  }
+
+  /* ===== option CSS class logic ===== */
+  function optionClass(q, letter) {
+    const chosen = answers[q.id];
+    if (mode === "practice") {
+      if (!chosen) return "border p-4 rounded hover:shadow-sm transition";
+      const isChosen = chosen === letter;
+      const isCorrect = q.answer === letter;
+      if (isChosen && isCorrect) return "border p-4 rounded bg-green-100 border-green-400 text-green-800 transition";
+      if (isChosen && !isCorrect) return "border p-4 rounded bg-red-100 border-red-400 text-red-800 transition";
+      if (!isChosen && isCorrect) return "border p-4 rounded ring-2 ring-green-200 transition";
+      return "border p-4 rounded hover:shadow-sm transition";
+    } else {
+      // exam mode
+      const isChosen = chosen === letter;
+      if (examStarted) {
+        if (isChosen) return "border p-4 rounded bg-blue-50 border-blue-300 transition";
+        return "border p-4 rounded hover:shadow-sm transition";
+      } else {
+        // after submission
+        if (!chosen) {
+          if (q.answer === letter) return "border p-4 rounded bg-green-100 border-green-400 text-green-800 transition";
+          return "border p-4 rounded";
+        } else {
+          const userCorrect = chosen === q.answer;
+          if (userCorrect) {
+            if (letter === chosen) return "border p-4 rounded bg-green-100 border-green-400 text-green-800 transition";
+            return "border p-4 rounded";
+          } else {
+            if (letter === chosen) return "border p-4 rounded bg-red-100 border-red-400 text-red-800 transition";
+            if (letter === q.answer) return "border p-4 rounded ring-2 ring-green-200 transition";
+            return "border p-4 rounded";
+          }
+        }
+      }
+    }
+  }
+
+  /* ===== navigation/helpers ===== */
+  function goNext() {
+    if (mode === "practice") setPracticeIndex((i) => Math.min(i + 1, baseQuestions.length - 1));
+    else setExamIndex((i) => Math.min(i + 1, examSet.length - 1));
+  }
+  function goPrev() {
+    if (mode === "practice") setPracticeIndex((i) => Math.max(i - 1, 0));
+    else setExamIndex((i) => Math.max(i - 1, 0));
+  }
+  function jumpTo(idx) {
+    if (mode === "practice") setPracticeIndex(idx);
+    else setExamIndex(idx);
+  }
+  function resetAll() {
+    if (!confirm("Reset toàn bộ tiến độ trên trình duyệt?")) return;
+    setAnswers({});
+    setExamSet([]);
+    setExamStarted(false);
+    setShowResults(false);
+    setResultsData(null);
+    setTimeLeft(0);
+    setMode("practice");
+    setPracticeIndex(0);
+    setExamIndex(0);
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+  }
+
+  const navList = mode === "practice" ? baseQuestions : examSet;
+
+  /* ===== UI ===== */
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow p-4 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-md bg-gradient-to-br from-indigo-600 to-blue-400 text-white flex items-center justify-center font-bold">SY</div>
-          <div>
-            <div className="text-lg font-semibold">SYBAU69 (Dynamic Lite)</div>
-            <div className="text-sm text-gray-500">Admin key: emyeuanhnhanvl</div>
-          </div>
-        </div>
-        <div className="flex items-center gap-2">
-          {!adminMode && <button className="px-3 py-1 border rounded" onClick={loginAdmin}>Login Admin</button>}
-          {adminMode && <button className="px-3 py-1 bg-indigo-600 text-white rounded" onClick={()=>setAdminMode(false)}>Logout Admin</button>}
-          <select value={mode} onChange={e=>setMode(e.target.value)} className="border rounded px-2 py-1">
-            <option value="practice">Luyện tập</option>
-            <option value="exam">Kiểm tra</option>
-          </select>
-          <input className="border rounded px-2 py-1 w-20" value={examN} onChange={e=>setExamN(e.target.value)} />
-          <button className="px-3 py-1 bg-indigo-600 text-white rounded" onClick={startExam}>Bắt đầu</button>
-        </div>
-      </header>
-
-      <main className="max-w-6xl mx-auto p-4 grid grid-cols-12 gap-4">
-        <aside className="col-span-3 bg-white p-3 rounded shadow">
-          <div className="mb-3">
-            <div className="text-sm text-gray-500">Tiến độ</div>
-            <div className="text-xl font-semibold">{progress.answered}/{total}</div>
-            <div className="text-sm text-green-600">Đúng {progress.correct} • Sai {progress.wrong}</div>
-          </div>
-          <div className="grid grid-cols-6 gap-2 max-h-72 overflow-auto">
-            {questions.map((q,i)=>(
-              <button key={q.id} onClick={()=>setIndex(i)} className={`py-2 rounded ${answers[q.id] ? 'bg-indigo-600 text-white' : 'bg-gray-100'}`}>{q.id}</button>
-            ))}
-          </div>
-          {adminMode && <div className="mt-4 space-y-2"><button className="w-full px-3 py-2 bg-green-500 text-white rounded" onClick={()=>openEditor(null)}>Thêm câu</button><button className="w-full px-3 py-2 bg-yellow-400 rounded" onClick={exportJSON}>Xuất JSON</button></div>}
-        </aside>
-
-        <section className="col-span-9">
-          <div className="bg-white p-6 rounded shadow">
-            <div className="flex justify-between items-start mb-3">
-              <div><div className="text-sm text-gray-500">Câu {current?.id}</div><div className="text-lg font-medium mt-2">{current?.question}</div></div>
-              <div className="text-sm text-gray-500">{examStarted? 'Kiểm tra' : 'Luyện tập'}</div>
+    <div className="min-h-screen bg-gradient-to-b from-indigo-50 to-white p-4">
+      <div className="max-w-6xl mx-auto">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-md bg-gradient-to-br from-indigo-600 to-blue-400 text-white flex items-center justify-center font-bold">36</div>
+            <div>
+              <div className="text-lg font-semibold">Thằng nào nhìn dòng này là GEY</div>
+              <a href="https://www.youtube.com/channel/UCuKWFcKVdNzcFy5JGeJFrOw" 
+  target="_blank" className="text-sm text-gray-500"> Hoan hô ban nhạc thủ đô</a>
             </div>
+          </div>
 
-            <div className="space-y-3">
-              {['A','B','C'].map(L=>{
-                const txt = current?.options?.[L]||'';
-                const sel = answers[current?.id]===L;
-                const isCorrect = current?.answer===L;
-                const showCorrect = mode==='practice' || !examStarted;
-                let cls = 'border p-4 rounded flex gap-3 items-start';
-                if(sel && mode==='practice' && isCorrect) cls += ' bg-green-100 border-green-400 text-green-700';
-                if(sel && mode==='practice' && !isCorrect) cls += ' bg-red-100 border-red-400 text-red-700';
-                if(!sel && mode==='practice' && isCorrect) cls += ' ring-2 ring-green-200';
-                return (<div key={L} className={cls} onClick={()=>selectOption(current.id,L)}><strong>{L}.</strong><div>{txt}</div></div>)
+          <div className="flex items-center gap-3">
+            {!isAdmin && <button className="px-3 py-1 border rounded" onClick={promptAdminLogin}>Login Admin</button>}
+            {isAdmin && <button className="px-3 py-1 bg-yellow-400 rounded" onClick={() => { if (confirm("Logout admin?")) logoutAdmin(); }}>Admin ON</button>}
+            <select value={mode} onChange={(e) => { setMode(e.target.value); setShowResults(false); setExamStarted(false); if (e.target.value === "practice") { setExamSet([]); setTimeLeft(0); } }} className="border rounded px-2 py-1">
+              <option value="practice">Luyện tập</option>
+              <option value="exam">Kiểm tra</option>
+            </select>
+            {mode === "exam" && <input className="border rounded px-2 py-1 w-20" value={examN} onChange={(e) => setExamN(e.target.value)} />}
+            {mode === "exam" ? <button onClick={startExam} className="px-3 py-2 bg-indigo-600 text-white rounded">Bắt đầu</button> : <div className="text-sm text-gray-500 px-3">Chế độ Luyện tập</div>}
+          </div>
+        </div>
+
+        {/* Progress */}
+        <div className="bg-white p-4 rounded-xl shadow mb-4 flex items-center justify-between">
+          <div>
+            <div className="text-sm text-gray-500">Tiến độ</div>
+            <div className="text-lg font-semibold">{practiceProgress.answered}/{totalQuestions} đã trả lời</div>
+            <div className="text-sm text-gray-600">Đúng: {practiceProgress.correct} • Sai: {practiceProgress.wrong}</div>
+          </div>
+          <div className="w-1/2">
+            <div className="h-4 bg-gray-200 rounded-full overflow-hidden">
+              <div className="h-4 bg-indigo-600 rounded-full" style={{ width: `${Math.round((practiceProgress.answered / totalQuestions) * 100)}%` }} />
+            </div>
+          </div>
+        </div>
+
+        {/* Main layout */}
+        <div className="grid md:grid-cols-3 gap-4">
+          {/* Left: nav */}
+          <aside className="md:col-span-1 bg-white p-4 rounded-xl shadow max-h-[70vh] overflow-auto">
+            <div className="grid grid-cols-6 gap-2">
+              {navList.map((q, idx) => {
+                const qid = q.id;
+                const done = answers[qid];
+                const isCurrent = (mode === "practice" ? practiceIndex : examIndex) === idx;
+                return (
+                  <button key={qid} onClick={() => jumpTo(idx)} className={`py-2 rounded ${done ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-700"} ${isCurrent ? "ring-2 ring-indigo-300" : ""}`}>
+                    {q.id}
+                  </button>
+                );
               })}
             </div>
 
-            <div className="mt-6 flex justify-between items-center">
-              <div>
-                <button className="px-4 py-2 bg-gray-100 rounded mr-2" onClick={()=>setIndex(i=>Math.max(0,i-1))}>⬅ Trước</button>
-                <button className="px-4 py-2 bg-indigo-600 text-white rounded" onClick={()=>setIndex(i=>Math.min(total-1,i+1))}>Tiếp ➡</button>
+            <div className="text-xs text-gray-500 mt-3">Nhấp số để nhảy tới câu. Trong Kiểm tra, đáp án hiện sau khi nộp.</div>
+
+            {mode === "exam" && examStarted && <div className="mt-3 text-sm text-indigo-600">Thời gian còn lại: <strong>{formatTime(timeLeft)}</strong></div>}
+
+            {/* Admin controls */}
+            {isAdmin && (
+              <div className="mt-4 space-y-2">
+                <button className="w-full px-3 py-2 bg-green-500 text-white rounded" onClick={() => openEditor(null)}>Thêm câu</button>
+                <button className="w-full px-3 py-2 bg-yellow-400 rounded" onClick={exportJSON}>Xuất JSON</button>
+                <label className="w-full block">
+                  <div className="mt-2 text-xs text-gray-600">Import JSON:</div>
+                  <input type="file" accept=".json,application/json" onChange={importJSONFile} className="mt-1" />
+                </label>
+                <button className="w-full px-3 py-2 bg-gray-100 rounded" onClick={() => { if (confirm("Xóa localStorage (khôi phục file gốc)?")) { localStorage.removeItem(LOCAL_KEY); window.location.reload(); } }}>Reset dữ liệu local</button>
               </div>
-              <div className="flex items-center gap-2">
-                {examStarted && <div className="font-semibold text-indigo-600">Thời gian: {Math.floor(timeLeft/60)}:{String(timeLeft%60).padStart(2,'0')}</div>}
-                <button className="px-4 py-2 bg-red-500 text-white rounded" onClick={finishExam}>Nộp bài</button>
+            )}
+          </aside>
+
+          {/* Right: question card */}
+          <section className="md:col-span-2">
+            <div className="bg-white p-6 rounded-xl shadow">
+              <div className="flex items-start justify-between">
+                <div>
+                  <div className="text-sm text-gray-500">Câu {(currentQuestion && currentQuestion.id) || "—"}</div>
+                  <div className="text-lg font-medium mt-2">{(currentQuestion && currentQuestion.question) || "Chọn câu để hiển thị"}</div>
+                </div>
+                <div className="text-sm text-gray-500">{mode === "practice" ? "Luyện tập" : (examStarted ? "Kiểm tra (Đang làm)" : "Kiểm tra")}</div>
+              </div>
+
+              <div className="mt-6 space-y-3">
+                {currentQuestion && Object.keys(currentQuestion.options || {}).map((L) => {
+                  const cls = optionClass(currentQuestion, L);
+                  return (
+                    <button
+                      key={L}
+                      onClick={() => chooseOption(currentQuestion.id, L)}
+                      className={cls + " w-full text-left flex gap-3 items-start"}
+                    >
+                      <strong className="min-w-[28px]">{L}.</strong>
+                      <div className="whitespace-pre-wrap">{currentQuestion.options[L]}</div>
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="mt-6 flex items-center justify-between">
+                <div>
+                  <button onClick={goPrev} className="px-4 py-2 bg-gray-100 rounded mr-2">⬅ Trước</button>
+                  <button onClick={goNext} className="px-4 py-2 bg-indigo-600 text-white rounded">Tiếp ➡</button>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <button onClick={() => { if (!confirm("Nộp bài?")) return; handleSubmitExam(); }} className="px-4 py-2 bg-red-500 text-white rounded">Nộp bài</button>
+                  <button onClick={resetAll} className="px-3 py-2 border rounded">Reset</button>
+                  {isAdmin && currentQuestion && <button className="px-3 py-2 border rounded" onClick={() => openEditor(currentQuestion)}>Sửa câu</button>}
+                </div>
               </div>
             </div>
-          </div>
 
-          {showEditor && editItem && (
-            <div className="mt-4 bg-white p-4 rounded shadow">
-              <h3 className="font-semibold">Chỉnh sửa câu {editItem.id}</h3>
-              <div className="mt-2 space-y-2">
-                <input className="w-full border p-2 rounded" value={editItem.question} onChange={e=>setEditItem({...editItem, question:e.target.value})} />
-                <div className="grid grid-cols-1 gap-2">
-                  {['A','B','C'].map(L=>(
-                    <input key={L} className="w-full border p-2 rounded" value={editItem.options[L]} onChange={e=>setEditItem({...editItem, options:{...editItem.options, [L]:e.target.value}})} />
-                  ))}
-                </div>
-                <div className="flex gap-2 items-center">
-                  <label className="text-sm">Đáp án đúng:</label>
-                  <select value={editItem.answer} onChange={e=>setEditItem({...editItem, answer:e.target.value})} className="border p-1 rounded">
-                    <option>A</option><option>B</option><option>C</option>
-                  </select>
-                </div>
-                <div className="flex gap-2 mt-2">
-                  <button className="px-3 py-1 bg-green-500 text-white rounded" onClick={saveEdit}>Lưu</button>
-                  <button className="px-3 py-1 bg-red-500 text-white rounded" onClick={()=>deleteItem(editItem.id)}>Xóa</button>
-                  <button className="px-3 py-1 border rounded" onClick={()=>setShowEditor(false)}>Hủy</button>
+            {/* results */}
+            {showResults && resultsData && (
+              <div className="mt-4 bg-white p-4 rounded-xl shadow">
+                <h3 className="text-lg font-semibold text-indigo-700">Kết quả: {resultsData.correct}/{resultsData.total} đúng — {resultsData.percent}%</h3>
+                <details className="mt-2"><summary className="cursor-pointer">Danh sách câu sai ({resultsData.details.length})</summary>
+                  <ul className="mt-2 text-sm text-gray-700 max-h-64 overflow-auto">
+                    {resultsData.details.map((d) => (
+                      <li key={d.id} className="mb-2 border-b pb-1">
+                        <strong>Câu {d.id}</strong>: {d.question}<br />
+                        <span className="text-red-600">Đáp án của bạn: {d.your || '—'}</span><br />
+                        <span className="text-green-700">Đáp án đúng: {d.correct}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </div>
+            )}
+
+            {/* Editor panel (admin) */}
+            {showEditor && editItem && (
+              <div className="mt-4 bg-white p-4 rounded-xl shadow">
+                <h3 className="font-semibold">Chỉnh sửa câu {editItem.id}</h3>
+                <div className="mt-2 space-y-2">
+                  <input className="w-full border p-2 rounded" value={editItem.question} onChange={(e) => setEditItem({ ...editItem, question: e.target.value })} />
+                  <div className="grid grid-cols-1 gap-2">
+                    {["A", "B", "C"].map((L) => (
+                      <input key={L} className="w-full border p-2 rounded" value={(editItem.options && editItem.options[L]) || ""} onChange={(e) => setEditItem({ ...editItem, options: { ...(editItem.options || {}), [L]: e.target.value } })} />
+                    ))}
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <label className="text-sm">Đáp án đúng:</label>
+                    <select value={editItem.answer} onChange={(e) => setEditItem({ ...editItem, answer: e.target.value })} className="border p-1 rounded">
+                      <option>A</option><option>B</option><option>C</option>
+                    </select>
+                  </div>
+                  <div className="flex gap-2 mt-2">
+                    <button className="px-3 py-1 bg-green-500 text-white rounded" onClick={saveEdit}>Lưu</button>
+                    <button className="px-3 py-1 bg-red-500 text-white rounded" onClick={() => deleteQuestion(editItem.id)}>Xóa</button>
+                    <button className="px-3 py-1 border rounded" onClick={() => { setShowEditor(false); setEditItem(null); }}>Hủy</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
 
-        </section>
-      </main>
+          </section>
+        </div>
+      </div>
     </div>
   );
 }
+
