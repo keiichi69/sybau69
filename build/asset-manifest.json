@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sybau69/static/css/main.9e5f042e.css",
+    "main.js": "/sybau69/static/js/main.f97ce4d4.js",
+    "index.html": "/sybau69/index.html",
+    "main.9e5f042e.css.map": "/sybau69/static/css/main.9e5f042e.css.map",
+    "main.f97ce4d4.js.map": "/sybau69/static/js/main.f97ce4d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e5f042e.css",
+    "static/js/main.f97ce4d4.js"
+  ]
+}

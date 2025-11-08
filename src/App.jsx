@@ -1,26 +1,10 @@
 // src/App.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
-// Dynamic load questions.json
-const [baseQuestions, setBaseQuestions] = useState([]);g
+// Dynamic load questions.json  
+const [baseQuestions, setBaseQuestions] = useState([]);
 const [loading, setLoading] = useState(true);
 
-useEffect(() => {
-  const jsonPath = process.env.PUBLIC_URL + "/questions.json";
-  fetch(jsonPath, { cache: "no-store" })
-    .then(res => {
-      if (!res.ok) throw new Error("Không tìm thấy questions.json");
-      return res.json();
-    })
-    .then(data => {
-      const clean = (Array.isArray(data) ? data : []).sort((a, b) => (a.id || 0) - (b.id || 0));
-      setBaseQuestions(clean);
-      setLoading(false);
-    })
-    .catch(err => {
-      console.error("Lỗi load questions.json:", err);
-      setLoading(false);
-    });
-}, []);
+
 
 
  // keep your 404-question JSON in src
@@ -97,7 +81,7 @@ useEffect(() => {
 }, []);
 
 
-  const [baseQuestions, setBaseQuestions] = useState(baseQuestionsInit);
+  
   useEffect(() => {
   try {
     localStorage.setItem("sybau_answers_v2", JSON.stringify(answers));
@@ -425,7 +409,7 @@ useEffect(() => {
               })}
             </div>
 
-            <div className="text-xs text-gray-500 mt-3">Nhấp số để nhảy tới câu. Trong Kiểm tra, đáp án hiện sau khi nộp.</div>
+            <div className="text-xs text-gray-500 mt-3">Trong kiểm tra, đáp án sẽ hiển thị sau khi nộp</div>
 
             {mode === "exam" && examStarted && <div className="mt-3 text-sm text-indigo-600">Thời gian còn lại: <strong>{formatTime(timeLeft)}</strong></div>}
 
@@ -478,7 +462,58 @@ useEffect(() => {
 
                 <div className="flex items-center gap-3">
                   <button onClick={() => { if (!confirm("Nộp bài?")) return; handleSubmitExam(); }} className="px-4 py-2 bg-red-500 text-white rounded">Nộp bài</button>
-                  <button onClick={resetAll} className="px-3 py-2 border rounded">Reset</button>
+                  <button
+                         className="px-3 py-2 border rounded"
+                          onClick={() => setShowResetModal(true)}
+>
+                          Reset
+                  </button>
+                              {showResetModal && (
+              <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div className="bg-white rounded-xl p-6 max-w-sm w-full shadow-lg">
+                  <h3 className="text-lg font-semibold mb-4">Chọn kiểu Reset</h3>
+                  <div className="flex flex-col gap-3">
+                    <button
+                      className="px-4 py-2 bg-indigo-600 text-white rounded"
+                      onClick={() => {
+                        // Reset tiến độ bình thường
+                        setAnswers({});
+                        setExamSet([]);
+                        setExamStarted(false);
+                        setShowResults(false);
+                        setResultsData(null);
+                        setTimeLeft(0);
+                        setMode("practice");
+                        setPracticeIndex(0);
+                        setExamIndex(0);
+                        if (timerRef.current) clearInterval(timerRef.current);
+                        setShowResetModal(false);
+                      }}
+                    >
+                      Reset tiến độ
+                    </button>
+                    <button
+                      className="px-4 py-2 bg-red-500 text-white rounded"
+                      onClick={() => {
+                        // Xóa localStorage
+                        localStorage.removeItem(LOCAL_KEY);
+                        window.location.reload();
+                      }}
+                    >
+                      Reset localStorage
+                    </button>
+                    <button
+                      className="px-4 py-2 border rounded"
+                      onClick={() => setShowResetModal(false)}
+                    >
+                      Hủy
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+              
                   {isAdmin && currentQuestion && <button className="px-3 py-2 border rounded" onClick={() => openEditor(currentQuestion)}>Sửa câu</button>}
                 </div>
               </div>
