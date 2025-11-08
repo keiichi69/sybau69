@@ -1,26 +1,7 @@
 // src/App.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 // Dynamic load questions.json
-const [baseQuestions, setBaseQuestions] = useState([]);g
-const [loading, setLoading] = useState(true);
-
-useEffect(() => {
-  const jsonPath = process.env.PUBLIC_URL + "/questions.json";
-  fetch(jsonPath, { cache: "no-store" })
-    .then(res => {
-      if (!res.ok) throw new Error("Không tìm thấy questions.json");
-      return res.json();
-    })
-    .then(data => {
-      const clean = (Array.isArray(data) ? data : []).sort((a, b) => (a.id || 0) - (b.id || 0));
-      setBaseQuestions(clean);
-      setLoading(false);
-    })
-    .catch(err => {
-      console.error("Lỗi load questions.json:", err);
-      setLoading(false);
-    });
-}, []);
+import rawQuestions from "./questions.json" ; 
 
 
  // keep your 404-question JSON in src

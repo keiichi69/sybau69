@@ -803,15 +803,15 @@
     "id": 81,
     "question": "Tài chính doanh nghiệp được hiểu là:",
     "options": {
-      "A": "Quá trình quản lý nguồn tài chính c ủa các t ổ chức tài chính",
-      "B": "Quá trình quản lý, huy động và s ử dụng các nguồn lực tài chính c ủa doanh nghiệp nhằm đạt được mục tiêu tài chính c ủa doanh nghiệp",
-      "C": "Quá trình l ập kế hoạch tài chính cho các t ổ chức phi lợi nhuận"
+      "A": "Quá trình quản lý nguồn tài chính của các t ổ chức tài chính",
+      "B": "Quá trình quản lý, huy động và sử dụng các nguồn lực tài chính của doanh nghiệp nhằm đạt được mục tiêu tài chính c ủa doanh nghiệp",
+      "C": "Quá trình lập kế hoạch tài chính cho các tổ chức phi lợi nhuận"
     },
     "answer": "B"
   },
   {
     "id": 82,
-    "question": "Quyết định tài chính doanh nghiệp chủ yếu liên quan đ ến những yếu tố nào?",
+    "question": "Quyết định tài chính doanh nghiệp chủ yếu liên quan đến những yếu tố nào?",
     "options": {
       "A": "Quyết định về sản xuất và marketing",
       "B": "Quyết định về huy động vốn, đầu tư và phân phối lợi nhuận",
@@ -821,7 +821,7 @@
   },
   {
     "id": 83,
-    "question": "Một trong nh ững m ục tiêu c ủa quy ết định tài chính doanh nghiệp là:",
+    "question": "Một trong nh ững mục tiêu của quyết định tài chính doanh nghiệp là:",
     "options": {
       "A": "Tăng trưởng doanh thu ngắn hạn",
       "B": "Tối đa hóa giá trị của doanh nghiệp và lợi ích cổ đông trong dài hạn",
@@ -2251,13 +2251,13 @@
   },
   {
     "id": 226,
-    "question": "Các t ổ chức tài chính trung gian có thể là nh ững tổ chức nào sau đây?",
+    "question": "Các tổ chức tài chính trung gian có thể là nh ững tổ chức nào sau đây?",
     "options": {
       "A": "Các ngân hàng thương mại, công ty bảo hiểm, quỹ đầu tư, quỹ hưu trí.",
       "B": "Chỉ các ngân hàng thương mại.",
       "C": "Các tổ chức tài chính quốc tế như IMF và WB."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 227,
@@ -2271,13 +2271,13 @@
   },
   {
     "id": 228,
-    "question": "Một trong nh ững phương thức mà ngân hàng thương m ại sử dụng để quản lý r ủi ro khi huy động vốn là gì?",
+    "question": "Một trong nh ững phương thức mà ngân hàng thương mại sử dụng để quản lý rủi ro khi huy động vốn là gì?",
     "options": {
       "A": "Phát hành trái phiếu không có bảo lãnh.",
       "B": "Cung cấp tín dụng cho tất cả các khách hàng mà không kiểm tra.",
       "C": "Đa dạng hóa các sản phẩm tiền gửi và tín dụng để phân tán rủi ro."
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 229,
@@ -2681,13 +2681,13 @@
   },
   {
     "id": 269,
-    "question": "Viện trợ OD",
+    "question": "Viện trợ ODA của các tổ chức như WB và IMF yêu cầu gì từ các nước nhận viện trợ?",
     "options": {
       "A": "Cung cấp viện trợ không hoàn lại cho tất cả các dự án",
       "B": "Cam kết thực hiện các điều chỉnh về cơ cấu kinh tế và chính sách đối ngoại",
       "C": "Không yêu cầu điều chỉnh chính sách và cơ cấu kinh tế"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 270,
@@ -2717,27 +2717,27 @@
       "B": "FDI có mức độ rủi ro thấp và không bị ảnh hưởng bởi biến động thị trường",
       "C": "FDI giúp nhà đầu tư tham gia trực tiếp vào các hoạt động sản xuất và kinh doanh của doanh nghiệp"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 273,
-    "question": "Điểm khác biệt chính giữa FDI và OD",
+    "question": "Điểm khác biệt chính giữa FDI và ODA là gì?",
     "options": {
-      "A": "là nguồn vốn từ các quốc gia phát triển.",
-      "B": "FDI mang tính đầu tư lâu dài và có mục tiêu lợi nhuận, trong khi OD",
-      "C": "FDI là nguồn vốn từ các quốc gia đang phát triển, t rong khi OD"
+      "A": "FDI là nguồn vốn không hoàn lại, trong khi ODA là khoản vay có lãi. ",
+      "B": "FDI mang tính đầu tư lâu dài và có mục tiêu lợi nhuận, trong khi ODA chủ yếu là hỗ trợ phát  triển mà không hướng tới lợi nhuận.",
+      "C": "FDI là nguồn vốn từ các quốc gia đang phát triển, trong khi ODA là nguồn vốn từ các quốc gia  phát triển."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 274,
-    "question": "ỷ giá ngoại tệ sẽ thay đổi như thế nào khi một quốc gia có tình trạng lạm phát cao?",
+    "question": "Tỷ giá ngoại tệ sẽ thay đổi như thế nào khi một quốc gia có tình trạng lạm phát cao?",
     "options": {
       "A": "Tỷ giá sẽ giảm vì đồng tiền nội tệ mất giá trị so với ngoại tệ.",
       "B": "Tỷ giá sẽ tăng do đồng tiền nội tệ trở nên mạnh hơn.",
       "C": "Tỷ giá sẽ ổn định vì lạm phát không ảnh hưởng đến cung cầu ngoại tệ."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 275,
@@ -2773,21 +2773,21 @@
     "id": 278,
     "question": "Quá trình hoạt động của công ty bảo hiểm bao gồm những bước nào?",
     "options": {
-      "A": "Thu phí bảo hiểm, quản lý rủi ro, chi trả quyền lợi bảo hiểm cho khách hàng.",
-      "B": "Đầu tư và cho vay tiền.",
-      "C": "Bán sản phẩm bảo hiểm qua các cửa hàng bán lẻ."
+      "A": "Đầu tư và cho vay tiền.",
+      "B": "Bán sản phẩm bảo hiểm qua các cửa hàng bán lẻ.",
+      "C": "Thu phí bảo hiểm, quản lý rủi ro, chi trả quyền lợi bảo hiểm cho khách hàng."
     },
     "answer": "C"
   },
   {
     "id": 279,
-    "question": "",
+    "question": "Công ty bảo hiểm sẽ sử dụng số tiền thu được từ phí bảo hiểm như thế nào?",
     "options": {
       "A": "Đầu tư vào các dự án bất động sản, chứng khoán và các tài sản khác.",
       "B": "Chỉ sử dụng để chi trả tiền lương cho nhân viên công ty.",
       "C": "Chỉ dùng để trả các khoản chi phí quảng cáo."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 280,
@@ -3447,7 +3447,7 @@
       "B": "Mua lại các công ty trong nước để thành lập doanh nghiệp mới",
       "C": "Đầu tư vào công nghệ và nghiên cứu phát triển"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 346,
