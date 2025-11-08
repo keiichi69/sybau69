@@ -1,2 +1,2 @@
-SYBAU69 Dynamic Lite - admin key: emyeuanhnhanvl
+36% sử dụng AI - admin key: emyeuanhnhanvl
 Run: npm install && npm start
