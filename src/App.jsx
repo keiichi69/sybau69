@@ -1,7 +1,26 @@
 // src/App.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 // Dynamic load questions.json
-import rawQuestions from "./questions.json";
+const [baseQuestions, setBaseQuestions] = useState([]);g
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  const jsonPath = process.env.PUBLIC_URL + "/questions.json";
+  fetch(jsonPath, { cache: "no-store" })
+    .then(res => {
+      if (!res.ok) throw new Error("Không tìm thấy questions.json");
+      return res.json();
+    })
+    .then(data => {
+      const clean = (Array.isArray(data) ? data : []).sort((a, b) => (a.id || 0) - (b.id || 0));
+      setBaseQuestions(clean);
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error("Lỗi load questions.json:", err);
+      setLoading(false);
+    });
+}, []);
 
 
  // keep your 404-question JSON in src
@@ -36,8 +55,6 @@ function formatTime(sec) {
   const s = sec % 60;
   return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
- 
-
 
 /* ===== local storage helpers ===== */
 const LOCAL_KEY = "sybau_questions_v2";
@@ -60,25 +77,45 @@ function saveQuestionsToLocal(qs) {
 
 /* ===== App ===== */
 export default function App() {
-  useEffect(() => {
-  // Xóa dữ liệu cũ để luôn load bản mới từ server
-  localStorage.removeItem("sybau_questions_v2");
-}, []);
   // base questions: either saved in localStorage or rawQuestions
-  const saved = useMemo(() => loadSavedQuestions(), []);
-  const baseQuestionsInit = useMemo(() => {
-    const src = saved && Array.isArray(saved) ? saved : rawQuestions;
-    // ensure consistent shape
-    return src.slice().sort((a, b) => (a.id || 0) - (b.id || 0));
-  }, [saved]);
+  const [baseQuestions, setBaseQuestions] = useState([]); // init rỗng
+
+useEffect(() => {
+  const jsonPath = process.env.PUBLIC_URL + "/questions.json";
+  fetch(jsonPath, { cache: "no-store" })
+    .then(res => {
+      if (!res.ok) throw new Error("Không tìm thấy questions.json");
+      return res.json();
+    })
+    .then(data => {
+      const clean = Array.isArray(data) ? data.sort((a, b) => (a.id || 0) - (b.id || 0)) : [];
+      setBaseQuestions(clean);
+    })
+    .catch(err => {
+      console.error("Lỗi load questions.json:", err);
+    });
+}, []);
+
 
   const [baseQuestions, setBaseQuestions] = useState(baseQuestionsInit);
-  useEffect(() => saveQuestionsToLocal(baseQuestions), [baseQuestions]);
+  useEffect(() => {
+  try {
+    localStorage.setItem("sybau_answers_v2", JSON.stringify(answers));
+  } catch(e) {}
+}, [answers]);
 
   // states
   const [mode, setMode] = useState("practice"); // practice | exam
   const [practiceIndex, setPracticeIndex] = useState(0);
-  const [answers, setAnswers] = useState({}); // qid -> letter
+  const [answers, setAnswers] = useState(() => {
+  try {
+    const s = localStorage.getItem("sybau_answers_v2");
+    return s ? JSON.parse(s) : {};
+  } catch(e) { 
+    return {}; 
+  }
+});
+ // qid -> letter
   const [examSet, setExamSet] = useState([]); // array of q objects
   const [examIndex, setExamIndex] = useState(0);
   const [examN, setExamN] = useState(100);
