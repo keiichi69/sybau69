@@ -79,11 +79,7 @@ useEffect(() => {
 
 
   
-  useEffect(() => {
-  try {
-    localStorage.setItem("sybau_answers_v2", JSON.stringify(answers));
-  } catch(e) {}
-}, [answers]);
+  
 
  
   
@@ -144,6 +140,15 @@ const [showResetModal, setShowResetModal] = useState(false);
     if (mode === "practice") return baseQuestions[practiceIndex] || null;
     return examSet[examIndex] || null;
   }, [mode, practiceIndex, examIndex, baseQuestions, examSet]);
+
+
+  // uhuh saved answers to localStorage
+
+    useEffect(() => {
+  try {
+    localStorage.setItem("sybau_answers_v2", JSON.stringify(answers));
+  } catch(e) {}
+}, [answers]);
 
   /* ===== Admin functions ===== */
   function promptAdminLogin() {
