@@ -1,11 +1,6 @@
 // src/App.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 // Dynamic load questions.json  
-const [baseQuestions, setBaseQuestions] = useState([]);
-const [loading, setLoading] = useState(true);
-
-
-
 
  // keep your 404-question JSON in src
 
@@ -61,8 +56,10 @@ function saveQuestionsToLocal(qs) {
 
 /* ===== App ===== */
 export default function App() {
+    const [baseQuestions, setBaseQuestions] = useState([]);
+    const [loading, setLoading] = useState(true);
   // base questions: either saved in localStorage or rawQuestions
-  const [baseQuestions, setBaseQuestions] = useState([]); // init rỗng
+  
 
 useEffect(() => {
   const jsonPath = process.env.PUBLIC_URL + "/questions.json";
@@ -88,6 +85,8 @@ useEffect(() => {
   } catch(e) {}
 }, [answers]);
 
+ 
+  
   // states
   const [mode, setMode] = useState("practice"); // practice | exam
   const [practiceIndex, setPracticeIndex] = useState(0);
@@ -105,6 +104,10 @@ useEffect(() => {
   const [examN, setExamN] = useState(100);
   const [examStarted, setExamStarted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
+// timer
+const [showResetModal, setShowResetModal] = useState(false);
+    
+
   const timerRef = useRef(null);
   const [showResults, setShowResults] = useState(false);
   const [resultsData, setResultsData] = useState(null);
