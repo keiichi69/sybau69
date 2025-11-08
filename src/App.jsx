@@ -1,6 +1,12 @@
 // src/App.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import rawQuestions from "./questions.json"; // keep your 404-question JSON in src
+imporconst [rawQuestions, setRawQuestions] = useState([]);
+useEffect(() => {
+  fetch(process.env.PUBLIC_URL + "/questions.json")
+    .then(res => res.json())
+    .then(setRawQuestions);
+}, []);
+ // keep your 404-question JSON in src
 
 // ADMIN KEY
 const ADMIN_KEY = "emyeuanhnhanvl";
