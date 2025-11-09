@@ -1401,7 +1401,7 @@
   },
   {
     "id": 141,
-    "question": "Các t ổ chức tài chính trung gian đóng vai trò gì trong n ền kinh t ế?",
+    "question": "Các tổ chức tài chính trung gian đóng vai trò gì trong nền kinh tế?",
     "options": {
       "A": "Chỉ cung cấp tín dụng cho các ngân hàng thương mại.",
       "B": "Kết nối giữa các nhà có vốn với các chủ thể cần vốn.",
@@ -1411,13 +1411,13 @@
   },
   {
     "id": 142,
-    "question": "Chức năng chính c ủa các t ổ chức tài chính trung gian là gì?",
+    "question": "Chức năng chính của các tổ chức tài chính trung gian là gì?",
     "options": {
       "A": "Giảm lãi suất tín dụng cho các doanh nghiệp.",
       "B": "Giúp tiết kiệm chi phí giao dịch và giảm rủi ro khi kết nối giữa người thừa vốn và người cần vốn.",
       "C": "Phát hành trái phiếu Chính phủ."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 143,
@@ -1427,7 +1427,7 @@
       "B": "Sử dụng mô hình tín dụng và phân tích rủi ro để đánh giá khả năng trả nợ của người vay",
       "C": "Tạo ra các khoản vay với lãi suất cố định thấp hơn"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 144,
