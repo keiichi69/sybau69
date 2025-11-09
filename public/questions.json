@@ -821,7 +821,7 @@
   },
   {
     "id": 83,
-    "question": "Một trong nh ững mục tiêu của quyết định tài chính doanh nghiệp là:",
+    "question": "Một trong những mục tiêu của quyết định tài chính doanh nghiệp là:",
     "options": {
       "A": "Tăng trưởng doanh thu ngắn hạn",
       "B": "Tối đa hóa giá trị của doanh nghiệp và lợi ích cổ đông trong dài hạn",
@@ -831,7 +831,7 @@
   },
   {
     "id": 84,
-    "question": "P hân phối lợi nhuận của doanh nghiệp là :",
+    "question": "Phân phối lợi nhuận của doanh nghiệp là :",
     "options": {
       "A": "Quy trình chi trả tiền lương cho nhân viên",
       "B": "Quy trình phân chia và sử dụng lợi nhuận sau thuế của doanh nghiệp",
@@ -861,13 +861,13 @@
   },
   {
     "id": 87,
-    "question": "tài sản lưu động đư ợc hiểu là:",
+    "question": "Tài sản lưu động được hiểu là:",
     "options": {
       "A": "Tài sản có thời gian sử dụng dài hơn một năm và sử dụng trong sản xuất kinh doanh",
       "B": "Tài sản có giá trị lớn và có thể chuyển nhượng dễ dàng",
       "C": "Tài sản sử dụng trong quá trình sản xuất, kinh doanh và có thể chuyển hóa thành tiền mặt trong vòng một năm ho ặc chu kỳ sản xuất kinh doanh"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 88,
@@ -897,17 +897,17 @@
       "B": "Giá bán sản phẩm trên thị trường",
       "C": "Lợi nhuận doanh nghiệp thu được từ sản phẩm"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 91,
-    "question": "T ài chính hộ gia đình chủ yếu liên quan đến việc gì?",
+    "question": "Tài chính hộ gia đình chủ yếu liên quan đến việc gì?",
     "options": {
       "A": "Tiết kiệm tiền cho tương lai",
       "B": "Tạo ra thu nhập, tiết kiệm, đầu tư và chi tiêu hợp lý",
       "C": "Chỉ tiết kiệm và đầu tư"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 92,
@@ -917,7 +917,7 @@
       "B": "Các tổ chức tín dụng sẽ không yêu cầu trả nợ khi đến hạn",
       "C": "Sự thay đổi của các quy định pháp lý sẽ không ảnh hưởng đến khả năng trả nợ"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 93,
@@ -927,7 +927,7 @@
       "B": "Các khoản vay chỉ bao gồm nợ gốc và lãi suất",
       "C": "Tất cả các khoản vay không phải trả ngay lập tức"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 94,
@@ -937,7 +937,7 @@
       "B": "Một quy trình thiết kế, thực hiện và giám sát kế hoạch tài chính để đạt được các mục tiêu trong tương lai",
       "C": "Một cách thức đơn giản để chi tiêu và tiết kiệm tiền"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 95,
