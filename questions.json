@@ -867,7 +867,7 @@
       "B": "Tài sản có giá trị lớn và có thể chuyển nhượng dễ dàng",
       "C": "Tài sản sử dụng trong quá trình sản xuất, kinh doanh và có thể chuyển hóa thành tiền mặt trong vòng một năm ho ặc chu kỳ sản xuất kinh doanh"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 88,
@@ -987,7 +987,7 @@
       "B": "Các khoản chi tiêu cho các hóa đơn hàng tháng định kỳ với số tiền tương tự mỗi tháng",
       "C": "Các khoản chi tiêu cho giải trí và mua sắm"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 100,
