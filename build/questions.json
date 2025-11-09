@@ -533,7 +533,7 @@
     "id": 54,
     "question": "Cổ phiếu được hiểu là:",
     "options": {
-      "A": "một loại trái phi ếu do chính ph ủ phát hành",
+      "A": "một loại trái phi ếu do chính phủ phát hành",
       "B": "một chứng khoán xác nh ận quy ền sở hữu của một cá nhân đ ối với một phần tài sản của công ty",
       "C": "một khoản vay dài h ạn từ ngân hàng cho doanh nghiệp"
     },
@@ -1037,17 +1037,17 @@
       "B": "Hình thức đầu tư gián tiếp, trong đó chủ thể cho vay vốn và thu lợi từ lãi suất đã được thỏa thuận trong các Hiệp định hay khế ước vay vốn.",
       "C": "Hình thức viện trợ không hoàn lại từ các tổ chức quốc tế."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 105,
-    "question": "Viện trợ phát triển chính thức (OD",
+    "question": "Viện trợ phát triển chính thức (ODA) là gì? ",
     "options": {
       "A": "Khoản cho vay không lãi suất giữa các quốc gia phát triển.",
       "B": "Khoản cho vay ưu đãi từ các Chính phủ và tổ chức tài chính quốc tế đối với các nước đang phát triển để hỗ trợ phát triển kinh tế.",
       "C": "Khoản viện trợ không hoàn lại từ các tổ chức phi Chính phủ."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 106,
@@ -1057,7 +1057,7 @@
       "B": "Là hình thức cấp vốn mà nước tiếp nhận không phải hoàn lại cho các nhà viện trợ.",
       "C": "Nước viện trợ cung cấp vốn với lãi suất thấp."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 107,
@@ -1067,7 +1067,7 @@
       "B": "Là tỷ giá xác định dựa trên tỷ giá chính thức và quan hệ cung cầu về ngoại tệ trên thị trường.",
       "C": "Là tỷ giá không thay đổi suốt cả ngày."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 108,
@@ -1087,7 +1087,7 @@
       "B": "Tăng cường kiểm soát các luồng vốn ra vào quốc gia.",
       "C": "Cấm các giao dịch vốn quốc tế."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 110,
@@ -1097,7 +1097,7 @@
       "B": "Giới hạn giao dịch vãng lai và giao dịch vốn quốc tế.",
       "C": "Tăng cường kiểm soát vốn quốc tế và giao dịch vãng lai."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 111,
@@ -1117,7 +1117,7 @@
       "B": "Thị trường tiền tệ và thị trường vốn",
       "C": "Thị trường ngoại hối và thị trường vàng"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 113,
@@ -1137,7 +1137,7 @@
       "B": "Có thể được sử dụng để đầu cơ hoặc phòng ngừa rủi ro",
       "C": "Cung cấp quyền chọn mua hoặc bán một tài sản tại một mức giá xác định"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 115,
@@ -1147,7 +1147,7 @@
       "B": "Quyền bán tài sản ở mức giá đã xác định trước",
       "C": "Quyền được trả cổ tức từ công ty phát hành"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 116,
@@ -1157,7 +1157,7 @@
       "B": "Chứng chỉ quỹ chỉ có thể giao dịch giữa các quỹ",
       "C": "Chứng chỉ quỹ chỉ đầu tư vào trái phiếu chính phủ"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 117,
@@ -1167,7 +1167,7 @@
       "B": "Trái phiếu này chỉ trả lãi định kỳ mà không có giá trị gốc",
       "C": "Trái phiếu này không có ngày đáo hạn"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 118,
@@ -1177,7 +1177,7 @@
       "B": "Là hợp đồng tài chính có giá trị cố định",
       "C": "Là một loại cổ phiếu với quyền biểu quyết"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 119,
@@ -1187,7 +1187,7 @@
       "B": "Hợp đồng tương lai",
       "C": "Trái phiếu"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 120,
@@ -1197,37 +1197,37 @@
       "B": "Hợp đồng tương lai",
       "C": "Hợp đồng hoán đổi"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 121,
     "question": "Cổ phiếu của công ty đư ợc giao d ịch trên thị trường nào?",
     "options": {
       "A": "Thị trường hàng hóa",
-      "B": "Thị trường ngo ại hối",
-      "C": "Thị trường ch ứng khoán"
+      "B": "Thị trường ngoại hối",
+      "C": "Thị trường chứng khoán"
     },
     "answer": "C"
   },
   {
     "id": 122,
-    "question": "Người vay và ngư ời cho vay giao d ịch chủ yếu trên thị trường nào?",
+    "question": "Người vay và người cho vay giao dịch chủ yếu trên thị trường nào?",
     "options": {
-      "A": "Thị trường trái phi ếu",
-      "B": "Thị trường tài chính th ứ cấp",
+      "A": "Thị trường trái phiếu",
+      "B": "Thị trường tài chính thứ cấp",
       "C": "Thị trường tiền tệ"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 123,
-    "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
+    "question": "Trái phiếu chính phủ là loại trái phiếu do:",
     "options": {
       "A": "Các công ty tư nhân phát hành",
-      "B": "Chính ph ủ phát hành đ ể huy động vốn cho các d ự án công",
-      "C": "Các ngân hàng phát hành đ ể huy động vốn cho vay"
+      "B": "Chính phủ phát hành để huy động vốn cho các dự án công",
+      "C": "Các ngân hàng phát hành để huy động vốn cho vay"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 124,
@@ -1241,11 +1241,11 @@
   },
   {
     "id": 125,
-    "question": "Trái phi ếu chính ph ủ là loại trái phi ếu do:",
+    "question": "Trái phiếu chính phủ là loại trái phiếu do:",
     "options": {
       "A": "Các công ty tư nhân phát hành",
-      "B": "Chính ph ủ phát hành đ ể huy động vốn cho các d ự án công",
-      "C": "Các ngân hàng phát hành đ ể huy động vốn cho vay"
+      "B": "Chính phủ phát hành để huy động vốn cho các d ự án công",
+      "C": "Các ngân hàng phát hành để huy động vốn cho vay"
     },
     "answer": "B"
   },
@@ -1273,8 +1273,8 @@
     "id": 128,
     "question": "Nhà phát hành phải chịu trách nhiệm gì khi phát hành chứng khoán ra công chúng?",
     "options": {
-      "A": "Đảm bảo rằng ch ứng khoán phát hành s ẽ không gi ảm giá",
-      "B": "Cung c ấp thông tin đ ầy đủ, chính xác và minh b ạch cho nhà đầu tư",
+      "A": "Đảm bảo rằng ch ứng khoán phát hành sẽ không giảm giá",
+      "B": "Cung cấp thông tin đ ầy đủ, chính xác và minh bạch cho nhà đầu tư",
       "C": "Đảm bảo giá cổ phiếu sẽ luôn tăng"
     },
     "answer": "B"
