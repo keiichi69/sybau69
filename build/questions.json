@@ -1217,7 +1217,7 @@
       "B": "Thị trường tài chính thứ cấp",
       "C": "Thị trường tiền tệ"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 123,
@@ -1273,8 +1273,8 @@
     "id": 128,
     "question": "Nhà phát hành phải chịu trách nhiệm gì khi phát hành chứng khoán ra công chúng?",
     "options": {
-      "A": "Đảm bảo rằng ch ứng khoán phát hành sẽ không giảm giá",
-      "B": "Cung cấp thông tin đ ầy đủ, chính xác và minh bạch cho nhà đầu tư",
+      "A": "Đảm bảo rằng chứng khoán phát hành sẽ không giảm giá",
+      "B": "Cung cấp thông tin đầy đủ, chính xác và minh bạch cho nhà đầu tư",
       "C": "Đảm bảo giá cổ phiếu sẽ luôn tăng"
     },
     "answer": "B"
@@ -1347,17 +1347,17 @@
       "B": "Quản lý tiền tệ, phát hành tiền và điều tiết các biến số kinh tế vĩ mô có ảnh hưởng đến thị trường tài chính",
       "C": "Hướng dẫn các nhà đầu tư cá nhân trong việc đưa ra quyết định đầu tư"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 136,
-    "question": "Thị trường phi tập trung (OT",
+    "question": "Thị trường phi tập trung (OTC) có đặc điểm gì?",
     "options": {
       "A": "Các giao dịch được thực hiện tại một sàn giao dịch cụ thể",
       "B": "Các giao dịch không có sự tham gia của các nhà môi giới chứng khoán",
       "C": "Các giao dịch được thực hiện qua quầy của các ngân hàng hoặc công ty chứng khoán"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 137,
