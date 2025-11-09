@@ -367,7 +367,7 @@ const [showResetModal, setShowResetModal] = useState(false);
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <img src="/favicon-32x32.png" alt="logo"className="w-10 h-10 rounded-md object-cover shadow-sm transition-transform hover:scale-110"/>
+            <img src="./favicon-32x32.png" alt="logo"className="w-10 h-10 rounded-md object-cover shadow-sm transition-transform hover:scale-110"/>
 
             <div>
               <div className="text-lg font-semibold">Thằng nào nhìn dòng này là GEY</div>
