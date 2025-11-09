@@ -1447,7 +1447,7 @@
       "B": "Giảm thiểu tác động của biến động thị trường đối với các nhà đầu tư",
       "C": "Tăng độ rủi ro cho các tổ chức tài chính"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 146,
@@ -1457,7 +1457,7 @@
       "B": "Tập trung vào đầu tư vào một nhóm tài sản duy nhất",
       "C": "Tận dụng quy mô lớn để giảm chi phí giao dịch và tìm kiếm cơ hội đầu tư"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 147,
@@ -1467,7 +1467,7 @@
       "B": "Bảo vệ người tham gia bảo hiểm khỏi các rủi ro tài chính",
       "C": "Phân phối nguồn vốn cho các dự án công nghiệp"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 148,
@@ -1477,7 +1477,7 @@
       "B": "Họ không chịu bất kỳ loại hình kiểm soát nào từ chính phủ",
       "C": "Họ thay mặt các nhà đầu tư phân phối nguồn lực tài chính vào nền kinh tế"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 149,
@@ -1497,7 +1497,7 @@
       "B": "Tận dụng công nghệ và hệ thống thông tin hiện đại để thu thập và phân tích dữ liệu",
       "C": "Đầu tư vào các tài sản có mức độ rủi ro cao để thu được lợi nhuận nhanh chóng"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 151,
@@ -1507,7 +1507,7 @@
       "B": "Thực hiện giao dịch với chi phí cố định cao",
       "C": "Thực hiện các giao dịch quy mô lớn, từ đó giảm chi phí giao dịch bình quân"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 152,
@@ -1527,7 +1527,7 @@
       "B": "Cung cấp bảo hiểm cho cá nhân, doanh nghiệp và các tổ chức.",
       "C": "Cung cấp bảo hiểm chỉ cho các đối tượng làm việc trong lĩnh vực y tế."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 154,
@@ -1542,7 +1542,7 @@
   {
     "id": 155,
     "question": "Quản lý quỹ đầu tư là ai?",
-    "options": {
+    "options": {    
       "A": "Các nhà đầu tư cá nhân.",
       "B": "Công ty quản lý quỹ chuyên nghiệp, được cấp phép và có trách nhiệm quản lý danh mục đầu tư của quỹ.",
       "C": "Các ngân hàng thương mại."
@@ -1551,7 +1551,7 @@
   },
   {
     "id": 156,
-    "question": "",
+    "question": "Chính phủ cung cấp hàng hóa công vì lý do nào? ",
     "options": {
       "A": "Để tạo ra lợi nhuận cho nhà nước",
       "B": "Để tăng trưởng kinh tế nhanh chóng",
@@ -1563,9 +1563,9 @@
     "id": 157,
     "question": "Tại sao khu vực công có vai trò quan trọng trong nền kinh tế?",
     "options": {
-      "A": "Vì khu v ực công có thể tạo ra lợi nhuận cao như khu v ực tư nhân",
-      "B": "Vì khu v ực công cung c ấp các d ịch vụ thiết yếu mà thị trường tư nhân không thể đáp ứng đầy đủ",
-      "C": "Vì khu v ực công hoạt động theo cơ ch ế thị trường tự do"
+      "A": "Vì khu vực công có thể tạo ra lợi nhuận cao như khu vực tư nhân",
+      "B": "Vì khu vực công cung cấp các d ịch vụ thiết yếu mà thị trường tư nhân không thể đáp ứng đầy đủ",
+      "C": "Vì khu vực công hoạt động theo cơ ch ế thị trường tự do"
     },
     "answer": "B"
   },
