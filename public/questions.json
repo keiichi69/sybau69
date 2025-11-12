@@ -1,4 +1,4 @@
-[
+  [
   {
     "id": 1,
     "question": "Quan điểm nào sau đây về tài chính là không phù hợp?",
@@ -534,7 +534,7 @@
     "question": "Cổ phiếu được hiểu là:",
     "options": {
       "A": "một loại trái phi ếu do chính phủ phát hành",
-      "B": "một chứng khoán xác nh ận quy ền sở hữu của một cá nhân đ ối với một phần tài sản của công ty",
+      "B": "một chứng khoán xác nh ận quy ền sở hữu của một cá nhân đối với một phần tài sản của công ty",
       "C": "một khoản vay dài h ạn từ ngân hàng cho doanh nghiệp"
     },
     "answer": "B"
@@ -661,7 +661,7 @@
   },
   {
     "id": 67,
-    "question": "Nguồn vốn mà đ ịnh ch ế tài chính trung gian huy động chủ yếu là:",
+    "question": "Nguồn vốn mà định ch ế tài chính trung gian huy động chủ yếu là:",
     "options": {
       "A": "V ốn từ các tổ chức quốc tế",
       "B": "V ốn tạm thời nhàn r ỗi từ các cá nhân, t ổ chức",
@@ -1564,8 +1564,8 @@
     "question": "Tại sao khu vực công có vai trò quan trọng trong nền kinh tế?",
     "options": {
       "A": "Vì khu vực công có thể tạo ra lợi nhuận cao như khu vực tư nhân",
-      "B": "Vì khu vực công cung cấp các d ịch vụ thiết yếu mà thị trường tư nhân không thể đáp ứng đầy đủ",
-      "C": "Vì khu vực công hoạt động theo cơ ch ế thị trường tự do"
+      "B": "Vì khu vực công cung cấp các dịch vụ thiết yếu mà thị trường tư nhân không thể đáp ứng đầy đủ",
+      "C": "Vì khu vực công hoạt động theo cơ chế thị trường tự do"
     },
     "answer": "B"
   },
@@ -1627,7 +1627,7 @@
       "B": "Người tiêu dùng trả thuế qua việc mua sản phẩm hoặc dịch vụ.",
       "C": "Thuế được đánh vào tài sản của cá nhân và tổ chức."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 164,
@@ -1637,7 +1637,7 @@
       "B": "Thuế được đánh vào thu nhập hoặc tài sản của người nộp thuế.",
       "C": "Thuế được thu thông qua người trung gian như nhà sản xuất, người bán."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 165,
@@ -1647,7 +1647,7 @@
       "B": "Đảm bảo tài chính cho các chương trình bảo trợ xã hội.",
       "C": "Tạo ra nguồn thu lớn từ các tổ chức tài chính."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 166,
@@ -1657,7 +1657,7 @@
       "B": "Để bảo đảm sự ổn định trong nền kinh tế và tài chính trong trường hợp có khủng hoảng, thiên tai, dịch bệnh hoặc tình huống bất ngờ.",
       "C": "Để giảm thuế cho các doanh nghiệp."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 167,
@@ -1687,7 +1687,7 @@
       "B": "Ngân sách nhà nước có sự phân bổ hợp lý giữa thu ngân sách và chi ngân sách, đảm bảo ổn định tài chính quốc gia",
       "C": "Ngân sách nhà nước chủ yếu dùng để chi cho các chương trình phát triển kinh tế của khu vực tư nhân"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 170,
@@ -1697,17 +1697,17 @@
       "B": "Để trả nợ trước đó hoặc đầu tư vào các dự án không mang lại lợi ích dài hạn.",
       "C": "Để chi trả các khoản nợ cho các tổ chức quốc tế mà không có kế hoạch trả n ợ."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 171,
-    "question": "Tại sao tài chính doanh nghiệp lại quan tr ọng đối với sự tồn tại và phát triển của doanh nghiệp?",
+    "question": "Tại sao tài chính doanh nghiệp lại quan trọng đối với sự tồn tại và phát triển của doanh nghiệp?",
     "options": {
       "A": "Giúp doanh nghiệp có thể trả lương cho nhân viên",
       "B": "Đảm bảo doanh nghiệp có đủ vốn để duy trì hoạt động và đầu tư vào phát triển",
       "C": "Giúp doanh nghiệp tránh được các khoản thuế"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 172,
@@ -1717,17 +1717,17 @@
       "B": "Để tăng vốn điều lệ cho công ty",
       "C": "Để tiếp tục mở rộng sản xuất, đầu tư vào dự án mới hoặc nâng cao năng lực kinh doanh"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 173,
-    "question": "tài sản cố định có tính ch ất gì trong quá trình s ử dụng?",
+    "question": "tài sản cố định có tính ch ất gì trong quá trình sử dụng?",
     "options": {
       "A": "Không bị hao mòn trong quá trình sử dụng",
       "B": "Bị hao mòn, giảm giá trị trong quá trình sử dụng do sự khấu hao hoặc lạc hậu",
       "C": "Tăng giá trị theo thời gian sử dụng"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 174,
@@ -1737,7 +1737,7 @@
       "B": "Tạo ra lợi nhuận từ việc tăng giá trị tài sản",
       "C": "Giảm chi phí tài chính trong dài hạn"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 175,
@@ -1751,7 +1751,7 @@
   },
   {
     "id": 176,
-    "question": "Vai trò của q uỹ đầu tư phát triển của doanh nghiệp là:",
+    "question": "Vai trò của quỹ đầu tư phát triển của doanh nghiệp là:",
     "options": {
       "A": "Quỹ dùng để trả nợ cho các chủ nợ",
       "B": "Quỹ dùng để chi trả cổ tức cho cổ đông",
@@ -1761,17 +1761,17 @@
   },
   {
     "id": 177,
-    "question": "tài sản cố định có đ ặc điểm cơ b ản nào sau đây?",
+    "question": "tài sản cố định có đặc điểm cơ bản nào sau đây?",
     "options": {
-      "A": "Có th ời gian s ử dụng trên một năm và đư ợc sử dụng để sản xuất, kinh doanh",
-      "B": "Là tài sản có thể chuyển như ợng ngay l ập tức",
-      "C": "Không thể sử dụng trong quá trình s ản xuất và kinh doanh"
+      "A": "Có thời gian sử dụng trên một năm và được sử dụng để sản xuất, kinh doanh",
+      "B": "Là tài sản có thể chuyển như ợng ngay lập tức",
+      "C": "Không thể sử dụng trong quá trình sản xuất và kinh doanh"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 178,
-    "question": "T ài sản cố định vô hình có đ ặc điểm nào?",
+    "question": "T ài sản cố định vô hình có đặc điểm nào?",
     "options": {
       "A": "Có thể cảm nhận được bằng cách chạm vào",
       "B": "Không có hình dáng vật lý nhưng có giá trị sử dụng lâu dài",
@@ -1983,8 +1983,8 @@
     "id": 199,
     "question": "Trong quá trình lập kế hoạch tài chính, việc đánh giá các kế hoạch khác nhau nhằm mục đích gì?",
     "options": {
-      "A": "Ch ọn một kế hoạch duy nh ất để thực hiện ngay l ập tức",
-      "B": "So sánh các k ế hoạch tài chính đ ể chọn phương án phù h ợp nhất với mục tiêu và kh ả năng tài chính",
+      "A": "Ch ọn một kế hoạch duy nh ất để thực hiện ngay lập tức",
+      "B": "So sánh các k ế hoạch tài chính để chọn phương án phù h ợp nhất với mục tiêu và kh ả năng tài chính",
       "C": "D ự đoán xu hư ớng thị trường tài chính trong tương lai"
     },
     "answer": "B"
@@ -3373,9 +3373,9 @@
     "id": 338,
     "question": "FDI hình thức liên doanh (Joint Venture) yêu c ầu:",
     "options": {
-      "A": "Doanh nghiệp trong nước góp v ốn cùng v ới doanh nghiệp nước ngoài và thành l ập doanh nghiệp mới",
+      "A": "Doanh nghiệp trong nước góp v ốn cùng v ới doanh nghiệp nước ngoài và thành lập doanh nghiệp mới",
       "B": "Doanh nghiệp nước ngoài mua l ại công ty trong nước",
-      "C": "Doanh nghiệp trong nước tự thành l ập công ty và tìm đ ối tác nước ngoài đ ể hợp tác"
+      "C": "Doanh nghiệp trong nước tự thành lập công ty và tìm đối tác nước ngoài để hợp tác"
     },
     "answer": "B"
   },
@@ -3834,8 +3834,8 @@
     "question": "Vai trò c ủa vốn đối với các doanh nghiệp là:",
     "options": {
       "A": "điều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát tri ển.",
-      "B": "Điều kiện để doanh nghiệp ra đ ời và chi ến thắng trong c ạnh tranh.",
-      "C": "Đ iều kiện để sản xuất kinh doanh di ễn ra liên t ục và ổn định ."
+      "B": "Điều kiện để doanh nghiệp ra đời và chi ến thắng trong c ạnh tranh.",
+      "C": "điều kiện để sản xuất kinh doanh di ễn ra liên t ục và ổn định ."
     },
     "answer": "A"
   },
@@ -3883,9 +3883,9 @@
     "id": 389,
     "question": "Trong khi lập kế hoạch tiết kiệm, tại sao cần phải xác định số tiền có thể tiết kiệm được từ thu nhập?",
     "options": {
-      "A": "Đ ể tính toán các khoản thuế phải nộp",
-      "B": "Đ ể lập ra một kế hoạch tiết kiệm thực tế và kh ả thi",
-      "C": "Đ ể biết số tiền sẽ dùng cho các khoản chi tiêu ng ắn hạn"
+      "A": "để tính toán các khoản thuế phải nộp",
+      "B": "để lập ra một kế hoạch tiết kiệm thực tế và kh ả thi",
+      "C": "để biết số tiền sẽ dùng cho các khoản chi tiêu ng ắn hạn"
     },
     "answer": "B"
   },
@@ -3893,7 +3893,7 @@
     "id": 390,
     "question": "Mô hình tiết kiệm \"vòng đời\" có ý nghĩa gì đối với việc lập kế hoạch tài chính cá nhân?",
     "options": {
-      "A": "Nó giúp xác đ ịnh tỷ lệ tiết kiệm cho m ỗi giai đo ạn trong cu ộc đời và k ế hoạch chi tiêu khi ngh ỉ hưu",
+      "A": "Nó giúp xác định tỷ lệ tiết kiệm cho m ỗi giai đo ạn trong cu ộc đời và k ế hoạch chi tiêu khi ngh ỉ hưu",
       "B": "Nó chỉ ra rằng vi ệc tiết kiệm là không c ần thiết cho các cá nhân có thu nhập cao",
       "C": "Nó không quan tr ọng vì chỉ áp dụng cho nh ững ngư ời có thu nhập thấp"
     },
@@ -3903,9 +3903,9 @@
     "id": 391,
     "question": "Tiết kiệm của cá nhân, hộ gia đình giúp họ làm gì?",
     "options": {
-      "A": "Đ ảm bảo cuộc sống hi ện tại mà không c ần lo l ắng về tương lai",
+      "A": "đảm bảo cuộc sống hi ện tại mà không c ần lo l ắng về tương lai",
       "B": "Chi tiêu không gi ới hạn mà không c ần tính toán",
-      "C": "Ứng phó v ới những sự kiện không mong đ ợi và th ực hiện kế hoạch tương lai"
+      "C": "Ứng phó v ới những sự kiện không mong đợi và th ực hiện kế hoạch tương lai"
     },
     "answer": "B"
   },
@@ -3934,8 +3934,8 @@
     "question": "Mục tiêu chính của việc quản lý tài chính cá nhân là gì?",
     "options": {
       "A": "đầu tư vào các qu ỹ chứng khoán",
-      "B": "Đ ảm bảo có đ ủ tiền chi tiêu hàng ngày",
-      "C": "Đ ối phó v ới những giai đo ạn khó khăn, đầu tư tài sản hiệu quả và ngăn ng ừa rủi ro"
+      "B": "đảm bảo có đủ tiền chi tiêu hàng ngày",
+      "C": "đối phó v ới những giai đo ạn khó khăn, đầu tư tài sản hiệu quả và ngăn ng ừa rủi ro"
     },
     "answer": "C"
   },
@@ -3943,8 +3943,8 @@
     "id": 395,
     "question": "Việc xây dựng kế hoạch tài chính cá nhân có thể giúp gì cho các cá nhân và hộ gia đình?",
     "options": {
-      "A": "Đ ảm bảo có đ ủ tiền cho m ọi nhu c ầu tức thời",
-      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đầu tư hi ệu quả hơn, đ ồng th ời đối phó v ới các r ủi ro tài chính",
+      "A": "đảm bảo có đủ tiền cho m ọi nhu c ầu tức thời",
+      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đầu tư hi ệu quả hơn, đồng th ời đối phó v ới các r ủi ro tài chính",
       "C": "chỉ tập trung vào vi ệc tiết kiệm tiền"
     },
     "answer": "A"
@@ -3953,9 +3953,9 @@
     "id": 396,
     "question": "Ví dụ nào dưới đây phản ánh đúng nguyên tắc \"Tính toán đến lợi ích, chi phí và rủi ro\" trong quyết định tài chính?",
     "options": {
-      "A": "đầu tư vào ch ứng khoán vì lợi nhuận cao mà không quan tâm đ ến rủi ro",
+      "A": "đầu tư vào ch ứng khoán vì lợi nhuận cao mà không quan tâm đến rủi ro",
       "B": "Lựa chọn gửi tiết kiệm ngân hàng v ới lợi ích th ấp nhưng an toàn hơn là đầu tư vào b ất động sản có thể mang l ại lợi ích cao nhưng có r ủi ro lớn",
-      "C": "chỉ chi tiêu cho các nhu c ầu thiết yếu mà không đ ể dành tiền cho ti ết kiệm"
+      "C": "chỉ chi tiêu cho các nhu c ầu thiết yếu mà không để dành tiền cho ti ết kiệm"
     },
     "answer": "C"
   },
@@ -4001,7 +4001,7 @@
   },
   {
     "id": 401,
-    "question": "Một nhà đầu tư quốc tế muốn tìm ki ếm cơ hội đầu tư tại quốc gia có l ợi thế về thuế thấp và quy đ ịnh lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
+    "question": "Một nhà đầu tư quốc tế muốn tìm ki ếm cơ hội đầu tư tại quốc gia có l ợi thế về thuế thấp và quy định lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
     "options": {
       "A": "Tăng trư ởng doanh thu ng ắn hạn.",
       "B": "Tránh thuế và tối ưu hóa l ợi nhu ận.",
@@ -4034,7 +4034,7 @@
     "question": "FDI có thể dẫn đến sự \"chuyển giao công nghệ\" trong quốc gia nhận đầu tư. Điều này có nghĩa là gì?",
     "options": {
       "A": "Các công ty quốc tế chỉ cung cấp vốn đầu tư mà không chia s ẻ bất kỳ công ngh ệ nào.",
-      "B": "Các công ty quốc tế đầu tư vào quốc gia đó có thể mang đ ến các công ngh ệ mới, kỹ năng quản lý và quy trình s ản xuất hiện đại.",
+      "B": "Các công ty quốc tế đầu tư vào quốc gia đó có thể mang đến các công ngh ệ mới, kỹ năng quản lý và quy trình s ản xuất hiện đại.",
       "C": "Công nghệ sẽ bị giữ lại và không được chia sẻ với quốc gia tiếp nhận đầu tư."
     },
     "answer": "B"
