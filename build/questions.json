@@ -1771,7 +1771,7 @@
   },
   {
     "id": 178,
-    "question": "T ài sản cố định vô hình có đặc điểm nào?",
+    "question": "Tài sản cố định vô hình có đặc điểm nào?",
     "options": {
       "A": "Có thể cảm nhận được bằng cách chạm vào",
       "B": "Không có hình dáng vật lý nhưng có giá trị sử dụng lâu dài",
@@ -1887,7 +1887,7 @@
       "B": "Dự phòng cho các biến cố, bệnh tật thông qua bảo hiểm, y tế",
       "C": "Tạo ra thu nhập từ bảo hiểm"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 190,
@@ -1971,21 +1971,21 @@
   },
   {
     "id": 198,
-    "question": "Tài chính h ộ gia đình bao g ồm nh ững hoạt động nào?",
+    "question": "Tài chính hộ gia đình bao gồm những hoạt động nào?",
     "options": {
       "A": "Tiêu dùng và đầu tư",
       "B": "Tiêu dùng, ti ết kiệm và đầu tư",
-      "C": "Tạo thu nh ập, chi tiêu, ti ết kiệm, đầu tư và phòng ng ừa rủi ro"
+      "C": "Tạo thu nhập, chi tiêu, ti ết kiệm, đầu tư và phòng ng ừa rủi ro"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 199,
     "question": "Trong quá trình lập kế hoạch tài chính, việc đánh giá các kế hoạch khác nhau nhằm mục đích gì?",
     "options": {
-      "A": "Ch ọn một kế hoạch duy nh ất để thực hiện ngay lập tức",
-      "B": "So sánh các k ế hoạch tài chính để chọn phương án phù h ợp nhất với mục tiêu và kh ả năng tài chính",
-      "C": "D ự đoán xu hư ớng thị trường tài chính trong tương lai"
+      "A": "Chọn một kế hoạch duy nh ất để thực hiện ngay lập tức",
+      "B": "So sánh các kế hoạch tài chính để chọn phương án phù hợp nhất với mục tiêu và khả năng tài chính",
+      "C": "Dự đoán xu hướng thị trường tài chính trong tương lai"
     },
     "answer": "B"
   },
@@ -1997,7 +1997,7 @@
       "B": "Mức thuế thu nhập cá nhân và các khoản vay tín dụng",
       "C": "Chi tiêu cho các nhu cầu không thiết yếu"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 201,
@@ -2011,9 +2011,9 @@
   },
   {
     "id": 202,
-    "question": "Viện trợ OD",
+    "question": "Viện trợ ODA có ảnh hưởng như thế nào đối với khu vực tư nhân của các nước nhận viện trợ?",
     "options": {
-      "A": "thường tập trung vào khu vực công",
+      "A": "Hạn chế phát triển khu vực tư nhân vì ODA thường tập trung vào khu vực công ",
       "B": "Tạo điều kiện thuận lợi cho khu vực tư nhân, thúc đẩy thu hút và sử dụng vốn đầu tư trực tiếp nước ngoài hiệu quả",
       "C": "Không có ảnh hưởng gì đối với khu vực tư nhân"
     },
@@ -2021,13 +2021,13 @@
   },
   {
     "id": 203,
-    "question": "Mục tiêu chính của viện trợ phát triển chính thức (OD",
+    "question": "Mục tiêu chính của viện trợ phát triển chính thức (ODA) là gì",
     "options": {
       "A": "Phát triển ngành công nghiệp và tài chính ở các quốc gia phát triển",
       "B": "Đầu tư vào cơ sở hạ tầng, y tế, giáo dục và năng lượng tại các quốc gia kém phát triển và đang phát triển",
       "C": "Đầu tư vào thị trường chứng khoán quốc tế"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 204,
@@ -2037,11 +2037,11 @@
       "B": "Chỉ giúp các quốc gia giàu có tăng trưởng nhanh chóng",
       "C": "Giúp các quốc gia tránh các khoản vay và tín dụng quốc tế"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 205,
-    "question": "OD",
+    "question": "ODA thường kèm theo điều kiện gì đối với nước nhận viện trợ?",
     "options": {
       "A": "Không có bất kỳ điều kiện nào đối với nước nhận viện trợ",
       "B": "Các điều kiện về chính trị, kinh tế và khu vực địa lý của nước nhận viện trợ",
@@ -2081,11 +2081,11 @@
   },
   {
     "id": 209,
-    "question": "V iện trợ OD",
+    "question": "Viện trợ ODA có đặc điểm nào về hình thức tài trợ? ",
     "options": {
-      "A": "chỉ được cung cấp dưới hình thức cho vay thương mại",
-      "B": "Viện trợ OD",
-      "C": "Viện trợ OD"
+      "A": "Tất cả viện trợ ODA đều là viện trợ không hoàn lại ",
+      "B": "Viện trợ ODA chủ yếu là cho vay ưu đãi với lãi suất thấp và thời gian trả nợ dài",
+      "C": "Viện trợ ODA chỉ được cung cấp dưới hình thức cho vay thương mại"
     },
     "answer": "B"
   },
@@ -2097,7 +2097,7 @@
       "B": "Nhà đầu tư có quyền tham gia quản lý và ra quyết định đối với hoạt động của doanh nghiệp",
       "C": "Nhà đầu tư chỉ cung cấp vốn mà không can thiệp vào hoạt động của doanh nghiệp"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 211,
@@ -2107,7 +2107,7 @@
       "B": "Tìm kiếm lợi nhuận cao thông qua đầu tư dài hạn, chuyển giao công nghệ và tri thức kinh doanh",
       "C": "Tạo ra việc làm cho lao động địa phương"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 212,
@@ -2117,7 +2117,7 @@
       "B": "FDI giúp các quốc gia sở tại xây dựng cơ sở hạ tầng",
       "C": "FDI là sự xuất khẩu tư bản để thu lợi nhuận cao và thực hiện dự án dài hạn tại quốc gia khác"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 213,
