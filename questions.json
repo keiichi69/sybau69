@@ -603,7 +603,7 @@
     "id": 61,
     "question": "Chủ thể nào dưới đây không đư ợc coi là trung gian đầu tư?",
     "options": {
-      "A": "Tổ chức tín dụng",
+      "A": "tổ chức tín dụng",
       "B": "Công ty tài chính",
       "C": "Quỹ đầu tư"
     },
@@ -653,19 +653,19 @@
     "id": 66,
     "question": "Nh ận định nào sau đây đúng v ề định ch ế tài chính trung gian?",
     "options": {
-      "A": "Các t ổ chức chuyên cung c ấp dịch vụ giao dịch hàng hóa",
-      "B": "Các t ổ chức chuyên huy động và s ử dụng vốn để đầu tư và cho vay",
-      "C": "Các t ổ chức chuyên th ực hiện giao d ịch ngo ại tệ"
+      "A": "Các tổ chức chuyên cung c ấp dịch vụ giao dịch hàng hóa",
+      "B": "Các tổ chức chuyên huy động và s ử dụng vốn để đầu tư và cho vay",
+      "C": "Các tổ chức chuyên th ực hiện giao d ịch ngo ại tệ"
     },
     "answer": "B"
   },
   {
     "id": 67,
-    "question": "Nguồn vốn mà định ch ế tài chính trung gian huy động chủ yếu là:",
+    "question": "Nguồn vốn mà định chế tài chính trung gian huy động chủ yếu là:",
     "options": {
-      "A": "V ốn từ các tổ chức quốc tế",
-      "B": "V ốn tạm thời nhàn r ỗi từ các cá nhân, t ổ chức",
-      "C": "V ốn từ các khoản vay ngân hàng"
+      "A": "Vốn từ các tổ chức quốc tế",
+      "B": "Vốn tạm thời nhàn r ỗi từ các cá nhân, t ổ chức",
+      "C": "Vốn từ các khoản vay ngân hàng"
     },
     "answer": "B"
   },
@@ -803,7 +803,7 @@
     "id": 81,
     "question": "Tài chính doanh nghiệp được hiểu là:",
     "options": {
-      "A": "Quá trình quản lý nguồn tài chính của các t ổ chức tài chính",
+      "A": "Quá trình quản lý nguồn tài chính của các tổ chức tài chính",
       "B": "Quá trình quản lý, huy động và sử dụng các nguồn lực tài chính của doanh nghiệp nhằm đạt được mục tiêu tài chính c ủa doanh nghiệp",
       "C": "Quá trình lập kế hoạch tài chính cho các tổ chức phi lợi nhuận"
     },
@@ -2137,7 +2137,7 @@
       "B": "Sự tham gia trực tiếp của nhà đầu tư vào quản lý công ty phát hành chứng khoán",
       "C": "Sự gia tăng trong sản xuất và năng suất lao động"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 215,
@@ -2147,7 +2147,7 @@
       "B": "Lũng đoạn thị trường do sự thay đổi nhanh chóng của dòng vốn",
       "C": "Sự tham gia của nhà đầu tư vào quá trình điều hành công ty phát hành chứng khoán"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 216,
@@ -2157,7 +2157,7 @@
       "B": "Trái phiếu",
       "C": "Hợp đồng quyền chọn"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 217,
@@ -2167,7 +2167,7 @@
       "B": "Chính phủ luôn trả lãi suất cao",
       "C": "Chính phủ không có khả năng vỡ nợ"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 218,
@@ -2183,9 +2183,9 @@
     "id": 219,
     "question": "Nhà đầu tư tổ chức có sự khác biệt gì so với nhà đầu tư cá nhân?",
     "options": {
-      "A": "Nhà đầu tư t ổ chức chỉ tham gia vào các giao d ịch trái phi ếu, không mua cổ phiếu",
-      "B": "Nhà đầu tư t ổ chức có s ố lượng vốn lớn hơn và có kh ả năng đầu tư vào nhi ều loại tài sản tài chính",
-      "C": "Nhà đầu tư t ổ chức không có quy ền bầu cử tại các cu ộc họp cổ đông"
+      "A": "Nhà đầu tư tổ chức chỉ tham gia vào các giao dịch trái phi ếu, không mua cổ phiếu",
+      "B": "Nhà đầu tư tổ chức có số lượng vốn lớn hơn và có khả năng đầu tư vào nhiều loại tài sản tài chính",
+      "C": "Nhà đầu tư tổ chức không có quy ền bầu cử tại các cu ộc họp cổ đông"
     },
     "answer": "B"
   },
@@ -2237,7 +2237,7 @@
       "B": "Thị trường tiền tệ giao dịch các công cụ tài chính ngắn hạn, trong khi thị trường vốn giao dịch các công cụ tài chính dài hạn",
       "C": "Thị trường tiền tệ không có tính thanh khoản, còn thị trường vốn có tính thanh khoản cao"
     },
-    "answer": "C"
+    "answer": ""
   },
   {
     "id": 225,
@@ -2261,7 +2261,7 @@
   },
   {
     "id": 227,
-    "question": "Khi ngân hàng thương m ại sử dụng vốn huy động để cho vay, điều này có thể dẫn đến điều gì?",
+    "question": "Khi ngân hàng thương mại sử dụng vốn huy động để cho vay, điều này có thể dẫn đến điều gì?",
     "options": {
       "A": "Lãi suất cho vay giảm xuống rất thấp.",
       "B": "Cung cấp tín dụng cho nền kinh tế, thúc đẩy tiêu dùng và đầu tư.",
@@ -2281,23 +2281,23 @@
   },
   {
     "id": 229,
-    "question": "Điểm khác bi ệt chính gi ữa ngân hàng thương m ại và các t ổ chức tài chính trung gian khác là gì?",
+    "question": "Điểm khác biệt chính giữa ngân hàng thương mại và các tổ chức tài chính trung gian khác là gì?",
     "options": {
       "A": "Ngân hàng thương mại chỉ cung cấp dịch vụ vay vốn, trong khi các tổ chức tài chính trung gian khác chỉ huy động vốn.",
       "B": "Ngân hàng thương mại có quyền phát hành tiền chuyển khoản, trong khi các tổ chức tài chính trung gian khác không có quyền này.",
       "C": "Ngân hàng thương mại chỉ phục vụ cho các doanh nghiệp, còn tổ chức tài chính trung gian khác phục vụ cá nhân."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 230,
-    "question": "So với ngân hàng thương m ại, các t ổ chức tín d ụng phi ngân hàng có đi ểm khác bi ệt nào?",
+    "question": "So với ngân hàng thương mại, các tổ chức tín dụng phi ngân hàng có điểm khác biệt nào?",
     "options": {
       "A": "Ngân hàng thương mại có thể huy động vốn từ tiền gửi của khách hàng, còn tổ chức tín dụng phi ngân hàng không thể.",
       "B": "Tổ chức tín dụng phi ngân hàng có thể phát hành tiền tệ, còn ngân hàng thương mại không thể.",
       "C": "Ngân hàng thương mại chủ yếu cung cấp dịch vụ tín dụng cho cá nhân, trong khi tổ chức tín dụng phi ngân hàng cung cấp dịch vụ tín dụng cho doanh nghiệp."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 231,
@@ -2307,7 +2307,7 @@
       "B": "Đầu tư vào nhiều loại cổ phiếu và trái phiếu của các công ty khác nhau",
       "C": "Đầu tư vào các công ty có quy mô lớn, ít bị ảnh hưởng bởi thị trường"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 232,
@@ -2324,10 +2324,10 @@
     "question": "Công ty bảo hiểm nhân thọ khác gì so với công ty bảo hiểm phi nhân thọ?",
     "options": {
       "A": "Công ty bảo hiểm nhân thọ chủ yếu cung cấp bảo hiểm cho các trường hợp liên quan đến tử vong và tai nạn, trong khi công ty bảo hiểm phi nhân thọ cung cấp bảo hiểm cho tài sản và rủi ro ngắn hạn.",
-      "B": "Công ty bảo hiểm nhân thọ chỉ cung cấp bảo hiểm sức khỏ e.",
+      "B": "Công ty bảo hiểm nhân thọ chỉ cung cấp bảo hiểm sức khỏe.",
       "C": "Công ty bảo hiểm phi nhân thọ không có chức năng bồi thường cho người tham gia bảo hiểm."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 234,
@@ -2337,7 +2337,7 @@
       "B": "Công ty tài chính có thể cho vay tín chấp mà không yêu cầu tài sản bảo đảm.",
       "C": "Ngân hàng không cung cấp dịch vụ vay tiêu dùng."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 235,
@@ -2347,7 +2347,7 @@
       "B": "Quỹ mở chỉ đầu tư vào trái phiếu, quỹ đóng chỉ đầu tư vào cổ phiếu.",
       "C": "Quỹ mở không yêu cầu người đầu tư phải cam kết số tiền ban đầu."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 236,
@@ -2357,7 +2357,7 @@
       "B": "Cắt giảm chi cho các chương trình an sinh xã hội, y tế, giáo dục",
       "C": "Cắt giảm chi cho quốc phòng và an ninh"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 237,
@@ -2367,7 +2367,7 @@
       "B": "Thuế giá trị gia tăng",
       "C": "Thuế tài sản."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 238,
@@ -2377,7 +2377,7 @@
       "B": "Thuế trực thu được đánh vào thu nhập và tài sản của cá nhân hoặc tổ chức, còn thuế gián thu được đánh vào hàng hóa và dịch vụ tiêu dùng.",
       "C": "Thuế gián thu không có ảnh hưởng đến giá trị sản phẩm."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 239,
@@ -2387,7 +2387,7 @@
       "B": "Phí được thu cho các dịch vụ tư nhân, thuế chỉ áp dụng cho dịch vụ công.",
       "C": "Phí là một khoản đóng góp tự nguyện, trong khi thuế là khoản thu bắt buộc."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 240,
@@ -2407,7 +2407,7 @@
       "B": "Đảm bảo mức chi tiêu hợp lý và kiểm soát nợ công bằng cách tăng thu ngân sách.",
       "C": "Cắt giảm các khoản chi cho quốc phòng và an ninh."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 242,
@@ -2417,13 +2417,13 @@
       "B": "Cắt giảm chi tiêu công, đặc biệt là chi đầu tư phát triển",
       "C": "Chuyển nhượng tài sản công cho các doanh nghiệp tư nhân"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 243,
     "question": "Các biện pháp nào dưới đây có thể giúp quản lý và giảm thiểu rủi ro từ nợ nước ngoài?",
     "options": {
-      "A": "Tăng cường vay nợ từ các tổ chức tài chính quốc tế như IMF và W",
+      "A": "Tăng cường vay nợ từ các tổ chức tài chính quốc tế như IMF và WB",
       "B": "Phát hành trái phiếu quốc tế và vay nợ ngắn hạn để tránh nợ dài hạn.",
       "C": "Tăng cường giám sát và cải cách chính sách tài khóa, thúc đẩy tăng trưởng kinh tế để đảm bảo khả năng trả nợ."
     },
@@ -2447,7 +2447,7 @@
       "B": "Giảm tốc độ tăng trưởng của nền kinh tế, nhưng không ảnh hưởng đến nợ công.",
       "C": "Giảm tỷ lệ thất nghiệp và gia tăng nguồn thu ngân sách."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 246,
@@ -2467,7 +2467,7 @@
       "B": "Rủi ro và khả năng trả nợ",
       "C": "Khả năng chia sẻ quyền kiểm soát với các cổ đông"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 248,
@@ -2487,7 +2487,7 @@
       "B": "Vay ngắn hạn ngân hàng hay phát hành tín phiếu",
       "C": "Sử dụng tín dụng thương mại hay vay dài hạn từ ngân hàng"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 250,
@@ -2537,7 +2537,7 @@
       "B": "Mở rộng quy mô khách hàng và tăng uy tín doanh nghiệp",
       "C": "Tăng chiết khấu thanh toán cho khách hàng"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 255,
@@ -2703,7 +2703,7 @@
     "id": 271,
     "question": "FPI có đặc điểm gì về tính ổn định so với FDI?",
     "options": {
-      "A": "FPI ít ổn định và dễ bị rút vốn nhanh chóng khi có sự thay đổi về điều kiện kinh tế hoặc chính trị",
+      "A": "FPI ítổn định và dễ bị rút vốn nhanh chóng khi có sự thay đổi về điều kiện kinh tế hoặc chính trị",
       "B": "FPI ổn định hơn FDI vì không có sự can thiệp vào hoạt động doanh nghiệp",
       "C": "FPI luôn ổn định và không bị ảnh hưởng bởi thay đổi của thị trường"
     },
@@ -2874,7 +2874,7 @@
     "question": "Ai là đối tượng tham gia quỹ hưu trí tư nhân ?",
     "options": {
       "A": "Người lao động có thu nhập ổn định và mong muốn đảm bảo tài chính cho tuổi hưu trí.",
-      "B": "Chỉ có công chức nhà nước.",
+      "B": "Chỉ có côngtổ chức nhà nước.",
       "C": "Người lao động không có thu nhập ổn định."
     },
     "answer": "C"
@@ -3013,7 +3013,7 @@
     "id": 302,
     "question": "Khoản chi nào dưới đây không phải là chi thường xuyên của nhà nước?",
     "options": {
-      "A": "Chi cho hoạt động lương bổng của cán bộ, công chức",
+      "A": "Chi cho hoạt động lương bổng của cán bộ, côngtổ chức",
       "B": "Chi cho việc mua sắm, duy trì trang thiết bị hành chính",
       "C": "Chi đầu tư xây dựng công trình cơ sở hạ tầng"
     },
@@ -3094,7 +3094,7 @@
     "question": "Chỉ tiêu tỷ suất lợi nhuận doanh thu (ROS) được tính như thế nào?",
     "options": {
       "A": "ROS = (Lợi nhuận / Doanh thu) x 100",
-      "B": "ROS = (Lợi nhuận / Tổng tài sản) x 100",
+      "B": "ROS = (Lợi nhuận / ng tài sản) x 100",
       "C": "ROS = (Lợi nhuận / Vốn chủ sở hữu) x 100"
     },
     "answer": "A"
@@ -3184,7 +3184,7 @@
     "question": "Chỉ tiêu nào dưới đây phản ánh hiệu quả sử dụng tài sản của doanh nghiệp?",
     "options": {
       "A": "Tỷ suất lợi nhuận doanh thu (ROS)",
-      "B": "Tỷ suất lợi nhuận tổng tài sản (ROA)",
+      "B": "Tỷ suất lợi nhuận ng tài sản (ROA)",
       "C": "Tỷ suất lợi nhuận vốn chủ sở hữu (ROE)"
     },
     "answer": "B"
@@ -3594,7 +3594,7 @@
     "question": "Các công ty chứng khoán có vai trò gì trong việc hỗ trợ thị trường tài chính?",
     "options": {
       "A": "Cung cấp tín dụng cho các doanh nghiệp",
-      "B": "Tổ chức các giao dịch chứng khoán, môi giới và tư vấn cho các nhà đầu tư",
+      "B": "tổ chức các giao dịch chứng khoán, môi giới và tư vấn cho các nhà đầu tư",
       "C": "Quản lý các ngân hàng thương mại"
     },
     "answer": "C"
@@ -3611,7 +3611,7 @@
   },
   {
     "id": 362,
-    "question": "Một trong những chức năng của quỹ đầu tư, một loại hình định chế tài chính trung gian, là:",
+    "question": "Một trong nhữngtổ chức năng của quỹ đầu tư, một loại hình định chế tài chính trung gian, là:",
     "options": {
       "A": "Cung cấp bảo hiểm cho các cá nhân và doanh nghiệp",
       "B": "Đầu tư vốn vào các dự án lớn để kiếm lời cho nhà đầu tư",
@@ -3784,7 +3784,7 @@
     "question": "Cân đối ngân sách nhà nước là gì?",
     "options": {
       "A": "Là việc phân bổ các khoản thu và chi của nhà nước cho từng chương trình, dự án cụ thể.",
-      "B": "Là việc đảm bảo sự cân bằng giữa tổng thu và tổng chi trong ngân sách nhà nước.",
+      "B": "Là việc đảm bảo sự cân bằng giữa ng thu và ng chi trong ngân sách nhà nước.",
       "C": "Là việc quyết định số tiền vay mượn của nhà nước để chi cho các hoạt động."
     },
     "answer": "A"
@@ -3793,8 +3793,8 @@
     "id": 380,
     "question": "Thâm hụt ngân sách nhà nước là gì?",
     "options": {
-      "A": "Là tình trạng khi tổng chi ngân sách vượt quá tổng thu ngân sách trong một kỳ.",
-      "B": "Là tình trạng khi tổng thu ngân sách lớn hơn tổng chi ngân sách.",
+      "A": "Là tình trạng khi ng chi ngân sách vượt quá ng thu ngân sách trong một kỳ.",
+      "B": "Là tình trạng khi ng thu ngân sách lớn hơn ng chi ngân sách.",
       "C": "Là tình trạng khi ngân sách nhà nước không có đủ nguồn lực để chi trả các khoản vay."
     },
     "answer": "B"
@@ -3803,9 +3803,9 @@
     "id": 381,
     "question": "Nợ công là gì?",
     "options": {
-      "A": "Là tổng số tiền mà Chính phủ phải trả cho các khoản vay từ các tổ chức quốc tế.",
-      "B": "Là tổng số tiền mà Chính phủ, các cơ quan nhà nước và các tổ chức công vay và phải trả nợ.",
-      "C": "Là tổng số tiền mà nhà nước vay từ các cá nhân trong nước để chi cho các dự án đầu tư."
+      "A": "Là ng số tiền mà Chính phủ phải trả cho các khoản vay từ các tổ chức quốc tế.",
+      "B": "Là ng số tiền mà Chính phủ, các cơ quan nhà nước và các tổ chức công vay và phải trả nợ.",
+      "C": "Là ng số tiền mà nhà nước vay từ các cá nhân trong nước để chi cho các dự án đầu tư."
     },
     "answer": "C"
   },
