@@ -2197,7 +2197,7 @@
       "B": "Bộ Tài chính",
       "C": "Ủy ban Chứng khoán Nhà nước (SSC)"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 221,
@@ -2585,7 +2585,7 @@
     "options": {
       "A": "Vì họ không có đủ thu nhập để chi tiêu hàng tháng",
       "B": "Vì chi phí tiết kiệm quá thấp và không đủ cho các khoản chi tiêu lớn như học hành hay bệnh tật đột ngột",
-      "C": "Vì không có các hình thức tiết kiệm phù hợp với h"
+      "C": "Vì không có các hình thức tiết kiệm phù hợp với hoàn cảnh của họ"
     },
     "answer": "B"
   },
@@ -2617,7 +2617,7 @@
       "B": "Khi các mục tiêu tài chính không còn quan trọng",
       "C": "Khi không còn khả năng tiết kiệm tiền"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 263,
@@ -2627,7 +2627,7 @@
       "B": "Thu nhập thường thấp khi mới bắt đầu công việc và ổn định khi có kinh nghiệm, giảm khi về hưu và phụ thuộc vào lương hưu, trợ cấp, và các khoản đầu tư",
       "C": "Thu nhập luôn cao khi có kinh nghiệm và không thay đổi kh i về hưu"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 264,
@@ -2657,7 +2657,7 @@
       "B": "Để tăng trưởng nhanh chóng mà không cần đầu tư quốc tế",
       "C": "Để bổ sung nguồn vốn thiếu hụt từ nước ngoài vào phát triển kinh tế"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 267,
@@ -2703,7 +2703,7 @@
     "id": 271,
     "question": "FPI có đặc điểm gì về tính ổn định so với FDI?",
     "options": {
-      "A": "FPI ítổn định và dễ bị rút vốn nhanh chóng khi có sự thay đổi về điều kiện kinh tế hoặc chính trị",
+      "A": "FPI ít ổn định và dễ bị rút vốn nhanh chóng khi có sự thay đổi về điều kiện kinh tế hoặc chính trị",
       "B": "FPI ổn định hơn FDI vì không có sự can thiệp vào hoạt động doanh nghiệp",
       "C": "FPI luôn ổn định và không bị ảnh hưởng bởi thay đổi của thị trường"
     },
@@ -2751,17 +2751,17 @@
   },
   {
     "id": 276,
-    "question": "Hoạt động huy động vốn của ngân hàng thương m ại chủ yếu bao g ồm nh ững hình thức nào?",
+    "question": "Hoạt động huy động vốn của ngân hàng thương mại chủ yếu bao gồm những hình thức nào?",
     "options": {
       "A": "Phát hành cổ phiếu và trái phiếu.",
-      "B": "Vốn tự có, vốn tiền gửi , vốn đi vay , phát hành chứng khoán .",
-      "C": "Vốn tự có và v ay từ các tổ chức tài chính quốc tế."
+      "B": "Vốn tự có, vốn tiền gửi, vốn đi vay, phát hành chứng khoán .",
+      "C": "Vốn tự có và vay từ các tổ chức tài chính quốc tế."
     },
     "answer": "B"
   },
   {
     "id": 277,
-    "question": "Ngân hàng thương m ại có thể sử dụng nguồn vốn huy động để thực hiện các hoạt động nào?",
+    "question": "Ngân hàng thương mại có thể sử dụng nguồn vốn huy động để thực hiện các hoạt động nào?",
     "options": {
       "A": "Chỉ cho vay các cá nhân và doanh nghiệp.",
       "B": "Cho vay khách hàng , đầu tư vào thị trường tài chính, góp vốn liên kết .",
@@ -2793,7 +2793,7 @@
     "id": 280,
     "question": "Công ty tài chính có thể sử dụng các nguồn vốn nào để cho vay?",
     "options": {
-      "A": "Vốn tự có của công ty , vốn vay từ ngân hàng , phát hành chứng từ có giá",
+      "A": "Vốn tự có của công ty, vốn vay từ ngân hàng, phát hành chứng từ có giá",
       "B": "Vốn tự có của công ty là nguồn duy nhất.",
       "C": "Vốn từ các khoản đầu tư chứng khoán."
     },
@@ -2817,7 +2817,7 @@
       "B": "Chỉ cung cấp bảo hiểm nhân thọ.",
       "C": "Cung cấp dịch vụ ngân hàng và tín dụng."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 283,
@@ -2827,7 +2827,7 @@
       "B": "Chỉ từ lãi suất vay tiêu dùng.",
       "C": "Chỉ từ việc bán các sản phẩm tài chính cho doanh nghiệp."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 284,
@@ -2837,7 +2837,7 @@
       "B": "Được thành lập và quản lý bởi Chính phủ",
       "C": "Chỉ áp dụng cho người lao động tự do"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 285,
@@ -2847,7 +2847,7 @@
       "B": "Cổ phiếu của công ty quản lý quỹ.",
       "C": "Lợi nhuận cố định hàng tháng."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 286,
@@ -2857,27 +2857,27 @@
       "B": "Không, nhà đầu tư chỉ có quyền bỏ phiếu hoặc lựa chọn các quỹ phù hợp nhưng không tham gia quản lý.",
       "C": "Có, nhà đầu tư có thể quyết định các khoản đầu tư của quỹ."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 287,
-    "question": "Q uỹ đầu tư có thể thu lợi nhuận từ những nguồn nào?",
+    "question": "Quỹ đầu tư có thể thu lợi nhuận từ những nguồn nào?",
     "options": {
       "A": "Lợi nhuận từ việc mua bán cổ phiếu, trái phiếu và các tài sản tài chính khác.",
       "B": "Lợi nhuận từ các khoản phí quản lý.",
       "C": "Lợi nhuận từ việc cho vay tín chấp."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 288,
     "question": "Ai là đối tượng tham gia quỹ hưu trí tư nhân ?",
     "options": {
       "A": "Người lao động có thu nhập ổn định và mong muốn đảm bảo tài chính cho tuổi hưu trí.",
-      "B": "Chỉ có côngtổ chức nhà nước.",
+      "B": "Chỉ có công chức nhà nước.",
       "C": "Người lao động không có thu nhập ổn định."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 289,
@@ -2887,7 +2887,7 @@
       "B": "Sự đóng góp định kỳ của người lao động, người sử dụng lao động và các nguồn khác",
       "C": "Các khoản viện trợ quốc tế"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 290,
@@ -2897,7 +2897,7 @@
       "B": "Cung cấp vốn cho các doanh nghiệp khởi nghiệp",
       "C": "Đầu tư vào bất động sản"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 291,
@@ -2917,7 +2917,7 @@
       "B": "Lệ phí",
       "C": "Thuế"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 293,
@@ -2927,7 +2927,7 @@
       "B": "Thu từ hoạt động kinh tế.",
       "C": "Thu từ việc bán tài sản công."
     },
-    "answer": "A"
+    "answer": "C`"
   },
   {
     "id": 294,
@@ -2941,13 +2941,13 @@
   },
   {
     "id": 295,
-    "question": "T huế giá trị gia tăng (VAT) là một loại thuế:",
+    "question": "Thuế giá trị gia tăng (VAT) là một loại thuế:",
     "options": {
       "A": "Thuế trực thu",
       "B": "Thuế gián thu",
       "C": "Thuế tài nguyên"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 296,
@@ -2967,7 +2967,7 @@
       "B": "Chính phủ, bộ, ngành liên quan như Bộ Tài chính hoặc Ngân hàng Trung ương.",
       "C": "Các ngân hàng thương mại trong nước."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 298,
@@ -2977,7 +2977,7 @@
       "B": "Ngân sách đầu tư và ngân sách thường xuyên",
       "C": "Ngân sách trong nước và ngân sách quốc tế"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 299,
@@ -2987,7 +2987,7 @@
       "B": "Các sản phẩm và dịch vụ trong nền kinh tế.",
       "C": "Các tổ chức và cá nhân có thu nhập hoặc sở hữu tài sản."
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 300,
@@ -2997,7 +2997,7 @@
       "B": "Người tiêu dùng cuối cùng khi mua hàng hóa hoặc dịch vụ.",
       "C": "Các doanh nghiệp xuất khẩu."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 301,
@@ -3007,17 +3007,17 @@
       "B": "Các cơ quan Nhà nước có thẩm quyền (Tòa án, Cơ quan Công an, Hải quan, v.v.).",
       "C": "Các tổ chức tài chính quốc tế."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 302,
     "question": "Khoản chi nào dưới đây không phải là chi thường xuyên của nhà nước?",
     "options": {
-      "A": "Chi cho hoạt động lương bổng của cán bộ, côngtổ chức",
+      "A": "Chi cho hoạt động lương bổng của cán bộ, công chức",
       "B": "Chi cho việc mua sắm, duy trì trang thiết bị hành chính",
       "C": "Chi đầu tư xây dựng công trình cơ sở hạ tầng"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 303,
@@ -3037,7 +3037,7 @@
       "B": "Nợ của Chính phủ và các khoản vay của các doanh nghiệp nhà nước, tổ chức tài chính quốc tế.",
       "C": "Nợ của các tổ chức phi chính phủ và các khoản vay từ các cá nhân nước ngoài."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 305,
@@ -3057,7 +3057,7 @@
       "B": "Vốn vay ngắn hạn và vốn chủ sở hữu",
       "C": "Vốn chủ sở hữu và khoản phải trả ngắn hạn"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 307,
@@ -3067,7 +3067,7 @@
       "B": "Vốn mà chủ sở hữu đóng góp hoặc lợi nhuận chưa phân phối giữ lại để tái đầu tư",
       "C": "Vốn vay dài hạn từ thị trường trái phiếu"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 308,
@@ -3094,7 +3094,7 @@
     "question": "Chỉ tiêu tỷ suất lợi nhuận doanh thu (ROS) được tính như thế nào?",
     "options": {
       "A": "ROS = (Lợi nhuận / Doanh thu) x 100",
-      "B": "ROS = (Lợi nhuận / ng tài sản) x 100",
+      "B": "ROS = (Lợi nhuận / Tổng tài sản) x 100",
       "C": "ROS = (Lợi nhuận / Vốn chủ sở hữu) x 100"
     },
     "answer": "A"
@@ -3117,7 +3117,7 @@
       "B": "Chi phí quảng cáo",
       "C": "Chi phí trả lãi vay"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 313,
@@ -3127,7 +3127,7 @@
       "B": "Chi phí sản xuất và chi phí tiêu thụ sản phẩm",
       "C": "Chỉ các chi phí phát sinh trong quá trình tiêu thụ sản phẩm"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 314,
@@ -3147,7 +3147,7 @@
       "B": "Lợi nhuận = Lợi nhuận từ hoạt động kinh doanh - Lợi nhuận khác",
       "C": "Lợi nhuận = Doanh thu – Chi phí sản xuất kinh doanh"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 316,
@@ -3184,7 +3184,7 @@
     "question": "Chỉ tiêu nào dưới đây phản ánh hiệu quả sử dụng tài sản của doanh nghiệp?",
     "options": {
       "A": "Tỷ suất lợi nhuận doanh thu (ROS)",
-      "B": "Tỷ suất lợi nhuận ng tài sản (ROA)",
+      "B": "Tỷ suất lợi nhuận tổng tài sản (ROA)",
       "C": "Tỷ suất lợi nhuận vốn chủ sở hữu (ROE)"
     },
     "answer": "B"
@@ -3197,7 +3197,7 @@
       "B": "Thu nhập từ hợp đồng bảo hiểm",
       "C": "Thu nhập từ tiền công, tiền lương"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 321,
