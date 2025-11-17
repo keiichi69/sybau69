@@ -3207,7 +3207,7 @@
       "B": "Thu nhập từ lãi trái phiếu, cổ tức và trợ cấp từ ngân sách nhà nước",
       "C": "Thu nhập từ tiền công, tiền lương và trợ cấp bảo hiểm"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 322,
@@ -3217,7 +3217,7 @@
       "B": "Xác định giá trị của tiền theo thời gian",
       "C": "Tăng trưởng thu nhập mà không kiểm soát chi tiêu"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 323,
@@ -3237,7 +3237,7 @@
       "B": "Lương và tiền trợ cấp xã hội",
       "C": "Chỉ từ tiền lãi từ ngân hàng"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 325,
@@ -3267,7 +3267,7 @@
       "B": "Thuế tài sản, bảo hiểm chủ sở hữu nhà, bảo trì xe",
       "C": "Chi phí cho giáo dục, giải trí, và chăm sóc cá nhân"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 328,
@@ -3277,7 +3277,7 @@
       "B": "Quà tặng, chi phí giải trí, chi phí y tế tự trả",
       "C": "Khoản vay mua tài sản lớn như nhà ở"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 329,
@@ -3297,7 +3297,7 @@
       "B": "Chi tiêu linh hoạt",
       "C": "Chi tiêu nợ"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 331,
@@ -3307,7 +3307,7 @@
       "B": "Lãi suất ngân hàng",
       "C": "Chênh lệch giữa giá mua và giá bán trái phiếu"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 332,
@@ -3324,20 +3324,20 @@
     "question": "Lợi nhuận từ đầu tư vào trái phiếu chủ yếu đến từ đâu?",
     "options": {
       "A": "Lợi nhuận từ bán lại cổ phiếu",
-      "B": "Các khoản thanh toán lãi coupon và từ việc tăng giá trái phiếu",
+      "B": "Các khoản thanh toán lãi coupon(hình như là lãi định kì =) ) và từ việc tăng giá trái phiếu",
       "C": "Tăng giá trị của quỹ tương hỗ"
     },
-    "answer": "A"
+    "answer": "B  "
   },
   {
     "id": 334,
     "question": "Một hộ gia đình vay tiền để chi tiêu vào các nhu cầu tiêu dùng như mua sắm, ăn uống là một hình thức vay nhằm mục đích:",
     "options": {
-      "A": "đầu tư",
+      "A": "Đầu tư",
       "B": "Tiêu dùng",
-      "C": "Khi có bi ến cố xảy ra"
+      "C": "Khi có biến cố xảy ra"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 335,
@@ -3347,57 +3347,57 @@
       "B": "Đầu tư trực tiếp vào thị trường chứng khoán",
       "C": "Đầu tư vào các dự án cơ sở hạ tầng nội địa"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 336,
-    "question": "Một trong những bất lợi lớn của OD",
+    "question": " Một trong những bất lợi lớn của ODA là việc sử dụng nguồn vốn cho các sản phẩm không phù hợp hoặc không cần thiết. Điều này xảy ra khi:",
     "options": {
-      "A": "hiệu quả",
-      "B": "Các nước nhận viện trợ k hông có kinh nghiệm sử dụng OD",
+      "A": "Các sản phẩm từ các nước tài trợ không đáp ứng nhu cầu thực tế của quốc gia nhận viện trợ ",
+      "B": "Các nước nhận viện trợ không có kinh nghiệm sử dụng ODA hiệu quả ",
       "C": "Việc mua sắm máy móc và thiết bị từ các nhà tài trợ không cần thiết cho nền kinh tế địa phương"
     },
     "answer": "A"
   },
   {
     "id": 337,
-    "question": "Khi một doanh nghiệp trong nước bán l ại công ty c ủa mình cho một công ty nước ngoài, hình thức FDI này đư ợc gọi là gì?",
+    "question": "Khi một doanh nghiệp trong nước bán lại công ty của mình cho một công ty nước ngoài, hình thức FDI này được gọi là gì?",
     "options": {
-      "A": "đầu tư m ới",
+      "A": "Đầu tư mới",
       "B": "Mua bán sáp nhập",
-      "C": "FDI hàng d ọc"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 338,
-    "question": "FDI hình thức liên doanh (Joint Venture) yêu c ầu:",
-    "options": {
-      "A": "Doanh nghiệp trong nước góp v ốn cùng v ới doanh nghiệp nước ngoài và thành lập doanh nghiệp mới",
-      "B": "Doanh nghiệp nước ngoài mua l ại công ty trong nước",
-      "C": "Doanh nghiệp trong nước tự thành lập công ty và tìm đối tác nước ngoài để hợp tác"
+      "C": "FDI hàng dọc"
     },
     "answer": "B"
   },
   {
+    "id": 338,
+    "question": "FDI hình thức liên doanh (Joint Venture) yêu cầu:",
+    "options": {
+      "A": "Doanh nghiệp trong nước góp vốn cùng với doanh nghiệp nước ngoài và thành lập doanh nghiệp mới",
+      "B": "Doanh nghiệp nước ngoài mua lại công ty trong nước",
+      "C": "Doanh nghiệp trong nước tự thành lập công ty và tìm đối tác nước ngoài để hợp tác"
+    },
+    "answer": "A"
+  },
+  {
     "id": 339,
-    "question": "Điều gì có thể xảy ra khi các quốc gia nhận OD",
+    "question": "Điều gì có thể xảy ra khi các quốc gia nhận ODA không sử dụng hiệu quả nguồn vốn viện trợ? ",
     "options": {
       "A": "Quốc gia đó sẽ bị các tổ chức quốc tế phạt nặng",
       "B": "Quốc gia đó sẽ phải giảm tỷ lệ nhập khẩu từ các nước phát triển",
       "C": "Quốc gia đó có thể bị mắc vào tình trạng nợ nần và khủng hoảng tài chính"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 340,
-    "question": "Khi t ỷ giá h ối đoái c ủa một quốc gia m ạnh lên so v ới các quốc gia khác, điều này:",
+    "question": "Khi tỷ giá hối đoái của một quốc gia mạnh lên so với các quốc gia khác, điều này:",
     "options": {
-      "A": "Gi ảm sức hấp dẫn đối với các nhà đầu tư nước ngoài",
-      "B": "Tăng kh ả năng sinh l ợi của các khoản đầu tư và thu hút FDI",
-      "C": "Không có ảnh hư ởng đến quy ết định đầu tư"
+      "A": "Giảm sức hấp dẫn đối với các nhà đầu tư nước ngoài",
+      "B": "Tăng khả năng sinh lợi của các khoản đầu tư và thu hút FDI",
+      "C": "Không có ảnh hưởng đến quyết định đầu tư"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 341,
@@ -3407,7 +3407,7 @@
       "B": "Giảm khả năng thu hút FDI vì các nhà đầu tư không muốn đầu tư vào quốc gia có lạm phát cao",
       "C": "Không ảnh hưởng đến dòng ch ảy của FDI"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 342,
@@ -3415,15 +3415,15 @@
     "options": {
       "A": "FDI không tạo ra tác động gì đối với việc nâng cao trình độ lao động và kỷ luật công việc",
       "B": "FDI giúp tạo ra nhiều công ăn việc làm và nâng cao thu nhập cho người lao động",
-      "C": "FD I không ảnh hưởng đến trình độ sản xuất và quản lý tại các doanh nghiệp trong nước"
+      "C": "FDI không ảnh hưởng đến trình độ sản xuất và quản lý tại các doanh nghiệp trong nước"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 343,
     "question": "FDI có thể giúp nhà đầu tư nước ngoài tăng trưởng và thu lợi nhuận nhanh chóng nhờ vào:",
     "options": {
-      "A": "Giảm chi phí vận chuyển , nguồn nguyên vật liệu và lao động giá rẻ",
+      "A": "Giảm chi phí vận chuyển ,nguồn nguyên vật liệu và lao động giá rẻ",
       "B": "Việc áp dụng công nghệ mới và nâng cao năng lực cạnh tranh",
       "C": "Sử dụng nguồn lao động miễn phí tại nước sở tại"
     },
@@ -3457,7 +3457,7 @@
       "B": "Dòng vốn FPI sẽ dịch chuyển đến những quốc gia có lãi suất cao",
       "C": "Lãi suất không ảnh hưởng đến FPI"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 347,
@@ -3467,7 +3467,7 @@
       "B": "Thúc đẩy sự phát triển của các công ty nước ngoài",
       "C": "Cải thiện thị trường tài chính quốc tế"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 348,
@@ -3477,17 +3477,17 @@
       "B": "Quyết định bán chứng khoán hiện tại để chuyển sang các quốc gia có đồng tiền mạnh hơn",
       "C": "Tăng cường đầu tư vào chứng khoán quốc gia đó"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 349,
-    "question": "OD",
+    "question": " ODA phi dự án bao gồm những loại viện trợ nào?",
     "options": {
       "A": "Hỗ trợ cho các dự án phát triển cơ sở hạ tầng",
       "B": "Hỗ trợ ngân sách, hỗ trợ trả nợ, hỗ trợ hàng hóa, hỗ trợ chương trình",
       "C": "Hỗ trợ cho vay ưu đãi đối với các dự án cụ thể"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 350,
@@ -3497,7 +3497,7 @@
       "B": "Các tổ chức phi lợi nhuận.",
       "C": "Các tổ chức tài chính quốc tế."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 351,
@@ -3507,7 +3507,7 @@
       "B": "Cổ phiếu",
       "C": "Hợp đồng tương lai"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 352,
@@ -3517,7 +3517,7 @@
       "B": "Cổ phiếu ưu đãi được trả cổ tức trước cổ phiếu thường",
       "C": "Cổ phiếu ưu đãi có rủi ro cao hơn cổ phiếu thường"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 353,
@@ -3527,7 +3527,7 @@
       "B": "Một loại trái phiếu có thể chuyển nhượng",
       "C": "Một dạng vay nợ mà không có thế chấp"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 354,
@@ -3537,7 +3537,7 @@
       "B": "Hợp đồng quyền chọn và hợp đồng tương lai",
       "C": "Trái phiếu"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 355,
@@ -3567,7 +3567,7 @@
       "B": "Đầu tư vào cổ phiếu với tỷ lệ lợi nhuận không đổi",
       "C": "Đảm bảo cho một khoản vay có lãi suất cố định"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 358,
@@ -3577,7 +3577,7 @@
       "B": "Các khoản vay, tín dụng và các sản phẩm tài chính khác",
       "C": "Đầu tư vào cổ phiếu và trái phiếu"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 359,
@@ -3594,10 +3594,10 @@
     "question": "Các công ty chứng khoán có vai trò gì trong việc hỗ trợ thị trường tài chính?",
     "options": {
       "A": "Cung cấp tín dụng cho các doanh nghiệp",
-      "B": "tổ chức các giao dịch chứng khoán, môi giới và tư vấn cho các nhà đầu tư",
+      "B": "Tổ chức các giao dịch chứng khoán, môi giới và tư vấn cho các nhà đầu tư",
       "C": "Quản lý các ngân hàng thương mại"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 361,
@@ -3611,7 +3611,7 @@
   },
   {
     "id": 362,
-    "question": "Một trong nhữngtổ chức năng của quỹ đầu tư, một loại hình định chế tài chính trung gian, là:",
+    "question": "Một trong những chức năng của quỹ đầu tư, một loại hình định chế tài chính trung gian, là:",
     "options": {
       "A": "Cung cấp bảo hiểm cho các cá nhân và doanh nghiệp",
       "B": "Đầu tư vốn vào các dự án lớn để kiếm lời cho nhà đầu tư",
@@ -3663,11 +3663,11 @@
     "id": 367,
     "question": "Đâu là ví dụ điển hình về hàng hóa công?",
     "options": {
-      "A": "Học phí ở trường đại học t ư",
+      "A": "Học phí ở trường đại học tư",
       "B": "Điện năng sản xuất bởi các doanh nghiệp tư nhân",
       "C": "An ninh quốc phòng"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 368,
@@ -3687,7 +3687,7 @@
       "B": "Thuế được thu từ thu nhập của cá nhân, công ty, tổ chức.",
       "C": "Thuế được thu từ tài sản của cá nhân, tổ chức."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 370,
@@ -3717,7 +3717,7 @@
       "B": "Các mặt hàng thiết yếu như thực phẩm và thuốc men.",
       "C": "Các khoản thu nhập của cá nhân và tổ chức."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 373,
@@ -3727,7 +3727,7 @@
       "B": "Người tiêu dùng cuối cùng khi mua sản phẩm hoặc dịch vụ.",
       "C": "Các tổ chức tài chính và ngân hàng."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 374,
@@ -3747,7 +3747,7 @@
       "B": "Một khoản phí hành chính do Nhà nước thu để bù đắp chi phí cấp giấy tờ hành chính.",
       "C": "Một khoản thu chỉ áp dụng cho những người xuất khẩu."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 376,
@@ -3767,7 +3767,7 @@
       "B": "Làm giảm hiệu quả sản xuất và tăng chi phí.",
       "C": "Làm nền kinh tế trở nên lạc hậu."
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 378,
@@ -3784,30 +3784,30 @@
     "question": "Cân đối ngân sách nhà nước là gì?",
     "options": {
       "A": "Là việc phân bổ các khoản thu và chi của nhà nước cho từng chương trình, dự án cụ thể.",
-      "B": "Là việc đảm bảo sự cân bằng giữa ng thu và ng chi trong ngân sách nhà nước.",
+      "B": "Là việc đảm bảo sự cân bằng giữa tổng thu và tổng chi trong ngân sách nhà nước.",
       "C": "Là việc quyết định số tiền vay mượn của nhà nước để chi cho các hoạt động."
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 380,
     "question": "Thâm hụt ngân sách nhà nước là gì?",
     "options": {
-      "A": "Là tình trạng khi ng chi ngân sách vượt quá ng thu ngân sách trong một kỳ.",
-      "B": "Là tình trạng khi ng thu ngân sách lớn hơn ng chi ngân sách.",
+      "A": "Là tình trạng khi tổng chi ngân sách vượt quá tổng thu ngân sách trong một kỳ.",
+      "B": "Là tình trạng khi tổng thu ngân sách lớn hơn tổng chi ngân sách.",
       "C": "Là tình trạng khi ngân sách nhà nước không có đủ nguồn lực để chi trả các khoản vay."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 381,
     "question": "Nợ công là gì?",
     "options": {
-      "A": "Là ng số tiền mà Chính phủ phải trả cho các khoản vay từ các tổ chức quốc tế.",
-      "B": "Là ng số tiền mà Chính phủ, các cơ quan nhà nước và các tổ chức công vay và phải trả nợ.",
-      "C": "Là ng số tiền mà nhà nước vay từ các cá nhân trong nước để chi cho các dự án đầu tư."
+      "A": "Là tổng số tiền mà Chính phủ phải trả cho các khoản vay từ các tổ chức quốc tế.",
+      "B": "Là tổng số tiền mà Chính phủ, các cơ quan nhà nước và các tổ chức công vay và phải trả nợ.",
+      "C": "Là tổng số tiền mà nhà nước vay từ các cá nhân trong nước để chi cho các dự án đầu tư."
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 382,
@@ -3827,27 +3827,27 @@
       "B": "Là các khoản nợ mà chỉ có Chính phủ vay từ các quốc gia khác.",
       "C": "Là các khoản nợ mà chỉ có các doanh nghiệp tư nhân vay từ các tổ chức quốc tế."
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 384,
-    "question": "Vai trò c ủa vốn đối với các doanh nghiệp là:",
+    "question": "Vai trò của vốn đối với các doanh nghiệp là:",
     "options": {
-      "A": "điều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát tri ển.",
-      "B": "Điều kiện để doanh nghiệp ra đời và chi ến thắng trong c ạnh tranh.",
-      "C": "điều kiện để sản xuất kinh doanh di ễn ra liên t ục và ổn định ."
+      "A": "Điều kiện tiền đề, đảm bảo sự tồn tại ổn định và phát triển.",
+      "B": "Điều kiện để doanh nghiệp ra đời và chiến thắng trong cạnh tranh.",
+      "C": "Điều kiện để sản xuất kinh doanh diễn ra liên tục và ổn định ."
     },
     "answer": "A"
   },
   {
     "id": 385,
-    "question": "Thông thư ờng, chủ sở hữu doanh nghiệp đang kinh doanh hi ệu quả ưa chu ộng hình thức vay nợ hơn phát hành cổ phiếu phổ thông, lý do quan tr ọng nh ất là:",
+    "question": "Thông thường, chủ sở hữu doanh nghiệp đang kinh doanh hiệu quả ưa chuộng hình thức vay nợ hơn phát hành cổ phiếu phổ thông, lý do quan trọng nhất là:",
     "options": {
       "A": "Không muốn chia sẻ quyền quản lý công ty",
       "B": "Lợi ích từ đòn bẩy tài chính",
       "C": "Phân tán rủi ro"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 386,
@@ -3857,7 +3857,7 @@
       "B": "Lợi nhuận giữ lại",
       "C": "Các khoản phải thu ngắn hạn"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 387,
@@ -3883,9 +3883,9 @@
     "id": 389,
     "question": "Trong khi lập kế hoạch tiết kiệm, tại sao cần phải xác định số tiền có thể tiết kiệm được từ thu nhập?",
     "options": {
-      "A": "để tính toán các khoản thuế phải nộp",
-      "B": "để lập ra một kế hoạch tiết kiệm thực tế và kh ả thi",
-      "C": "để biết số tiền sẽ dùng cho các khoản chi tiêu ng ắn hạn"
+      "A": "Để tính toán các khoản thuế phải nộp",
+      "B": "Để lập ra một kế hoạch tiết kiệm thực tế và khả thi",
+      "C": "Để biết số tiền sẽ dùng cho các khoản chi tiêu ngắn hạn"
     },
     "answer": "B"
   },
@@ -3893,9 +3893,9 @@
     "id": 390,
     "question": "Mô hình tiết kiệm \"vòng đời\" có ý nghĩa gì đối với việc lập kế hoạch tài chính cá nhân?",
     "options": {
-      "A": "Nó giúp xác định tỷ lệ tiết kiệm cho m ỗi giai đo ạn trong cu ộc đời và k ế hoạch chi tiêu khi ngh ỉ hưu",
-      "B": "Nó chỉ ra rằng vi ệc tiết kiệm là không c ần thiết cho các cá nhân có thu nhập cao",
-      "C": "Nó không quan tr ọng vì chỉ áp dụng cho nh ững ngư ời có thu nhập thấp"
+      "A": "Nó giúp xác định tỷ lệ tiết kiệm cho mỗi giai đoạn trong cuộc đời và kế hoạch chi tiêu khi nghỉ hưu",
+      "B": "Nó chỉ ra rằng việc tiết kiệm là không cần thiết cho các cá nhân có thu nhập cao",
+      "C": "Nó không quan trọng vì chỉ áp dụng cho nh ững ngư ời có thu nhập thấp"
     },
     "answer": "A"
   },
@@ -3903,11 +3903,11 @@
     "id": 391,
     "question": "Tiết kiệm của cá nhân, hộ gia đình giúp họ làm gì?",
     "options": {
-      "A": "đảm bảo cuộc sống hi ện tại mà không c ần lo l ắng về tương lai",
-      "B": "Chi tiêu không gi ới hạn mà không c ần tính toán",
-      "C": "Ứng phó v ới những sự kiện không mong đợi và th ực hiện kế hoạch tương lai"
+      "A": "Đảm bảo cuộc sống hiện tại mà không cần lo lắng về tương lai",
+      "B": "Chi tiêu không giới hạn mà không cần tính toán",
+      "C": "Ứng phó với những sự kiện không mong đợi và thực hiện kế hoạch tương lai"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 392,
@@ -3917,7 +3917,7 @@
       "B": "Đặt mục tiêu tiết kiệm và chi tiêu hợp lý từ nguồn thu nhập",
       "C": "Lên kế hoạch đầu tư dài hạn"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 393,
@@ -3927,15 +3927,15 @@
       "B": "Tiết kiệm tất cả thu nhập mà không đầu tư",
       "C": "Chi tiêu một phần thu nhập mỗi tháng"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 394,
     "question": "Mục tiêu chính của việc quản lý tài chính cá nhân là gì?",
     "options": {
-      "A": "đầu tư vào các qu ỹ chứng khoán",
-      "B": "đảm bảo có đủ tiền chi tiêu hàng ngày",
-      "C": "đối phó v ới những giai đo ạn khó khăn, đầu tư tài sản hiệu quả và ngăn ng ừa rủi ro"
+      "A": "Đầu tư vào các quỹ chứng khoán",
+      "B": "Đảm bảo có đủ tiền chi tiêu hàng ngày",
+      "C": "Đối phó với những giai đoạn khó khăn, đầu tư tài sản hiệu quả và ngăn ngừa rủi ro"
     },
     "answer": "C"
   },
@@ -3943,21 +3943,21 @@
     "id": 395,
     "question": "Việc xây dựng kế hoạch tài chính cá nhân có thể giúp gì cho các cá nhân và hộ gia đình?",
     "options": {
-      "A": "đảm bảo có đủ tiền cho m ọi nhu c ầu tức thời",
-      "B": "Giúp h ọ lập kế hoạch chi tiêu, ti ết kiệm và đầu tư hi ệu quả hơn, đồng th ời đối phó v ới các r ủi ro tài chính",
-      "C": "chỉ tập trung vào vi ệc tiết kiệm tiền"
+      "A": "Đảm bảo có đủ tiền cho m ọi nhu cầu tức thời",
+      "B": "Giúp họ lập kế hoạch chi tiêu, tiết kiệm và đầu tư hiệu quả hơn, đồng thời đối phó với các rủi ro tài chính",
+      "C": "Chỉ tập trung vào vi ệc tiết kiệm tiền"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 396,
     "question": "Ví dụ nào dưới đây phản ánh đúng nguyên tắc \"Tính toán đến lợi ích, chi phí và rủi ro\" trong quyết định tài chính?",
     "options": {
-      "A": "đầu tư vào ch ứng khoán vì lợi nhuận cao mà không quan tâm đến rủi ro",
-      "B": "Lựa chọn gửi tiết kiệm ngân hàng v ới lợi ích th ấp nhưng an toàn hơn là đầu tư vào b ất động sản có thể mang l ại lợi ích cao nhưng có r ủi ro lớn",
-      "C": "chỉ chi tiêu cho các nhu c ầu thiết yếu mà không để dành tiền cho ti ết kiệm"
+      "A": "Đầu tư vào ch ứng khoán vì lợi nhuận cao mà không quan tâm đến rủi ro",
+      "B": "Lựa chọn gửi tiết kiệm ngân hàng với lợi ích thấp nhưng an toàn hơn là đầu tư vào bất động sản có thể mang lại lợi ích cao nhưng có rủi ro lớn",
+      "C": "Chỉ chi tiêu cho các nhu cầu thiết yếu mà không để dành tiền cho tiết kiệm"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 397,
@@ -3967,7 +3967,7 @@
       "B": "Những rủi ro về sức khỏe của các thành viên trong gia đình",
       "C": "Các khoản tiền tiết kiệm của gia đình"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 398,
@@ -3987,7 +3987,7 @@
       "B": "Giúp gia đình duy trì tâm lý yên tâm, không ngại rủi ro, bất trắc trong cuộc sống",
       "C": "Tăng trưởng tài sản cá nhân của gia đình một cách nhanh chóng"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 400,
@@ -4001,11 +4001,11 @@
   },
   {
     "id": 401,
-    "question": "Một nhà đầu tư quốc tế muốn tìm ki ếm cơ hội đầu tư tại quốc gia có l ợi thế về thuế thấp và quy định lỏng lẻo. M ục tiêu c ủa họ chủ yếu là:",
+    "question": "Một nhà đầu tư quốc tế muốn tìm kiếm cơ hội đầu tư tại quốc gia có lợi thế về thuế thấp và quy định lỏng lẻo. Mục tiêu của họ chủ yếu là:",
     "options": {
-      "A": "Tăng trư ởng doanh thu ng ắn hạn.",
-      "B": "Tránh thuế và tối ưu hóa l ợi nhu ận.",
-      "C": "M ở rộng thị trường tiêu th ụ sản phẩm."
+      "A": "Tăng trưởng doanh thu ngắn hạn.",
+      "B": "Tránh thuế và tối ưu hóa lợi nhuận.",
+      "C": "Mở rộng thị trường tiêu thụ sản phẩm."
     },
     "answer": "B"
   },
@@ -4015,13 +4015,13 @@
     "options": {
       "A": "Mua cổ phần của doanh nghiệp quốc gia khác.",
       "B": "Đầu tư vào các quỹ đầu tư quốc tế và trái phiếu quốc tế.",
-      "C": "đầu tư tr ực tiếp vào các doanh nghiệp quốc gia khác"
+      "C": "Đầu tư trực tiếp vào các doanh nghiệp quốc gia khác"
     },
     "answer": "B"
   },
   {
     "id": 403,
-    "question": "Một công ty Nhật Bản quyết định đầu tư vào một nhà máy s ản xuất ô tô tại Việt Nam, n ắm giữ 100% cổ phần của nhà máy này. Công ty Nh ật Bản cung c ấp toàn b ộ vốn đầu tư và điều hành hoạt động sản xuất tại Việt Nam. Đây là ví dụ về hình thức tài chính quốc tế nào?",
+    "question": "Một công ty Nhật Bản quyết định đầu tư vào một nhà máy sản xuất ô tô tại Việt Nam, nắm giữ 100% cổ phần của nhà máy này. Công ty Nhật Bản cung cấp toàn bộ vốn đầu tư và điều hành hoạt động sản xuất tại Việt Nam. Đây là ví dụ về hình thức tài chính quốc tế nào?",
     "options": {
       "A": "Đầu tư gián tiếp nước ngoài",
       "B": "Đầu tư trực tiếp nước ngoài",
@@ -4034,7 +4034,7 @@
     "question": "FDI có thể dẫn đến sự \"chuyển giao công nghệ\" trong quốc gia nhận đầu tư. Điều này có nghĩa là gì?",
     "options": {
       "A": "Các công ty quốc tế chỉ cung cấp vốn đầu tư mà không chia s ẻ bất kỳ công ngh ệ nào.",
-      "B": "Các công ty quốc tế đầu tư vào quốc gia đó có thể mang đến các công ngh ệ mới, kỹ năng quản lý và quy trình s ản xuất hiện đại.",
+      "B": "Các công ty quốc tế đầu tư vào quốc gia đó có thể mang đến các công nghệ mới, kỹ năng quản lý và quy trình s ản xuất hiện đại.",
       "C": "Công nghệ sẽ bị giữ lại và không được chia sẻ với quốc gia tiếp nhận đầu tư."
     },
     "answer": "B"
