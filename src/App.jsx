@@ -360,32 +360,90 @@ const [showResetModal, setShowResetModal] = useState(false);
 
   const navList = mode === "practice" ? baseQuestions : examSet;
 
-  /* ===== UI ===== */
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-50 to-white p-4">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-3">
-            <img src="./android-chrome-512x512.png" alt="logo"className="w-10 h-10 rounded-md object-cover shadow-sm transition-transform hover:scale-110"/>
 
-            <div>
-              <div className="text-lg font-semibold">Thằng nào nhìn dòng này là GEY</div>
-              <a href="https://www.youtube.com/watch?v=9mA7h1jfxc8&list=RD9mA7h1jfxc8&start_radio=1"  target="_blank" className="text-sm text-gray-500"> Hoan hô ban nhạc thủ đô</a>
+/* ===== UI ===== */
+return (
+  <div className="min-h-screen bg-gradient-to-b from-indigo-50 to-white p-4 selection:bg-indigo-200 selection:text-indigo-900">
+    <div className="max-w-6xl mx-auto animate-fadeIn">
+
+      {/* Header */}
+      <div className="flex items-center justify-between mb-6 pb-2 border-b border-indigo-100">
+        <div className="flex items-center gap-4">
+          <img 
+            src="./android-chrome-512x512.png"
+            alt="logo"
+            className="w-12 h-12 rounded-xl object-cover shadow-md transition-transform hover:scale-110"
+          />
+
+          <div>
+            <div className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent drop-shadow-sm">
+              Thằng nào nhìn dòng này là GEY
             </div>
-          </div>
 
-          <div className="flex items-center gap-3">
-            {!isAdmin && <button className="px-3 py-1 border rounded" onClick={promptAdminLogin}>Login Admin</button>}
-            {isAdmin && <button className="px-3 py-1 bg-yellow-400 rounded" onClick={() => { if (confirm("Logout admin?")) logoutAdmin(); }}>Admin ON</button>}
-            <select value={mode} onChange={(e) => { setMode(e.target.value); setShowResults(false); setExamStarted(false); if (e.target.value === "practice") { setExamSet([]); setTimeLeft(0); } }} className="border rounded px-2 py-1">
-              <option value="practice">Luyện tập</option>
-              <option value="exam">Kiểm tra</option>
-            </select>
-            {mode === "exam" && <input className="border rounded px-2 py-1 w-20" value={examN} onChange={(e) => setExamN(e.target.value)} />}
-            {mode === "exam" ? <button onClick={startExam} className="px-3 py-2 bg-indigo-600 text-white rounded">Bắt đầu</button> : <div className="text-sm text-gray-500 px-3">Chế độ Luyện tập</div>}
+            <a 
+              href="https://www.youtube.com/watch?v=9mA7h1jfxc8&list=RD9mA7h1jfxc8&start_radio=1"
+              target="_blank" 
+              className="text-sm text-gray-500 hover:text-indigo-600 transition"
+            >
+              Hoan hô ban nhạc thủ đô
+            </a>
           </div>
         </div>
+
+        <div className="flex items-center gap-3">
+          {/* giữ nguyên button login / admin / mode */}
+          {(!isAdmin) && (
+            <button className="px-3 py-1 border rounded-lg shadow-sm hover:bg-gray-50 transition"
+              onClick={promptAdminLogin}>
+              Login Admin
+            </button>
+          )}
+
+          {isAdmin && (
+            <button className="px-3 py-1 bg-yellow-400 rounded-lg shadow hover:bg-yellow-300 transition"
+              onClick={() => { if (confirm("Logout admin?")) logoutAdmin(); }}>
+              Admin ON
+            </button>
+          )}
+
+          <select 
+            value={mode} 
+            onChange={(e) => { 
+              setMode(e.target.value); 
+              setShowResults(false); 
+              setExamStarted(false); 
+              if (e.target.value === "practice") { 
+                setExamSet([]); 
+                setTimeLeft(0); 
+              } 
+            }} 
+            className="border rounded-lg px-2 py-1 shadow-sm hover:border-indigo-300 transition"
+          >
+            <option value="practice">Luyện tập</option>
+            <option value="exam">Kiểm tra</option>
+          </select>
+
+          {mode === "exam" && (
+            <input 
+              className="border rounded-lg px-2 py-1 w-20 shadow-sm hover:border-indigo-300 transition"
+              value={examN}
+              onChange={(e) => setExamN(e.target.value)}
+            />
+          )}
+
+          {mode === "exam" ? (
+            <button 
+              onClick={startExam}
+              className="px-3 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 transition"
+            >
+              Bắt đầu
+            </button> 
+          ) : (
+            <div className="text-sm text-gray-500 px-3">Chế độ Luyện tập</div>
+          )}
+        </div>
+      </div>
+
 
         {/* Progress */}
         <div className="bg-white p-4 rounded-xl shadow mb-4 flex items-center justify-between">
