@@ -605,7 +605,7 @@ export default function App() {
               <div className="text-xs text-gray-500 dark:text-gray-400 mt-4 pt-2 border-t dark:border-slate-700">
                 {mode === "exam"
                   ? "Trong chế độ kiểm tra, đáp án chỉ hiện sau khi nộp."
-                  : "Màu xanh là đã làm."}
+                  : "mmb."}
               </div>
 
               {mode === "exam" && examStarted && (
