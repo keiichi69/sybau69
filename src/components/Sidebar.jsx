@@ -6,10 +6,8 @@ export default function Sidebar({
   currentIndex, jumpTo, examStarted, timeLeft, isAdmin,
   openEditor, exportJSON, importJSONFile, hardReset
 }) {
-  // State cho ô tìm kiếm
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Logic lọc câu hỏi
   const filteredList = useMemo(() => {
     if (!searchTerm.trim()) return navList;
     const lowerTerm = searchTerm.toLowerCase();
@@ -20,18 +18,17 @@ export default function Sidebar({
   }, [navList, searchTerm]);
 
   return (
-    // THAY ĐỔI Ở ĐÂY:
-    // 1. Thêm 'sticky top-4': Giữ sidebar cố định khi cuộn trang chính
-    // 2. Thêm 'h-[calc(100vh-2rem)]': Chiều cao cố định theo màn hình để scrollbar bên trong hoạt động
-    // 3. Xóa 'h-fit' và 'max-h-[85vh]' cũ để tránh xung đột
-    <aside className="md:col-span-1 bg-white dark:bg-slate-800 p-4 rounded-xl shadow transition-colors flex flex-col sticky top-4 h-[calc(100vh-2rem)]">
+    // Sidebar Container
+    // Mobile: h-auto, relative
+    // PC: sticky, cao cố định bằng màn hình (trừ padding), top-4
+    <aside className="md:col-span-1 bg-white dark:bg-slate-800 p-4 rounded-xl shadow transition-colors flex flex-col md:sticky md:top-4 md:h-[calc(100vh-2rem)] h-auto relative z-20">
       
-      {/* Header Sidebar & Mobile Toggle */}
+      {/* Header Sidebar & Toggle Button */}
       <div className="flex items-center justify-between mb-2 md:mb-4 cursor-pointer md:cursor-default" onClick={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}>
         <h3 className="font-bold text-gray-700 dark:text-gray-200 md:block">
           Danh sách câu hỏi ({filteredList.length})
         </h3>
-        <button className="md:hidden text-gray-500 dark:text-gray-400 text-sm border px-2 py-1 rounded">
+        <button className="md:hidden text-gray-500 dark:text-gray-400 text-sm border px-2 py-1 rounded hover:bg-gray-100 dark:hover:bg-slate-700">
           {isMobileSidebarOpen ? "Thu gọn ▲" : "Mở rộng ▼"}
         </button>
       </div>
@@ -47,11 +44,23 @@ export default function Sidebar({
         />
       </div>
 
-      {/* Grid danh sách câu hỏi - Vùng này sẽ cuộn */}
-      <div className={`${isMobileSidebarOpen ? 'block' : 'hidden'} md:block animate-fadeIn flex-1 overflow-hidden flex flex-col min-h-0`}>
-        {/* 'overflow-y-auto': Cho phép cuộn dọc */}
-        {/* 'content-start': Tránh lỗi flexbox làm giãn nút */}
-        <div className="grid grid-cols-5 sm:grid-cols-5 gap-2 overflow-y-auto pr-1 flex-1 content-start scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600">
+      {/* Wrapper nội dung chính (Danh sách + Footer) */}
+      <div className={`${isMobileSidebarOpen ? 'flex' : 'hidden'} md:flex flex-col animate-fadeIn md:flex-1 md:overflow-hidden min-h-0`}>
+        
+        {/* DANH SÁCH CÂU HỎI (Vùng cuộn) 
+            - SỬA LỖI QUAN TRỌNG: Thay 'md:h-auto' bằng 'md:h-0'.
+            - Giải thích: flex-1 sẽ tự giãn nó ra. Nếu để h-auto, nó sẽ giãn hết cỡ và bị cha cắt mất phần dưới.
+        */}
+        <div className="
+          grid grid-cols-5 sm:grid-cols-5 gap-2 
+          overflow-y-auto 
+          pr-1 
+          flex-1 
+          content-start 
+          scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 
+          touch-pan-y overscroll-contain
+          h-80 md:h-0
+        ">
           {filteredList.length > 0 ? (
             filteredList.map((q) => {
               const originalIndex = navList.findIndex(item => item.id === q.id);
@@ -60,7 +69,10 @@ export default function Sidebar({
               return (
                 <button
                   key={q.id}
-                  onClick={() => jumpTo(originalIndex)}
+                  onClick={(e) => {
+                     e.stopPropagation();
+                     jumpTo(originalIndex);
+                  }}
                   className={`py-2 rounded text-xs font-semibold transition active:scale-95 border ${
                     done
                       ? "bg-indigo-600 text-white border-indigo-600"
@@ -76,10 +88,10 @@ export default function Sidebar({
           )}
         </div>
 
-        {/* Footer Sidebar - Luôn nằm dưới cùng */}
-        <div className="mt-auto pt-4 border-t dark:border-slate-700 space-y-3 shrink-0">
+        {/* Footer Sidebar */}
+        <div className="mt-4 pt-4 border-t dark:border-slate-700 space-y-3 shrink-0">
             <div className="text-xs text-gray-500 dark:text-gray-400 text-center italic">
-              {mode === "exam" ? "Nhìn CC" : "Mẹ m beo"}
+              {mode === "exam" ? "Thi cử nghiêm túc!" : "Luyện tập chăm chỉ!"}
             </div>
 
             {mode === "exam" && examStarted && (
