@@ -9,8 +9,7 @@ export default function Sidebar({
   // State cho ô tìm kiếm
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Logic lọc câu hỏi: Chỉ hiện câu nào có ID hoặc Nội dung khớp từ khóa
-  // Dùng useMemo để không phải lọc lại mỗi lần render nếu search không đổi
+  // Logic lọc câu hỏi
   const filteredList = useMemo(() => {
     if (!searchTerm.trim()) return navList;
     const lowerTerm = searchTerm.toLowerCase();
@@ -21,7 +20,12 @@ export default function Sidebar({
   }, [navList, searchTerm]);
 
   return (
-    <aside className="md:col-span-1 bg-white dark:bg-slate-800 p-4 rounded-xl shadow h-fit transition-colors flex flex-col max-h-[85vh]">
+    // THAY ĐỔI Ở ĐÂY:
+    // 1. Thêm 'sticky top-4': Giữ sidebar cố định khi cuộn trang chính
+    // 2. Thêm 'h-[calc(100vh-2rem)]': Chiều cao cố định theo màn hình để scrollbar bên trong hoạt động
+    // 3. Xóa 'h-fit' và 'max-h-[85vh]' cũ để tránh xung đột
+    <aside className="md:col-span-1 bg-white dark:bg-slate-800 p-4 rounded-xl shadow transition-colors flex flex-col sticky top-4 h-[calc(100vh-2rem)]">
+      
       {/* Header Sidebar & Mobile Toggle */}
       <div className="flex items-center justify-between mb-2 md:mb-4 cursor-pointer md:cursor-default" onClick={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}>
         <h3 className="font-bold text-gray-700 dark:text-gray-200 md:block">
@@ -32,23 +36,24 @@ export default function Sidebar({
         </button>
       </div>
 
-      {/* Search Input - Nâng cấp mới */}
-      <div className={`${isMobileSidebarOpen ? 'block' : 'hidden'} md:block mb-3 animate-fadeIn`}>
+      {/* Search Input */}
+      <div className={`${isMobileSidebarOpen ? 'block' : 'hidden'} md:block mb-3 animate-fadeIn shrink-0`}>
         <input
           type="text"
-          placeholder="🔍 Tìm theo số câu hoặc nội dung..."
+          placeholder="🔍 Tìm số câu..."
           className="w-full px-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-indigo-300 outline-none dark:bg-slate-700 dark:border-slate-600 dark:text-white transition-all"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
 
-      {/* Grid danh sách câu hỏi */}
-      <div className={`${isMobileSidebarOpen ? 'block' : 'hidden'} md:block animate-fadeIn flex-1 overflow-hidden flex flex-col`}>
-        <div className="grid grid-cols-5 sm:grid-cols-6 gap-2 overflow-y-auto pr-1 min-h-0 flex-1 content-start">
+      {/* Grid danh sách câu hỏi - Vùng này sẽ cuộn */}
+      <div className={`${isMobileSidebarOpen ? 'block' : 'hidden'} md:block animate-fadeIn flex-1 overflow-hidden flex flex-col min-h-0`}>
+        {/* 'overflow-y-auto': Cho phép cuộn dọc */}
+        {/* 'content-start': Tránh lỗi flexbox làm giãn nút */}
+        <div className="grid grid-cols-5 sm:grid-cols-5 gap-2 overflow-y-auto pr-1 flex-1 content-start scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600">
           {filteredList.length > 0 ? (
             filteredList.map((q) => {
-              // Tìm index thực tế trong navList gốc để jumpTo cho đúng
               const originalIndex = navList.findIndex(item => item.id === q.id);
               const done = answers[q.id];
               const isCurrent = currentIndex === originalIndex;
@@ -56,25 +61,25 @@ export default function Sidebar({
                 <button
                   key={q.id}
                   onClick={() => jumpTo(originalIndex)}
-                  className={`py-2 rounded text-xs font-semibold transition active:scale-95 ${
+                  className={`py-2 rounded text-xs font-semibold transition active:scale-95 border ${
                     done
-                      ? "bg-indigo-600 text-white dark:bg-indigo-600"
-                      : "bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-slate-700 dark:text-gray-300 dark:hover:bg-slate-600"
-                  } ${isCurrent ? "ring-2 ring-indigo-400 ring-offset-1 dark:ring-offset-slate-800 border-indigo-400" : "border border-transparent"}`}
+                      ? "bg-indigo-600 text-white border-indigo-600"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-slate-700 dark:text-gray-300 dark:hover:bg-slate-600 border-transparent"
+                  } ${isCurrent ? "ring-2 ring-indigo-400 ring-offset-1 dark:ring-offset-slate-800 border-indigo-400 z-10" : ""}`}
                 >
                   {q.id}
                 </button>
               );
             })
           ) : (
-            <div className="col-span-5 text-center text-gray-400 text-sm py-4">Không tìm thấy kết quả</div>
+            <div className="col-span-5 text-center text-gray-400 text-sm py-4">Không tìm thấy</div>
           )}
         </div>
 
-        {/* Footer Sidebar (Thông tin thêm & Admin) */}
-        <div className="mt-auto pt-4 border-t dark:border-slate-700 space-y-3">
+        {/* Footer Sidebar - Luôn nằm dưới cùng */}
+        <div className="mt-auto pt-4 border-t dark:border-slate-700 space-y-3 shrink-0">
             <div className="text-xs text-gray-500 dark:text-gray-400 text-center italic">
-              {mode === "exam" ? "Thi cử nghiêm túc!" : "Luyện tập chăm chỉ!"}
+              {mode === "exam" ? "Nhìn CC" : "Mẹ m beo"}
             </div>
 
             {mode === "exam" && examStarted && (
