@@ -91,7 +91,7 @@ export default function Sidebar({
         {/* Footer Sidebar */}
         <div className="mt-4 pt-4 border-t dark:border-slate-700 space-y-3 shrink-0">
             <div className="text-xs text-gray-500 dark:text-gray-400 text-center italic">
-              {mode === "exam" ? "Thi cử nghiêm túc!" : "Luyện tập chăm chỉ!"}
+              {mode === "exam" ? "Nhìn cc :Đ" : "Mmb"}
             </div>
 
             {mode === "exam" && examStarted && (
