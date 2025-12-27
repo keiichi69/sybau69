@@ -180,7 +180,7 @@ export default function App() {
     window.location.reload();
   };
 
-  // --- Admin Handlers (ĐÃ SỬA LỖI: THÊM LOGIC EXPORT/IMPORT) ---
+  // --- Admin Handlers (ĐÃ SỬA: Thêm logic Export/Import) ---
   function openEditor(q) {
     setEditItem(q ? { ...q } : { id: baseQuestions.length ? Math.max(...baseQuestions.map(x => x.id)) + 1 : 1, question: "", options: { A: "", B: "", C: "", D: "" }, answer: "A" });
     setShowEditor(true);
@@ -205,7 +205,7 @@ export default function App() {
     }
   }
 
-  // Hàm xuất file JSON (được thêm mới)
+  // Logic Export JSON mới
   const handleExportJSON = () => {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(baseQuestions, null, 2));
     const downloadAnchorNode = document.createElement('a');
@@ -216,7 +216,7 @@ export default function App() {
     downloadAnchorNode.remove();
   };
 
-  // Hàm nhập file JSON (được thêm mới)
+  // Logic Import JSON mới
   const handleImportJSON = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -225,7 +225,6 @@ export default function App() {
       try {
         const parsed = JSON.parse(evt.target.result);
         if (Array.isArray(parsed)) {
-          // Sắp xếp lại theo ID trước khi set
           const clean = parsed.sort((a, b) => (a.id || 0) - (b.id || 0));
           setBaseQuestions(clean);
           alert(`Đã nhập thành công ${clean.length} câu hỏi!`);
@@ -238,8 +237,7 @@ export default function App() {
       }
     };
     reader.readAsText(file);
-    // Reset value input để có thể chọn lại cùng 1 file nếu muốn
-    e.target.value = null; 
+    e.target.value = null; // Reset input file
   };
   
   // Navigation
@@ -263,7 +261,6 @@ export default function App() {
           startExam={startExam} resetExamState={resetExamState}
         />
 
-        {/* Progress Bar */}
         <div className="bg-white dark:bg-slate-800 p-3 md:p-4 rounded-xl shadow mb-4 flex items-center justify-between text-gray-800 dark:text-gray-200 transition-colors">
           <div>
             <div className="text-xs md:text-sm text-gray-500">Tiến độ</div>
@@ -285,10 +282,10 @@ export default function App() {
             navList={mode === "practice" ? baseQuestions : examSet} mode={mode} answers={answers}
             currentIndex={mode === "practice" ? practiceIndex : examIndex} jumpTo={jumpTo}
             examStarted={examStarted} timeLeft={timeLeft} isAdmin={isAdmin} openEditor={openEditor}
-            // Đã truyền đúng hàm export/import vào đây
+            // Đã truyền hàm xử lý vào Sidebar
             exportJSON={handleExportJSON} 
             importJSONFile={handleImportJSON}
-            hardReset={() => { if(confirm("Hard Reset sẽ xóa toàn bộ lịch sử làm bài. Bạn có chắc không?")) handleHardReset(); }}
+            hardReset={() => { if(confirm("Hard Reset sẽ xóa toàn bộ tiến độ. Bạn có chắc không?")) handleHardReset(); }}
           />
 
           <section className="md:col-span-2">
