@@ -11,7 +11,6 @@ import ResetModal from "./components/ResetModal";
 
 // CONSTANTS
 const ADMIN_KEY = "emyeuanhnhanvl";
-const LOCAL_KEY = "sybau_questions_v2"; // (Nếu dùng trong logic fetch/save)
 const ANSWERS_KEY = "sybau_answers_v2";
 
 export default function App() {
@@ -73,6 +72,7 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
   }, [answers]);
+
   useEffect(() => {
     const handleKeyDown = (e) => {
       // Không kích hoạt phím tắt khi đang nhập liệu hoặc modal đang mở
@@ -104,7 +104,8 @@ export default function App() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentQuestion, showEditor, showResetModal, mode, practiceIndex, examIndex, baseQuestions, examSet]); // Dependencies quan trọng để hàm goNext/goPrev nhận đúng state mới
+  }, [currentQuestion, showEditor, showResetModal, mode, practiceIndex, examIndex, baseQuestions, examSet]); 
+
   // --- Logic Helpers ---
   const practiceProgress = useMemo(() => {
     const answeredIds = Object.keys(answers).map(k => parseInt(k)).filter(n => !isNaN(n));
@@ -179,11 +180,12 @@ export default function App() {
     window.location.reload();
   };
 
-  // --- Admin Handlers ---
+  // --- Admin Handlers (ĐÃ SỬA LỖI: THÊM LOGIC EXPORT/IMPORT) ---
   function openEditor(q) {
     setEditItem(q ? { ...q } : { id: baseQuestions.length ? Math.max(...baseQuestions.map(x => x.id)) + 1 : 1, question: "", options: { A: "", B: "", C: "", D: "" }, answer: "A" });
     setShowEditor(true);
   }
+
   function saveEdit() {
     if (!editItem) return;
     setBaseQuestions(prev => {
@@ -194,6 +196,7 @@ export default function App() {
     });
     setShowEditor(false); setEditItem(null);
   }
+
   function deleteQuestion(id) {
     if (confirm("Xóa câu hỏi này?")) {
       setBaseQuestions(prev => prev.filter(x => x.id !== id));
@@ -201,6 +204,43 @@ export default function App() {
       setAnswers(prev => { const p = { ...prev }; delete p[id]; return p; });
     }
   }
+
+  // Hàm xuất file JSON (được thêm mới)
+  const handleExportJSON = () => {
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(baseQuestions, null, 2));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "questions.json");
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  };
+
+  // Hàm nhập file JSON (được thêm mới)
+  const handleImportJSON = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (evt) => {
+      try {
+        const parsed = JSON.parse(evt.target.result);
+        if (Array.isArray(parsed)) {
+          // Sắp xếp lại theo ID trước khi set
+          const clean = parsed.sort((a, b) => (a.id || 0) - (b.id || 0));
+          setBaseQuestions(clean);
+          alert(`Đã nhập thành công ${clean.length} câu hỏi!`);
+        } else {
+          alert("File JSON không đúng định dạng (phải là danh sách câu hỏi).");
+        }
+      } catch (err) {
+        console.error(err);
+        alert("Lỗi đọc file JSON. Vui lòng kiểm tra lại nội dung file.");
+      }
+    };
+    reader.readAsText(file);
+    // Reset value input để có thể chọn lại cùng 1 file nếu muốn
+    e.target.value = null; 
+  };
   
   // Navigation
   const jumpTo = (idx) => {
@@ -223,7 +263,7 @@ export default function App() {
           startExam={startExam} resetExamState={resetExamState}
         />
 
-        {/* Progress Bar (Có thể tách nốt nếu muốn, nhưng để đây cũng ổn vì ngắn) */}
+        {/* Progress Bar */}
         <div className="bg-white dark:bg-slate-800 p-3 md:p-4 rounded-xl shadow mb-4 flex items-center justify-between text-gray-800 dark:text-gray-200 transition-colors">
           <div>
             <div className="text-xs md:text-sm text-gray-500">Tiến độ</div>
@@ -245,9 +285,10 @@ export default function App() {
             navList={mode === "practice" ? baseQuestions : examSet} mode={mode} answers={answers}
             currentIndex={mode === "practice" ? practiceIndex : examIndex} jumpTo={jumpTo}
             examStarted={examStarted} timeLeft={timeLeft} isAdmin={isAdmin} openEditor={openEditor}
-            exportJSON={() => { /* Logic export cũ nếu cần dùng lại */ }} 
-            importJSONFile={(e) => { /* Logic import cũ nếu cần dùng lại */ }}
-            hardReset={() => { if(confirm("Hard Reset?")) handleHardReset(); }}
+            // Đã truyền đúng hàm export/import vào đây
+            exportJSON={handleExportJSON} 
+            importJSONFile={handleImportJSON}
+            hardReset={() => { if(confirm("Hard Reset sẽ xóa toàn bộ lịch sử làm bài. Bạn có chắc không?")) handleHardReset(); }}
           />
 
           <section className="md:col-span-2">
@@ -258,7 +299,6 @@ export default function App() {
               setShowResetModal={setShowResetModal}
             />
 
-            {/* Các thành phần đã tách */}
             {isAdmin && showEditor && (
               <AdminEditor 
                 editItem={editItem} setEditItem={setEditItem} 
